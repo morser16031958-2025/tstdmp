@@ -34,6 +34,8 @@ USB_BRIDGE_TABLE = {
     (0x152D, 0x1337): "jmicron",
     (0x174C, 0x55AA): "asmedia",
     (0x174C, 0x225C): "asmedia",
+    (0x174C, 0x1153): "asmedia", # ASM1153E
+    (0x174C, 0x5106): "asmedia",
     (0x067B, 0x3507): "prolific",
     (0x04FC, 0x0C25): "sunplus",
 }
@@ -45,7 +47,7 @@ def _open_scsi_port(port_number: int):
         return None
     return h
 
-def _miniport_smart_identify(scsi_port: int, scsi_target_id: int) -> Optional[bytes]:
+def _miniport_smart_identify(scsi_port: int, scsi_target_id: int, debug: bool = False) -> Optional[bytes]:
     h = _open_scsi_port(scsi_port)
     if not h: return None
     try:
@@ -68,7 +70,11 @@ def _miniport_smart_identify(scsi_port: int, scsi_target_id: int) -> Optional[by
         params.bDriveNumber = scsi_target_id
         
         ok, br = _ioctl(h, IOCTL_SCSI_MINIPORT, buf, total_size, buf, total_size)
-        if not ok: return None
+        if not ok:
+            if debug:
+                err_code, err_msg = _last_win_error()
+                print(f"  [DEBUG] Miniport IDENTIFY FAILED: Scsi{scsi_port} Target{scsi_target_id} WinError {err_code} ({err_msg})")
+            return None
         
         # Data is at offset header_size + 16 (+16 = 4 cBufferSize + 12 DRIVERSTATUS)
         data_offset = header_size + 16
@@ -76,7 +82,7 @@ def _miniport_smart_identify(scsi_port: int, scsi_target_id: int) -> Optional[by
     finally:
         _close_drive(h)
 
-def _miniport_smart_read_data(scsi_port: int, scsi_target_id: int) -> Optional[bytes]:
+def _miniport_smart_read_data(scsi_port: int, scsi_target_id: int, debug: bool = False) -> Optional[bytes]:
     h = _open_scsi_port(scsi_port)
     if not h: return None
     try:
@@ -101,7 +107,11 @@ def _miniport_smart_read_data(scsi_port: int, scsi_target_id: int) -> Optional[b
         params.bDriveNumber = scsi_target_id
         
         ok, br = _ioctl(h, IOCTL_SCSI_MINIPORT, buf, total_size, buf, total_size)
-        if not ok: return None
+        if not ok:
+            if debug:
+                err_code, err_msg = _last_win_error()
+                print(f"  [DEBUG] Miniport SMART FAILED: Scsi{scsi_port} Target{scsi_target_id} WinError {err_code} ({err_msg})")
+            return None
         
         data_offset = header_size + 16
         return bytes(buf[data_offset : data_offset + 512])
@@ -153,13 +163,32 @@ def _detect_usb_bridge(h, disk_number: Optional[int] = None) -> Tuple[Optional[s
     if desc["bus_type"] not in (7, 0, 1): 
         return None, None
     
+    # Try VID/PID from WMI
     if disk_number is not None:
         vid_pid = _get_usb_vid_pid_from_wmi(disk_number)
         if vid_pid in USB_BRIDGE_TABLE:
             bridge_type = USB_BRIDGE_TABLE[vid_pid]
             return f"{bridge_type} ({vid_pid[0]:04X}:{vid_pid[1]:04X})", bridge_type
         elif vid_pid:
+            # Check model string if VID/PID is unknown but present
+            model = (desc.get("model") or "").upper()
+            if "ASM" in model or "ASMEDIA" in model:
+                return f"asmedia ({vid_pid[0]:04X}:{vid_pid[1]:04X})", "asmedia"
+            if "JMS" in model or "JMICRON" in model:
+                return f"jmicron ({vid_pid[0]:04X}:{vid_pid[1]:04X})", "jmicron"
+            if "REALTEK" in model or "RTL" in model:
+                return f"realtek ({vid_pid[0]:04X}:{vid_pid[1]:04X})", "realtek"
+                
             return f"unknown_usb ({vid_pid[0]:04X}:{vid_pid[1]:04X})", "unknown_usb"
+
+    # Fallback to model string detection if disk_number is missing or WMI failed
+    model = (desc.get("model") or "").upper()
+    if "ASM" in model or "ASMEDIA" in model:
+        return f"asmedia (string)", "asmedia"
+    if "JMS" in model or "JMICRON" in model:
+        return f"jmicron (string)", "jmicron"
+    if "REALTEK" in model or "RTL" in model:
+        return f"realtek (string)", "realtek"
             
     return "unknown_usb", "unknown_usb"
 
@@ -309,7 +338,7 @@ def _smart_identify(h, bridge_type: Optional[str] = None, debug: bool = False, d
         if disk_number is not None:
             scsi_port, scsi_target = _get_scsi_port_and_target(disk_number)
             if scsi_port is not None and scsi_target is not None:
-                data = _miniport_smart_identify(scsi_port, scsi_target)
+                data = _miniport_smart_identify(scsi_port, scsi_target, debug=debug)
                 if data: return data
 
         # For unknown USB, try all SAT methods as fallback
@@ -474,7 +503,7 @@ def _smart_read_data(h, bridge_type: Optional[str] = None, debug: bool = False, 
         if disk_number is not None:
             scsi_port, scsi_target = _get_scsi_port_and_target(disk_number)
             if scsi_port is not None and scsi_target is not None:
-                data = _miniport_smart_read_data(scsi_port, scsi_target)
+                data = _miniport_smart_read_data(scsi_port, scsi_target, debug=debug)
                 if data: return data
 
         # Fallback to SAT

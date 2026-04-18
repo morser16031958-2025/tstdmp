@@ -277,7 +277,7 @@ def show_raw_identify(disk_number: int, debug: bool = False):
         scsi_port, scsi_target = _get_scsi_port_and_target(disk_number)
         data_miniport = None
         if scsi_port is not None and scsi_target is not None:
-            data_miniport = _miniport_smart_identify(scsi_port, scsi_target)
+            data_miniport = _miniport_smart_identify(scsi_port, scsi_target, debug=debug)
 
         def _method_report(label, data):
             if data is None:
