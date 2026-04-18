@@ -1,0 +1,1747 @@
+[Information]
+; (Latest Translator, First Translator, Second Translator ...)
+TRANSLATOR=efi99, USiTE.hu, chrispy 
+VERSION=8.11.0
+
+[Language]
+LANGUAGE=Magyar
+CHARACTER_CODE=Unicode (UTF-16, LE, w/ BOM)
+LOCALE_ID=0x000E, 0x040E
+
+[Url]
+WIKIPEDIA_SMART=https://en.wikipedia.org/wiki/Self-Monitoring,_Analysis_and_Reporting_Technology
+
+[Menu]
+FILE=&Fájl
+CUSTOMIZE=&Testreszabás
+EXIT=&Kilépés
+EDIT=S&zerkesztés
+COPY=&Másolás
+FUNCTION=&Beállítások
+HIDE_SMART_INFO=&S.M.A.R.T. infók elrejtése
+HIDE_SERIAL_NUMBER=Soroz&atszám elrejtése
+SHOW_DRIVE_LETTER=Mutassa a meghajtó betűjelét
+ADVANCED_DISK_SEARCH=&Fejlett lemez keresés
+EVENT_LOG=&Napló
+AAM_APM_CONTROL=AA&M/APM felügyelet
+AUTO_AAM_APM_ADAPTION=Automatikus AAM/A&PM
+RESIDENT=&Hőfok a tálca értesítési területén
+STARTUP=&Induljon el a Windows-zal együtt
+OPEN_DISK_MANAGEMENT=Windows Le&mezkezelés megnyitása
+OPEN_DEVICE_MANAGER=Windows Es&zközkezelő megnyitása
+ADVANCED_FEATURE=Egyebek
+REFRESH=&Frissítés
+RESCAN=Újraolvasás
+DISABLE=&Kikapcsol
+AUTO_REFRESH=F&rissítési gyakoriság...
+AUTO_REFRESH_TARGET=&Frissítendő meghajtók...
+AUTO_REFRESH_TARGET_ALL_DISK=Ö&sszes
+AUTO_REFRESH_UNTARGET_ALL_DISK=&Egyik sem
+WAIT_TIME_AT_STARTUP=&Indítási késleltetés...
+GRAPH=&Grafikon
+THEME=&Téma
+DISK=&Meghajtó
+HELP=Sú&gó
+HELP_WEB=Sú&gó [Web]
+HELP_ABOUT=A CrystalDiskInfo &névjegye
+HELP_ABOUT_SMART=Wikipédia cikk a &S.M.A.R.T.-ról (angol)
+LANGUAGE=Nyelv
+ITEM=&Elem
+TEMPERATURE_TYPE=&Hőmérséklet mértékegysége...
+CELSIUS=Celsius (°C)
+FAHRENHEIT=Fahrenheit (°F)
+HEALTH_STATUS_SETTING=&Állapotfigyelés
+
+;Graph
+OPTION=&Beállítások
+LEGEND_POSITION=Jelmagyarázat &helye...
+NORTH_WEST=&Balra fent
+NORTH_EAST=&Jobbra fent
+SOUTH_WEST=B&alra lent
+SOUTH_EAST=J&obbra lent
+MAX_PLOT_POINT=&Maximumpont értéke...
+TIME_FORMAT=&Idő formátuma...
+PAINT_WEEKEND=Mutassa a &hétvégéket is
+ALL=Ö&sszes
+
+;2.7.0
+COPY_OPTION=Másolási &beállítások
+RESIDENT_STYLE=Indulási mód
+MINIMIZE=Kicsinyített
+HIDE=Rejtett
+
+;3.0.0
+ZOOM=&Nagyítás
+AUTO=&Automatikus
+ATTRIBUTE=&Paraméterek
+
+;3.5.0
+ASCII_VIEW=ASCII nézet
+AUTO_DTECTION=Automatikus felismerés
+SECOND=mp
+MINUTE=perc
+HOUR=óra
+
+:3.9.4
+WORKAROUND=Javítások
+
+;4.0.0
+ALERT_MAIL=Figyelmeztető levél
+MAIL_SETTINGS=Levél beállítások
+SMART_IN_ENGLISH=SMART paraméterek nevei angolul
+FONT_SETTING=Betűtípus
+
+;5.0.0
+ALERT_FEATURES=&Riasztási jellemzők
+ALARM_HISTORY=Riasztási előzmények
+ALERT_SOUND=Riasztási hang
+SOUND_SETTINGS=Hang beállítások
+GADGET_SUPPORT=Gadget támogatás
+INSTALL_GADGET=Gadget telepítése
+ENABLE_AUTO=Engedélyezés (Automatikus érzékelés)
+ENABLE_ALL=Engedélyezés (Minden lemez)
+ENABLE_RAID=Engedélyezés (csak RAID)
+
+;6.0.0
+HIDE_NO_SMART_DISK=&Nem S.M.A.R.T.-képes meghajtók rejtése
+GREEN_MODE=Zöld lámpák (ki:kék)
+
+;8.6.0
+SAVE_TEXT=Mentés (&szövegként)
+SAVE_IMAGE=&Mentés (képként)
+
+;9.0.0
+DRIVE_SORT_METHOD=Drive Sort Method
+PHYSICAL_DRIVE_ID=Physical Drive ID
+DRIVE_LETTER=Drive Letter
+
+;9.2.0
+VOICE=Voice
+
+;9.3.0
+STARTUP_VOICE=Startup Voice
+
+;9.5.0
+HIDE_RAID_VOLUME=Hide &RAID Volume
+[TrayMenu]
+EXIT=Kilépés
+REFRESH=Frissítés
+RESCAN=Újraolvasás
+ENABLE=Bekapcsolva
+DISABLE=Soha
+ENABLE_ALL=Igen
+DISABLE_ALL=Nem
+AUTO_REFRESH=Frissítési gyakoriság
+AUTO_REFRESH_01_MIN=1 perc
+AUTO_REFRESH_03_MIN=3 perc
+AUTO_REFRESH_05_MIN=5 perc
+AUTO_REFRESH_10_MIN=10 perc
+AUTO_REFRESH_30_MIN=30 perc
+AUTO_REFRESH_60_MIN=60 perc
+AUTO_REFRESH_TARGET=Folyamatosan frissüljön
+AUTO_REFRESH_TARGET_ALL_DISK=Folyamatosan kérje le a hőmérsékleteket
+AUTO_REFRESH_UNTARGET_ALL_DISK=Ne kérje le a hőmérsékleteket
+ALARM_SETTING_TEMPERATURE=Riasztási hőmérséklet
+ALARM_SETTING_HEALTH_STATUS=Figyelmeztetés a rossz kondícióra
+SHOW_MAIN_WINDOW=Fő ablak mutatása
+SHOW_TEMPERATURE_ICON=Hőmérsékleti ikon
+SHOW_ALL_TEMPERATURE_ICON=Összes ikon mutatása
+HIDE_ALL_TEMPERATURE_ICON=Ne mutasson ikonokat
+COLLECTIVE_SETTING=Mindegyikre vonatkozik
+GRAPH=Grafikon
+;Added 3.0
+SHOW_TEMPERATURE_ICON_ONLY=Csak a hőmérsékleti ikont mutassa
+
+[DiskStatus]
+GOOD=Jó
+CAUTION=Figyelmeztetés
+BAD=Rossz
+UNKNOWN=Ismeretlen
+DISK=Meghajtó
+
+[Dialog]
+LIST_ID=ID
+LIST_CURRENT=Aktuális
+LIST_WORST=Legrosszabb
+LIST_THRESHOLD=Küszöbérték
+LIST_RAW_VALUES=Nyers érték
+;LIST_DESCRIPTION=Leírás
+LIST_ATTRIBUTE_NAME=Paraméter
+
+FIRMWARE=Firmware
+SERIAL_NUMBER=Sorozatszám
+INTERFACE=Csatlakozó
+STANDARD=Szabvány
+TRANSFER_MODE=Adatátvitel módja
+BUFFER_SIZE=Puffer mérete
+NV_CACHE_SIZE=NV Cache mérete
+ROTATION_RATE=Fordulatszám
+TEMPERATURE=Hőmérséklet
+POWER_ON_HOURS=Üzemidő
+POWER_ON_COUNT=Bekapcsolások száma
+DRIVE_LETTER=Meghajtó betűjele(i)
+FEATURE=Szolgáltatások
+HEALTH_STATUS=Meghajtó állapota
+
+UNKNOWN=Ismeretlen
+POWER_ON_COUNT_UNIT=x
+POWER_ON_HOURS_UNIT=óra
+POWER_ON_DAYS_UNIT=nap
+POWER_ON_YEARS_UNIT=év
+
+;4.3
+TOTAL_HOST_WRITES=Összesen kiírt adat
+TOTAL_HOST_READS=Összesen beolvasott adat
+TOTAL_NAND_WRITES=Összes NAND írás
+
+;4.5
+WEAR_LEVELING_COUNT=Maradék tartósság
+
+;6.1
+CURRENT_MODE_SUPPORTED_MODE=Jelenlegi mód | Támogatott mód
+MAJOR_VERSION_MINOR_VERSION=Főverzió | Alverzió
+
+;8.5.0
+FONT_FACE=Betűtípus
+FONT_SCALE=Betűméret (%)
+DEFAULT=Alapértelmezett
+
+;8.9.0
+ENABLED=Engedélyezve
+DISABLED=Letiltva
+
+[Message]
+DETECT_UNIT_POWER_ON_HOURS=Számolom a "Üzemidőt" (ez körülbelül 130 másodpercig tart)
+DETECT_DISK=Lemez felismerés
+PLEASE_ENABLE_WMI=Kérem kapcsolja be a WMI-t (Windows Management Instrumentation)
+PLEASE_RESTART_THIS_APPLICATION=Kérem indítsa újra a programot a téma bekapcsolásához
+DISK_NOT_FOUND=Meghajtó nem található
+
+[Alarm]
+ALARM_TEMPERATURE=Riasztási hőmérséklet
+ALARM_HEALTH_STATUS=Figyelmeztetés - kondícióra
+DEGRADATION=Degenerálódás
+RECOVERY=Felépülés
+;3.5.0
+INFO_HEALTH_STATUS=Információ - Kondíció
+
+[Graph]
+PLEASE_SELECT_ITEM=Kérem válasszon
+ACTUAL_VALUE=Aktuális érték (Nyers érték)
+NORMALIZED_VALUE=Normalizált érték (Jelenlegi érték)
+ALL_ON=Mindegyik
+ALL_OFF=Egyik sem
+RESET=Alaphelyzet
+
+[Customize]
+LINE_COLOR=Vonalszínek
+BACKGROUND_IMAGE=Háttér
+SUPPORTED_IMAGE_FORMAT=Kép fájlok
+ALL_FILES=Összes fájl
+
+;5.0.0
+SUPPORTED_SOUND_FORMAT=Támogatott hangformátum
+
+[AamApm]
+AAM_LOW=<- Csendes (80h)
+AAM_HIGH=Gyors (FEh) ->
+AAM_RECOMMEND=Ajánlott érték
+APM_LOW=<- Legkisebb áramfelvétel (01h)
+APM_HIGH=Gyors (FEh) ->
+;3.5.0
+AUTOMATIC_ACOUSTIC_MANAGEMENT=Automatikus akusztikus szabályozás  (AAM)
+ADVANCED_POWER_MANAGEMENT=Automatikus áramfelvétel (APM)
+
+[WindowTitle]
+ABOUT=A CrystalDiskInfo &névjegye
+GRAPH=Grafikon
+CUSTOMIZE=Testreszabás
+VERSION_INFORMATION=Verzió információ
+AAM_APM_CONTROL=AAM/APM beállítás
+HEALTH_STATUS_SETTING=Állapotfigyelés
+
+;5.0.0
+ALARM_HISTORY=Riasztási előzmények
+SOUND_SETTINGS=Hangbeállítások
+
+;5.1.0
+FONT_SETTING=Betűtípus
+
+[HealthStatus]
+THRESHOLD_OF_CAUTION=Riasztási érték
+APPLY=Rendben
+DEFAULT=Alapértelmezett
+
+[Smart]
+UNKNOWN=Ismeretlen
+VENDOR_SPECIFIC=Gyártó specifikus
+01=Olvasási hibák száma
+02=Átviteli teljesítmény
+03=Felpörgési idő
+04=Elindulások/leállások száma
+05=Áthelyezett szektorok száma
+06=Olvasáskor fenntartott sáv
+07=Fejpozícionálási hibák száma
+08=Átlagos fejpozícionálási idő
+09=Bekapcsolva töltött órák
+0A=Felpörgési újrapróbálkozások száma
+0B=Kalibrálási újrapróbálkozások száma
+0C=Ki/be kapcsolások száma
+0D=Szoftveres olvasási hibák száma
+16=Jelenlegi héliumszint
+B8=Paritáshibák száma
+BB=Jelentett javíthatatlan hibák
+BC=Parancs időtúllépés
+BD=Magas repüléses írás
+BE=Ház hőmérséklet (100-X)
+BF=Mechanikai behatások száma
+C0=Kikapcsolási visszahúzások száma
+C1=Fejbehúzás a parkolózónába
+C2=Hőmérséklet
+C3=Hardveresen javított hibák száma
+C4=Áthelyezési kisérletek száma
+C5=Függőben levő szektorok száma
+C6=Javíthatatlan szektorok száma
+C7=Adatátviteli hibák száma
+C8=Írási hibák száma
+C9=Szoftveres olvasási hibák száma
+CA=Adatcímzési hibák száma
+CB=Adatjavítási hibák száma
+CC=Szoftveresen javított hibák száma
+CD=Fej hőmérséklet-stabilizálási hibák száma
+CE=Repülési magasság
+CF=Túl magas felpörgési áram
+D0=Felpörgéshez szükséges ciklusok száma
+D1=Önteszt alatti teljesítmény
+D3=Vibráció írás közben
+D4=Rázkódás írás közben
+DC=Lemez elmozdulás
+DD=Mechanikai behatások száma
+DE=Bekapcsolva töltött idő
+DF=Fejbelépés az adatzónába
+E0=Betöltési súrlódások száma
+E1=Ki-be töltések száma
+E2=Betöltési idő
+E3=Felpörgési nyomaték értéke
+E4=Tápfeszültség kiesése miatti leállások száma
+E6=Fej kilengésének mértéke
+E7=Hőmérséklet
+F0=Fejpozícionálással eltöltött összes idő
+FA=Olvasási újrapróbálkozások száma
+FE=Szabadesés védelem száma
+
+;Updated 5.4.0
+F1=Összes írás
+F2=Összes olvasás
+
+;Updated 9.5.0
+17=Helium Condition Lower
+18=Helium Condition Upper
+1B=MAMR Health Monitor
+
+[SmartSsd]
+01=Olvasási hibák száma
+02=Átviteli teljesítmény
+03=Felpörgési idő
+04=Elindulások/leállások száma
+05=Áthelyezett szektorok száma
+06=Olvasási csatorna különbözet
+07=Fejpozícionálási hibák száma
+08=Átlagos fejpozícionálási idő
+09=Bekapcsolva töltött órák
+0A=Felpörgési újrapróbálkozások száma
+0B=Kalibrálási újrapróbálkozások száma
+0C=Ki-be kapcsolások száma
+0D=Szoftveres olvasási hibák száma
+C0=Nem biztonságos leállások száma
+C2=Hőmérséklet
+C4=Áthelyezési kisérletek száma
+C5=Függőben levő szektorok száma
+C6=Javíthatatlan szektorok száma
+; CrystalDiskInfo assign
+FF=Hátralevő idő
+
+;Updated 5.4.0
+F1=Összes írás
+F2=Összes olvasás
+
+[SmartMtron]
+BB=Teljes törlések száma
+
+[SmartIndilinx]
+01=Olvasási hibák száma
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+B8=Kezdeti rossz blokkok száma
+C2=Hőmérséklet
+C3=Program hibás blokkok száma
+C4=Törlési hibás blokkok száma
+C5=Olvasási hibás blokkok száma
+C6=Az olvasási szektorok teljes száma
+C7=Az írási szektorok teljes száma
+C8=Az olvasási parancsok teljes száma
+C9=Az írási parancsok teljes száma
+CA=Flash hibabitek teljes száma
+CB=Javítható bithibás olvasási szektorok teljes száma
+CC=Rossz blokkok megteltek
+CD=Specifikáció szerinti újraírások száma
+CE=Legkisebb törlési szám
+CF=Legnagyobb törlési szám
+D0=Átlagos törlési szám
+D1=Hátralevő meghajtó élettartam
+
+[SmartJMicron60x]
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+C2=Hőmérséklet
+E5=Megállási rendszer ID, Flash ID
+E8=Firmware verzió információ
+E9=ECC hiba adatrekord
+EA=Törlések átlagos száma, Törlések maximális száma
+EB=Jó blokk száma, Rendszer blokkok száma
+
+[SmartIntel]
+03=Felpörgési idő
+04=Elindulások/leállások száma
+05=Áthelyezett szektorok száma
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+AA=Fenntartott blokkok száma
+AB=Programhibák száma
+AC=Törlési hibák száma
+AE=Váratlan feszültségkimaradás
+AF=Feszültségkimaradás védelem hibája
+B7=SATA sebességesés
+B8=Paritáshibák száma
+BB=Jelentett javíthatatlan hibák
+BE=Ház hőmérséklet (100-X)
+C0=Nem biztonságos leállások száma
+C2=Hőmérséklet
+C5=Függőben levő szektorok száma
+C7=CRC hibák száma
+E1=Írási mennyiség
+E2=Timed Workload Media Wear
+E3=Timed Workload Host Read/Write Ratio
+E4=Timed Workload Timer
+E8=Hátralevő fenntartott terület
+E9=Média elhasználódási jelzés
+EA=Thermal Throttle Status
+F1=Összes írás
+F2=Összes olvasás
+F3=Összes NAND olvasás
+F9=Összes NAND írás
+
+[SmartSamsung] ;Updated 6.6
+05=Áthelyezett szektorok száma
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+AF=Program hibák száma (Chip)
+B0=Törlési hibák száma (Chip)
+B1=Elhasználódás-kiegyenlítés száma
+B2=Felhasznált fenntartott blokkok száma (Chip)
+B3=Felhasznált fenntartott blokkok száma (Összes)
+B4=Felhasználatlan fenntartott blokkok száma (Összes)
+B5=Program hibák száma (Összes)
+B6=Törlési hibák száma (Összes)
+B7=Futási idejű rossz blokk (Összes)
+BB=Javíthatatlan hibák száma
+BE=Ház hőmérséklet (100-X)
+C2=Hőmérséklet
+C3=Hardveresen javított hibák száma
+C6=Javíthatatlan hibák száma
+C7=CRC hibák száma
+C9=Szuperkondenzátor állapota
+CA=SSD mód állapota
+EB=POR helyreállítások száma
+F1=Összes írás
+F2=Összes olvasás
+
+;Added 6.6
+AA=Fenntartott blokkok száma (Chip) 
+AB=Programhibák száma
+AC=Törlési hibák száma (Chip)
+AD=Wear Leveling Count
+AE=Váratlan feszültségkimaradás
+B8=Detektált hiba
+E9=Normalized Media Wear-out
+
+[SmartSandForce] ;Updated (3.7.0)
+01=Olvasási hibák száma
+05=Használaton kívül helyezett blokkok száma
+09=Bekapcsolva töltött órák
+0C=Ki/be kapcsolások száma
+0D=Szoftveres olvasási hibák száma
+64=Törölt Gigabyte-ok
+AA=Fenntartott blokkok száma
+AB=Programhibák száma
+AC=Törlési hibák száma
+AE=Váratlan feszültségkimaradás
+B1=Elhasználódási tartomány különbözete
+B5=Program hibák száma
+B6=Törlési hibák száma
+B8=Jelentett detektált I/O hibák száma
+BB=Jelentett javíthatatlan hibák száma
+C2=Hőmérséklet
+C3=Hardveresen javított hibák száma
+C4=Áthelyezési kisérletek száma
+C6=Javíthatatlan szektorok száma
+C7=SATA R-Hibák (CRC) száma
+C9=Szoftveres olvasási hibák száma
+CC=Szoftveresen javított hibák száma
+E6=Életpálya állapot
+E7=Hátralevő SSD élettartam
+E8=Rendelkezésre álló fenntartott hely
+EB=Szuperkondenzátor állapota
+F1=Összes írás
+F2=Összes olvasás
+
+[SmartJMicron61x] ;Added (3.9)
+01=Olvasási hibák száma
+02=Átviteli teljesítmény
+03=Felpörgési idő
+05=Áthelyezett szektorok száma
+07=Fejpozícionálási hibák száma
+08=Átlagos fejpozícionálási idő
+09=Bekapcsolva töltött órák
+0A=Felpörgési újrapróbálkozások száma
+0C=Ki/be kapcsolások száma
+A8=SATA PHY hibák száma
+AF=Rossz kluszter táblák száma (ECC hibák száma)
+C0=Nem várt áramkiesések száma
+C2=Hőmérséklet
+C5=Függőben levő szektorok száma
+AA=Hibás blokkok száma
+AD=Törlések száma
+
+[SmartMicron] ;Added 4.0.0/ Updated 6.0.0
+; RAIN = Redundant Array of Independent NAND
+01=Olvasási hibák száma
+05=Áthelyezett szektorok száma
+09=Bekapcsolva töltött órák
+0C=Ki/be kapcsolások száma
+0D=Szoftveres olvasási hibák száma
+0E=Device Capacity (NAND)
+0F=User Capacity
+10=Spare Blocks Available
+11=Remaining Spare Blocks
+64=Total Erase Count
+AA=Fenntartott blokkok száma
+AB=Programhibák száma
+AC=Törlési hibák száma
+AD=Törlések száma
+AE=Váratlan feszültségkimaradás
+AB=Programhibák száma
+AC=Törlési hibák száma
+AE=Váratlan feszültségkimaradás
+B7=SATA sebességesés
+BB=Jelentett javíthatatlan hibák száma
+BC=Command Timeout Count
+BD=Gyári hibás blokkok száma
+C2=Hőmérséklet
+C3=Hardveresen javított hibák száma
+C4=Áthelyezési kisérletek száma
+C5=Függőben levő szektorok száma
+C6=Smart gyári javíthatatlan hibák száma
+C7=Ultra DMA CRC hibaarány
+CA=Percent Lifetime Used
+CE=Írási hibák aránya
+D2=Successful RAIN Recovery Count
+EA=Total Bytes Read
+F2=Write Protect Progress
+F3=ECC Bits Corrected
+F4=ECC Cumulative Threshold Events
+F5=Cumulative Program NAND Pages
+F6=Total Host Sector Writes
+F7=Host Program Page Count
+F8=Background Program Page Count
+
+; Updated 8.10.0
+F9=Total Refresh ISP Count
+FA=Total Do RefCal Count
+FB=Total NAND Read Plane Count (Low 4Bytes)
+FC=Total NAND Read Plane Count (High 4Bytes)
+FD=Total Block ReMap Pass Count
+FE=Total Background Scan Over Limit Count
+DF=Total Background Scan
+
+[SmartMicronMU02] ;Updated 6.6.0
+; RAIN = Redundant Array of Independent NAND
+01=Olvasási hibák száma
+05=Áthelyezett szektorok száma
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+0D=Szoftveres olvasási hibák száma
+0E=Device Capacity (NAND)
+0F=User Capacity
+10=Spare Blocks Available
+11=Remaining Spare Blocks
+64=Total Erase Count
+AA=Fenntartott blokkok száma
+AB=Programhibák száma
+AC=Törlési hibák száma
+AD=Törlések száma
+AE=Váratlan feszültségkimaradás
+B4=Unused Reserve NAND Blocks
+B7=SATA sebességesés
+B8=Paritáshibák száma
+BB=Reported Uncorrectable Errors
+BC=Command Timeout Count
+BD=Factory Bad Block Count
+C2=Hőmérséklet
+C3=Hardveresen javított hibák száma
+C4=Áthelyezési kisérletek száma
+C5=Függőben levő szektorok száma
+C6=Smart Off-line Scan Uncorrectable Error Count
+C7=Ultra DMA CRC Error Rate
+CA=Percent Lifetime Used
+CE=Write Error Rate
+D2=Successful RAIN Recovery Count
+EA=Total Bytes Read
+F3=ECC Bits Corrected
+F4=ECC Cumulative Threshold Events
+F5=Cumulative Program NAND Pages
+F6=Total Host Sector Writes
+F7=Host Program Page Count
+F8=Background Program Page Count
+
+; Updated 6.6.0
+A0=Uncorrectable Sector Count
+A1=Valid Spare Blocks
+A3=Initial Invalid Blocks
+94=Total SLC Erase Count
+95=Maximum SLC Erase Count
+96=Minimum SLC Erase Count
+97=Average SLC Erase Count
+A4=Total TLC Erase Count
+A5=Maximum TLC Erase Count
+A6=Minimum TLC Erase Count
+A7=Average TLC Erase Count
+A9=Percentage Lifetime Remaining
+B5=Program Fail Count
+B6=Törlési hibák száma
+C0=Power-off Retract Count
+E8=Available Reserved Space
+F1=Összes írás
+F2=Összes olvasás
+F5=Total TLC Write Count
+F6=Total SLC Write Count
+F7=RAID Recovery Count
+
+; Updated 8.10.0
+F9=Total Refresh ISP Count
+FA=Total Do RefCal Count
+FB=Total NAND Read Plane Count (Low 4Bytes)
+FC=Total NAND Read Plane Count (High 4Bytes)
+FD=Total Block ReMap Pass Count
+FE=Total Background Scan Over Limit Count
+DF=Total Background Scan
+
+[SmartOcz] ;Added (4.5.0)
+01=Olvasási hibák száma
+03=Felpörgési idő
+04=Elindulások/leállások száma
+05=Áthelyezett szektorok száma
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+C2=Hőmérséklet
+E8=Total Count of Write Sectors
+E9=Remaining Life
+
+; Added 6.6.0
+64=Total Blocks Erased
+A7=SSD Protect Mode
+A8=SATA PHY Error Count
+A9=Bad Block Count
+AD=Törlések száma
+B8=Factory Bad Block Count
+C0=Kikapcsolási visszahúzások száma
+CA=Total Number of Corrected Bits
+CD=Max Rated PE Counts
+CE=Legkisebb törlési szám
+CF=Maximum Erase Counts
+D3=SATA Uncorrectable Error Count
+D4=NAND Page Reads During Retry
+D5=Simple Read Retry Attempts
+D6=Adaptive Read Retry Attempts
+DD=Internal Data Path Uncorrectable Errors
+DE=RAID Recovery Count
+E6=Power Loss Protection
+FB=NAND Read Count
+
+;Updated 6.7.0
+F1=Összes írás
+F2=Összes olvasás
+
+[SmartPlextor] ;Added (5.1.0)/Updated (5.4.0)
+01=Olvasási hibák száma
+05=Áthelyezett szektorok száma
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+C0=Unsafe Shutdown Count
+C2=Hőmérséklet
+C4=Áthelyezési kisérletek száma
+C6=Uncorrectable Sector Count
+F1=Összes írás
+F2=Összes olvasás
+
+;Updated (5.4.0)
+B1=Wear Leveling Count
+B2=Used Reserved Block Count (Worst Case)
+B5=Program Fail Count
+B6=Törlési hibák száma
+BB=Jelentett javíthatatlan hibák
+C7=Ultra CRC hibák száma
+E8=Available Reserved Space
+
+;Added 6.2.0
+AA=Grown Bad Blocks
+AB=Programhibák száma
+AC=Törlési hibák száma
+AD=Törlések száma
+AE=Váratlan feszültségkimaradás
+AF=Program Fail Count (Worst Case)
+B0=Törlési hibák száma (Worst Case)
+B3=Used Reserved Block Count
+B4=UnUsed Reserved Block Count (Total)
+B7=SATA sebességesés
+B8=Paritáshibák száma
+BC=Command Time out
+C3=Hardveresen javított hibák száma
+E9=NAND GB written
+
+[SmartSanDisk] ;Added (5.2.0)
+05=Retired Block Count
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+AA=Fenntartott blokkok száma
+AB=Programhibák száma
+AC=Törlési hibák száma
+AD=Írások/Törlések száma
+AE=Váratlan feszültségkimaradás
+BB=Reported Uncorrectable Errors
+C2=Hőmérséklet
+E6=Percent of Total Write/Erase Count
+E8=Remaining Life
+EA=Percent of Total Write/Erase Count (BC blocks)
+F1=Összes írás
+F2=Összes olvasás
+
+[SmartOczVector] ;Added (5.3.0)
+05=Accumulated Runtime Bad Blocks
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+AB=Available Over-Provisioned Block Count
+AE=Power Cycle Count (Unplanned)
+BB=Total Uncorrectable NAND Reads
+C2=Hőmérséklet
+C3=Total Programming Failures
+C4=Total Erase Failures
+C5=Total Read Failures (Uncorrectable)
+C6=Host Reads
+C7=Host Writes
+D0=Átlagos törlés szám
+D2=SATA CRC hibák száma
+E9=Remaining Life
+F9=Total NAND Programming Count
+
+;Updated 5.5.0
+F1=Összes írás
+F2=Összes olvasás
+
+;Updated 6.6.0
+64=Total Blocks Erased
+B8=Factory Bad Block Count Total
+CA=Total Number Of Read Bits Corrected
+CD=Max Rated PE Count
+CE=Legkisebb törlési szám
+CF=Max Erase Count
+D4=Total Count NAND Pages Reads Requiring Read Retry
+D5=Total Count of Simple Read Retry Attempts
+D6=Total Count of Adaptive Read Retry Attempts
+DD=Internal Data Path Protection Uncorrectable Errors
+DE=RAID Recovery Count
+E0=In Warranty
+E1=DAS Polarity
+E2=Partial Pfail
+E6=Write Throttling Activation Flag
+F9=Total NAND Programming Count (pages)
+FB=Total NAND Read Count
+
+[SmartCorsair] ;Added 6.2.0
+01=Olvasási hibák száma
+05=Retired Block Count
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+AA=Fenntartott blokkok száma
+AC=Törlési hibák száma
+AE=Váratlan feszültségkimaradás
+B5=Program Fail Count
+BB=Reported Uncorrectable Errors
+C2=Hőmérséklet
+C4=Áthelyezési kisérletek száma
+E7=SSD Life Left
+F1=Összes írás
+F2=Összes olvasás
+
+[SmartToshiba] ;Added 6.2.0
+01=Olvasási hibák száma
+02=Átviteli teljesítmény
+03=Felpörgési idő
+04=Elindulások/leállások száma
+05=Áthelyezett szektorok száma
+07=Fejpozícionálási hibák száma
+08=Átlagos fejpozícionálási idő
+09=Bekapcsolva töltött órák
+0A=Felpörgési újrapróbálkozások száma
+0B=Kalibrálási újrapróbálkozások száma
+0C=Ki-be kapcsolások száma
+A7=SSD Protect Mode
+A8=SATA PHY Error Count
+A9=Total Bad Block Count
+AD=Törlések száma
+C0=Kikapcsolási visszahúzások száma
+C2=Hőmérséklet
+C4=Áthelyezési kisérletek száma
+C5=Függőben levő szektorok száma
+C6=Uncorrectable Sector Count
+F1=Összes írás
+F2=Összes olvasás
+
+[SmartSanDiskGb] ;Added 6.2.0
+01=Olvasási hibák száma
+05=Áthelyezett szektorok száma
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+A5=Block Erase Count (SLC)
+A6=Min W/E Cycle
+A7=Max Bad Block/Die
+A8=Maximum Erase Cycle
+A9=Total Bad Block
+AA=Grown Bad Blocks
+AB=Programhibák száma
+AC=Törlési hibák száma
+AD=Törlések száma
+AE=Váratlan feszültségkimaradás
+B8=Paritáshibák száma
+BB=Reported Uncorrectable Errors
+BC=Command Timeout Count
+C2=Hőmérséklet
+C7=CRC hibák száma
+D4=SATA PHY Error
+E6=Media Wearout Indicator
+E7=SSD Life Left
+E8=Available Reserve Space
+E9=NAND GB Written
+EA=NAND GB Written (SLC)
+EE=Media Wearout Indicator (Cycles Remaining)
+F1=Összes írás
+F2=Összes olvasás
+F4=Hőmérséklet Throttle Status
+F9=NAND GB Written
+
+[SmartKingston] ;Added 6.6.0
+;https://media.kingston.com/support/downloads/MKP_521_Phison_SMART_attribute.pdf
+01=Olvasási hibák száma
+02=Átviteli teljesítmény
+03=Felpörgési idő
+05=Áthelyezett szektorok száma
+07=Fejpozícionálási hibák száma
+08=Átlagos fejpozícionálási idő
+09=Bekapcsolva töltött órák
+0A=Felpörgési újrapróbálkozások száma
+0C=Ki-be kapcsolások száma
+A8=SATA PHY Error Count
+AA=Bad Block Count
+AD=Törlések száma
+AF=Bad Cluster Table Count
+BB=Uncorrectable Errors
+C0=Unsafe Shutdown Count
+C2=Hőmérséklet
+C4=Later Bad Block Count
+C5=Függőben levő szektorok száma
+C7=CRC hibák száma
+DA=CRC hibák száma
+E7=SSD Life Left
+E9=Lifetime Writes to Flash
+F0=Write Head
+F1=Összes írás
+F2=Összes olvasás
+F4=Average Erase Count
+F5=Max Erase Count
+F6=Total Erase Count
+
+[SmartNVMe] ;Added 9.7.0
+01=Critical Warning
+02=Composite Hőmérséklet
+03=Available Spare
+04=Available Spare Threshold
+05=Percentage Used
+06=Data Units Read
+07=Data Units Written
+08=Host Read Commands
+09=Host Write Commands
+0A=Controller Busy Time
+0B=Power Cycles
+0C=Power On Hours
+0D=Unsafe Shutdowns
+0E=Media and Data Integrity Errors
+0F=Number of Error Information Log Entries
+10=Warning Composite Temperature Time
+11=Critical Composite Temperature Time
+12=Temperature Sensor 1
+13=Temperature Sensor 2
+14=Temperature Sensor 3
+15=Temperature Sensor 4
+16=Temperature Sensor 5
+17=Temperature Sensor 6
+18=Temperature Sensor 7
+19=Temperature Sensor 8
+1A=Thermal Management Temperature 1 Transition Count
+1B=Thermal Management Temperature 2 Transition Count
+1C=Total Time For Thermal Management Temperature 1
+1D=Total Time For Thermal Management Temperature 2
+
+[SmartRealtek] ;Added by Realtek
+01=Olvasási hibák száma
+05=Áthelyezett szektorok száma
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+A1=GDN
+A2=Total erase count
+A3=Max PE cycle
+A4=Average erase count
+A5=Initial bad block count
+A6=Total bad block count
+A7=SSD protect mode
+A8=SATA Phy error count
+A9=Health
+AB=Programhibák száma
+AC=Törlési hibák száma
+AE=Váratlan feszültségkimaradás
+AF=ECC fail count
+B5=Unaligned access count
+BB=Reported uncorrectable error
+C2=Hőmérséklet
+C3=Hardveresen javított hibák száma
+C4=Áthelyezési kisérletek száma
+C7=Ultra DMA CRC hibák száma
+CE=Legkisebb törlési szám
+CF=Max erase count
+E7=Lifetime left
+E8=Available reserved space
+F1=Összes írás
+F2=Összes olvasás
+F9=Total GB written to NAND (TLC)
+FA=Total GB written to NAND (SLC)
+
+[SmartSKhynix] ; Updated 8.8.0
+01=Olvasási hibák száma
+05=Áthelyezett szektorok száma
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+64=Total Erase Count
+A8=Min. Erase Count
+A9=Max. Erase Count
+AA=Fenntartott blokkok száma
+AB=Programhibák száma
+AC=Törlési hibák száma
+AE=Unexpected Power Loss Count
+AF=Program Fail Count(Worst Case)
+B0=Törlési hibák száma(Worst Case)
+B1=Wear Leveling Count
+B2=Used Reseved Block Count(Worst Case)
+B3=Used Reseved Block Count(SSD Total)
+B4=UnUsed Reseved Block Count(SSD Total)
+B5=Program Fail Count(SSD Total)
+B6=Törlési hibák száma(SSD Total)
+B7=SATA sebességesés
+B8=Paritáshibák száma
+BB=Jelentett javíthatatlan hibák
+BC=Command Timeout Count
+BF=Op Shock Event Count
+C2=Hőmérséklet
+C3=Hardveresen javított hibák száma
+C4=Áthelyezési kisérletek száma
+C6=Uncorrectable Sector Count
+C7=CRC hibák száma
+C9=Szoftveres olvasási hibák száma
+CC=Szoftveresen javított hibák száma
+D4=Phy Error Count
+E7=SSD Life Left
+E9=SSD Life Left
+EA=NAND Written
+F1=Összes írás
+F2=Összes olvasás
+FA=Olvasási újrapróbálkozások száma
+
+[SmartKioxia] ; Added 8.8.0
+09=Bekapcsolva töltött órák
+0C=Ki/be kapcsolások száma
+A7=SSD Protect Mode
+A8=SATA PHY Error Count
+A9=Bad Block Count
+AD=Törlések száma
+C0=Kikapcsolási visszahúzások száma
+C2=Hőmérséklet
+F1=Összes írás
+
+[SmartWdc] ; Added 8.8.0
+01=Olvasási hibák száma
+05=Áthelyezett szektorok száma
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+A5=Block Erase Count (SLC)
+A6=Minimum P/E Cycles
+A7=Maximum Bad Blocks per die
+A8=Maximum P/E Cycles
+A9=Total Bad Block
+AA=Grown Bad Blocks
+AB=Programhibák száma
+AC=Törlési hibák száma
+AD=Törlések száma
+AE=Váratlan feszültségkimaradás
+B8=Paritáshibák száma
+BB=Reported Uncorrectable Errors
+BC=Command Timeout Count
+C2=Hőmérséklet
+C7=CRC hibák száma
+D4=SATA PHY Error
+E6=Media Wearout Indicator
+E8=Available Reserve Space
+E9=NAND GB Written
+EA=NAND GB Written (SLC)
+EE=Media Wearout Indicator (Cycles Remaining)
+F1=Összes írás
+F2=Összes olvasás
+F1=Összes NAND írás
+F4=Hőmérséklet Throttle Status
+F9=NAND GB Written
+
+[SmartKingstonSuv]
+; https://media.kingston.com/support/downloads/UV400-SMART-attribute.pdf
+; https://media.kingston.com/support/downloads/UV500_SMART_attribute.pdf
+01=Olvasási hibák száma
+05=Áthelyezett szektorok száma
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+AA=Fenntartott blokkok száma
+AB=Programhibák száma
+AC=Törlési hibák száma
+AE=Unexpected Power Off Count
+AF=Program Fail Count Worst Die
+B0=Törlési hibák száma Worst Die
+B1=Wear Leveling Count
+B2=Used Reserved Block Count worst Die
+B4=Unused Reserved Block Count (SSD Total)
+BB=Reported Uncorrectable Errors
+C2=Hőmérséklet
+C3=Hardveresen javított hibák száma
+C4=Áthelyezési kisérletek száma
+C5=Függőben levő szektorok száma
+C7=UDMA CRC hibák száma
+C9=Szoftveres olvasási hibák száma
+CC=Szoftveresen javított hibák száma
+E7=SSD Life Left
+EA=Lifetime Nand Writes
+F1=Összes írás
+F2=Összes olvasás
+FA=Olvasási újrapróbálkozások száma
+
+[SmartKingstonKC600]
+;https://media.kingston.com/support/downloads/KC600-SMART-attribute.pdf
+01=Olvasási hibák száma
+05=Áthelyezett szektorok száma
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+94=Reserved
+95=Reserved
+96=Reserved
+97=SLC Average Erase Count
+9F=DRAM 1 Bithiba számláló
+A0=Reported UECC (UnCorrectable) Errors
+A1=Available Reserved Space
+A4=Reserved
+A5=Reserved
+A6=Reserved
+A7=Average Erase Count
+A8=Reserved
+A9=Percentage Of Rated Lifetime Remaining
+B1=Reserved
+B5=Program Fail Count
+B6=Törlési hibák száma
+C0=Kikapcsolási visszahúzások száma
+C2=Hőmérséklet
+C3=Hardveresen javított hibák száma
+C4=Áthelyezési kisérletek száma
+C7=UDMA CRC hibák száma
+E7=Percentage of Rated Lifetime Remaining
+E8=Unused Reserved Block Count
+F1=Összes írás
+F2=Összes olvasás
+F5=Total Media Writes
+
+[SmartKingstonDC500]
+;https://media.kingston.com/support/pdf/MKP_521-7_SMART-DC500_attribute_hr.pdf
+01=Host UNC Error Count
+09=Bekapcsolva töltött órák
+0C=Ki/be kapcsolások száma
+A7=Protect mode
+A8=SATA PHY Error Count
+A9=Bad Block Rate
+AA=Bad Block Information
+AC=Erase Failure Count
+AD=Törlések száma
+B5=Program Fail Count
+B6=Erase Failure Count
+BB=Host UNC Error Count
+C0=Kikapcsolási visszahúzások száma
+C2=Hőmérséklet
+C4=Total Later Bad Block Count
+C7=CRC hibák száma
+CF=Thermal Throttling Count
+DA=CRC hibák száma
+E7=SSD Life Remaining
+E8=Read Fail Count
+E9=NAND Write
+F1=Összes írás
+F2=Összes olvasás
+F4=Avg Erase Count
+F5=Max Erase Count
+F6=Total Erase Count
+
+[SmartKingstonSA400]
+;https://github.com/hiyohiyo/CrystalDiskInfo/issues/20
+01=Uncorrectable Errors
+09=Bekapcsolva töltött órák
+0C=Ki/be kapcsolások száma
+94=Vendor Unique
+95=Vendor Unique
+A7=Vendor Unique
+A8=SATA PHY Error Count
+A9=Vendor Unique
+AA=Bad Block Count
+AC=Vendor Unique
+AD=Törlések száma
+B5=Vendor Unique
+B6=Vendor Unique
+BB=Uncorrectable ECC Errors
+C2=Hőmérséklet
+C4=Áthelyezési kisérletek száma
+C7=SATA CRC Error
+DA=CRC hibák száma
+E7=SSD Wear Indicator
+E9=Lifetime Nand Writes
+F1=Összes írás
+F2=Összes olvasás
+F4=Average Erase Count
+F5=Max Erase Count
+F6=Total Erase Count
+
+[SmartSsstc]
+01=Olvasási hibák száma
+05=Áthelyezett szektorok száma
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+AA=Fenntartott blokkok száma
+AB=Programhibák száma(Total)
+AC=Törlési hibák száma(Total)
+AD=Törlések száma
+AE=Váratlan feszültségkimaradás
+AF=Program Fail count (Worst case)
+B0=Törlési hibák száma (Worst case)
+B1=Wear Leveling Count
+B2=Used Reserved Block Count (Worst case)
+B3=Used Reserved Block Count (Total)
+B4=Unused Reserved Block Count (Total)
+B7=SATA sebességesés
+B8=Paritáshibák száma
+BB=Jelentett javíthatatlan hibák
+BC=Command Time out
+C2=Hőmérséklet
+C3=Hardveresen javított hibák száma
+C6=OffLine Uncorrectable Error Count
+C7=SATA CRC hibák száma
+E5=Feszültségkimaradás védelem hibája
+E7=Percentage Lifetime Remaining
+E8=Available Reserved Space 
+E9=NAND GB Written
+F1=Összes írás
+F2=Összes olvasás
+F3=NAND GB Written
+
+[SmartIntelDc]
+;https://github.com/hiyohiyo/CrystalDiskInfo/issues/18
+01=Olvasási hibák száma
+05=Áthelyezett szektorok száma
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+0E=Device Capacity
+0F=User Capacity
+10=Spare Blocks Available
+11=Remaining Spare Available
+AC=Total Block Erase Failure
+AD=Per Block Max Erase Count
+AE=Váratlan feszültségkimaradás
+AF=Average Erase Count
+B0=Power Loss Protection Error
+B5=Total Block Program Failure
+B8=Paritáshibák száma
+BB=Jelentett javíthatatlan hibák
+C2=Hőmérséklet
+C5=Függőben levő szektorok száma
+C6=Offline Uncorrectable Error Count
+C7=CRC hibák száma
+CA=Percentage of Drive Life Used
+E2=Timed Workload - Media Wear
+E3=Timed Workload - Host Read/Write Ratio
+E4=Timed Workload Timer
+EA=Total Host Bytes Read
+EB=Összes írás
+F1=Írt NAND szektorok száma
+
+[SmartApacer]
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+A3=Maximum Erase Count
+A4=Average Erase Count
+A6=Total Later Bad Block Count
+A7=SSD Protect Mode
+A8=SATA PHY Error Count
+AB=Programhibák száma
+AC=Törlési hibák száma
+AF=Bad Cluster Table Count
+C0=Kikapcsolási visszahúzások száma
+C2=Hőmérséklet
+E7=Lifetime Left
+F1=Összes írás
+
+[SmartSiliconMotion]
+01=Olvasási hibák száma
+05=Áthelyezett szektorok száma
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+94=SLC Total Erase Count
+95=SLC Maximum Erase Count
+96=SLC Minimum Erase Count
+97=SLC Average Erase Count
+9F=DRAM 1 Bithiba számláló
+A0=Uncorrectable sectors count when read/write
+A1=Number of Valid Spare Blocks
+A2=Number of Cache Data Block
+A3=Number of Initial Invalid Blocks
+A4=Total Erase Count
+A5=Maximum Erase Count
+A6=Minimum Erase Count
+A7=Average Erase Count
+A8=Max Erase Count of Spec
+A9=Remain Life
+AF=Program fail count in worst die
+B0=Törlési hibák száma in worst die
+B1=Total Wear Level Count
+B2=Runtime Invalid Block Count
+B5=Total Program Fail Count
+B6=Total Törlési hibák száma
+BB=Jelentett javíthatatlan hibák
+C0=Power-Off Retract Count
+C2=Hőmérséklet
+C3=Hardveresen javított hibák száma
+C4=Áthelyezési kisérletek száma
+C5=Függőben levő szektorok száma
+C6=Uncorrectable Error Count Off-line
+C7=Ultra DMA CRC hibák száma
+E8=Available Reserved Space
+F1=Összes írás
+F2=Összes olvasás
+F5=Flash Write Sector Count
+
+[SmartJMicron66x]
+01=Olvasási hibák száma
+02=Átviteli teljesítmény
+03=Felpörgési idő
+05=Áthelyezett szektorok száma
+07=Fejpozícionálási hibák száma
+08=Átlagos fejpozícionálási idő
+09=Bekapcsolva töltött órák
+0A=Felpörgési újrapróbálkozások száma
+0C=Ki-be kapcsolások száma
+A7=SSD Protect Mode
+A8=SATA PHY Error Count
+AA=Bad Block Count
+AD=Törlések száma
+AF=Bad Cluster Table Count
+B4=Spare Block Count
+C0=Kikapcsolási visszahúzások száma
+C2=Hőmérséklet
+C5=Függőben levő szektorok száma
+E7=Drive Life
+E9=Write Sector Count (NAND)
+F0=Write Head
+F1=Összes írás
+F2=Összes olvasás
+
+[SmartPhison]
+01=Olvasási hibák száma
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+A8=SATA PHY Error Count
+AA=Bad Block Count
+AD=Törlések száma
+C0=Kikapcsolási visszahúzások száma
+C2=Hőmérséklet
+DA=Number of CRC Error
+E7=SSD Life Left
+F1=Összes írás
+
+[SmartSeagate]
+; https://crystalmark.info/board/c-board.cgi?cmd=one;no=1818;id=#1818
+01=Olvasási hibák száma
+05=Retired Sectors Count
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+10=Spare Blocks Available
+11=Remaining Spare Blocks
+A8=SATA PHY Error Count
+AA=Bad Block Count
+AB=Programhibák száma
+AC=Törlési hibák száma
+AD=Törlések száma
+AE=Váratlan feszültségkimaradás
+B1=Wear Range Delta
+B5=Program Fail Count
+B6=Törlési hibák száma
+C0=Kikapcsolási visszahúzások száma
+C2=Hőmérséklet
+C9=Szoftveres olvasási hibák száma
+CC=Szoftveresen javított hibák száma
+DA=CRC hibák száma
+E7=SSD Life Left
+E8=Read Failure Block Count
+E9=NAND GiB Written
+EA=Lifetime Writes To Flash
+EB=Írt NAND szektorok száma
+F1=Összes írás
+F2=Összes olvasás
+FA=Olvasási újrapróbálkozások száma
+
+[SmartSeagateIronWolf]
+; https://www.seagate.com/jp/ja/internal-hard-drives/ssd/ironwolf-nas-ssd/#specs
+01=Olvasási hibák száma
+05=Áthelyezett szektorok száma
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+64=Flash Gigabytes Erased
+66=Lifetime PS4 Entry Count
+67=Lifetime PS3 Entry Count
+AA=Grown Bad Block Count
+AB=Programhibák száma
+AC=Törlési hibák száma
+AD=Törlések száma
+AE=Váratlan feszültségkimaradás
+B1=Wear Range Delta
+B7=SATA sebességesés
+BB=Uncorrectable ECC Count
+C2=Hőmérséklet
+C3=Hardveresen javított hibák száma
+C6=Uncorrectable Read Error Count
+C7=SATA R-Error (CRC) Error Count
+E6=Drive Life Protection Status
+E7=SSD Life Left
+E8=Available Reserved Space
+E9=Lifetime Writes to Flash
+F1=Összes írás
+F2=Összes olvasás
+F3=Free Space
+
+[SmartMarvell] ; Added 8.8.3
+05=Number of New Bad Block
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+A4=Total Erase Count
+A5=Maximum Erase Count
+A6=Minimum Erase Count
+A7=Average Erase Count
+C0=Power off Retract Count
+C2=Hőmérséklet
+C7=SATA CRC hibák száma
+F1=Összes írás
+F2=Összes olvasás
+
+[SmartMaxiotek] ; Added 8.8.6
+05=Áthelyezett szektorok száma
+09=Bekapcsolva töltött órák
+0C=Ki/be kapcsolások száma
+A7=SSD Protect Mode
+A8=PHY Error Count
+A9=Bad Block Count
+AB=Programhibák száma
+AC=Törlési hibák száma
+AD=Törlések száma
+AF=Bad Cluster Table Count
+B1=Read Retry Count
+B4=Spare Block Count Left
+BB=Reported UNC Errors
+C0=Kikapcsolási visszahúzások száma
+C2=Hőmérséklet
+C4=Áthelyezési kisérletek száma
+C7=UDMA CRC hibák száma
+CE=Legkisebb törlési szám
+CF=Maximum Erase Count
+D0=Átlagos törlés szám
+D1=Minimum Erase Count of SLC block
+D2=Maximum Erase Count of SLC block
+D3=Average Erase Count of SLC block
+E7=SSD Life Left
+E9=Write Counts Sectors to Nand
+EA=Read Counts Sectors from Nand
+F1=Összes írás
+F2=Összes olvasás
+F5=Bithiba számláló
+
+[SmartSeagateBarraCuda] ; Added 8.9.0
+01=UECC Error Count
+05=Retired Sectors Count
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+10=Spare Blocks Available
+11=Remaining Spare Blocks
+A8=SATA PHY Error Count
+AA=Bad Block Count
+AB=Programhibák száma
+AC=Törlési hibák száma
+AD=Törlések száma
+AE=Váratlan feszültségkimaradás
+B1=Wear Range Delta
+B5=Program Fail Count
+B6=Törlési hibák száma
+C0=Kikapcsolási visszahúzások száma
+C2=Hőmérséklet
+C9=Szoftveres olvasási hibák száma
+CC=Szoftveresen javított hibák száma
+DA=CRC hibák száma
+E7=SSD Life Left
+E8=Read Failure Block Count
+E9=NAND GiB Written
+EA=Lifetime Writes To Flash
+EB=Írt NAND szektorok száma
+F1=Összes írás
+F2=Összes olvasás
+FA=Olvasási újrapróbálkozások száma
+
+[SmartYmtc] ; Added 8.10.0
+05=New Bad Block Count
+09=Bekapcsolva töltött órák
+0C=Ki-be kapcsolások száma
+AA=Max Bad Block Count
+A8=SATA PHY Error Count
+A9=Bad Block Count
+AB=Programhibák száma
+AC=Törlési hibák száma
+AD=Törlések száma
+AF=Bad Cluster Count
+B7=SATA sebességesés
+B8=Paritáshibák száma
+BB=Jelentett javíthatatlan hibák
+BE=Ház hőmérséklet (100-X)
+C0=Kikapcsolási visszahúzások száma
+C4=Áthelyezési kisérletek száma
+C7=CRC hibák száma
+CE=Legkisebb törlési szám
+CF=Maximum Erase Count
+D0=Átlagos törlés szám
+D1=SLC Minimum Erase Count
+D2=SLC Maximum Erase Count
+D3=SLC Average Erase Count
+E7=SSD Life Left
+E9=Write sector count to NAND
+EA=Read sector count to NAND
+F1=Összes írás
+F2=Összes olvasás
+F3=NAND Hőmérséklet
+F5=Bithiba számláló
+
+[SmartScy] ;Added 8.12.8
+01=Raw Read Error Rate
+05=Reallocated Sector Count
+07=Seek Error Rate
+09=Power-On Hours
+0C=Drive Power Cycle Count
+A7=Average Erase Count
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Erase Count
+B1=Read Retry Count
+B4=Spare Block Count Left
+B7=Runtime Bad Block
+BB=Reported UNC Errors
+C0=Unexpected Power Loss Count
+C2=Controlled Temperature
+C3=Cumulative ECC Bit Correction Count
+C4=Reallocated Event Count
+C5=Current Pending Sector
+C7=UDMA CRC Error Count
+E7=SSD Life Left
+F1=Total LBAs Written
+F2=Total LBAs Read
+F5=Total Nand Flash Written
+
+[SmartRecadata] ;Added 8.14.0
+07=Seek Error Rate
+09=Power-On Hours
+0C=Drive Power Cycle Count
+A7=Average erase count
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Erase Count
+B1=Read Retry Count
+B4=Spare Block Count Left
+B7=Runtime Bad Block
+BB=Reported UNC Errors
+C0=Unexpected Power Loss Count
+C2=Controlled temperature
+C3=Cumulative ECC Bit Correction Count
+C4=Reallocated Event Count
+C5=Current Pending Sector
+C7=UDMA CRC Error Count
+E7=SSD Life Left
+F1=Total LBAs written
+F2=Total LBAs read
+F5=Total Nand Flash Written
+
+[SmartSanDiskHp] ;Added 8.17.0
+01=Raw Read Error Rate
+05=Reassigned Block Count
+09=Power On Hours
+0C=Drive Power Cycle Count
+AA=Reserved Block Count
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Wear Leveling Count
+AE=Unexpected Power Loss Count
+B0=Unused Reserved Block Count
+B7=SATA Interface Downshift Count
+B8=End to End Error Detection/Correction Count
+BB=Uncorrectable Error Count
+BC=Command Time Out
+BE=Airflow Temperature
+C2=Temperature
+C4=Reallocated Event Count
+C7=CRC Error Count
+C9=SSD Life Left
+E6=Media Wearout Indicator
+F1=Total LBAs Written
+F2=Total LBAs Read
+F3=Throttle Statistics
+F4=Temperature Throttle Status
+F9=TLC NAND GB Writes
+
+[SmartSanDiskHpVenus] ;Added 8.17.0
+01=Raw Read Error Rate
+05=Reassigned Block Count
+09=Power On Hours
+0C=Drive Power Cycle Count
+AA=Reserved Block Count
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Wear Leveling Count
+AE=Unexpected Power Loss Count
+B0=Unused Reserved Block Count
+B7=SATA Interface Downshift Count
+B8=End to End Error Detection/Correction Count
+BB=Uncorrectable Error Count
+BC=Command Time Out
+BE=Airflow Temperature
+C2=Temperature
+C4=Reallocated Event Count
+C7=CRC Error Count
+C9=SSD Life Left
+E6=Media Wearout Indicator
+F1=Total LBAs Written
+F2=Total LBAs Read
+F3=Total NAND Writes
+F4=Temperature Throttle Status
+F9=TLC NAND GB Writes
+
+[SmartSanDiskDell] ;Added 8.17.0
+05=Reassigned Block Count
+09=Power On Hours
+0C=Drive Power Cycle Count
+AF=Program Fail Count (Worst Case Component)
+B0=Erase Fail Count (Worst Case Component)
+B1=Wear Leveling Count
+B2=Used Reserved Block Count (Worst Case Component)
+B3=Used Reserved Block Count (SSD Total)
+B4=Remaining Reserved Block Count (SSD Total)
+B5=Program Fail Count (SSD Total)
+B6=Erase Fail Count (SSD Total)
+BB=Uncorrectable Error Count
+C2=Temperature
+C3=ECC Rate
+C7=CRC Error Count
+E6=Media Wearout Indicator
+EE=Media Wearout Indicator (Cycles Remaining)
+F1=Total LBAs Written
+F2=Total LBAs Read
+
+[SmartSanDiskLenovo] ;Added 8.17.0
+05=Reassigned Block Count
+09=Power On Hours
+0C=Drive Power Cycle Count
+A6=Minimum P/E Cycles
+A7=Maximum Bad Blocks per Die
+A8=Maximum P/E cycles
+A9=Total Bad Blocks
+AA=Grown Bad Blocks
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Average P/E Cycles Attribute
+AE=Unexpected Power Loss Count
+B2=Used Reserved Block Count
+B4=Remaining Reserved Block Count
+B8=End to End Error Detection/Correction Count
+BB=UECC Count
+BC=Command Time Out
+C2=Temperature
+C7=SATA CRC Errors
+D4=SATA PHY Errors
+E6=Media Wearout Indicator
+E8=Available Reserved Space
+E9=NAND GB Written
+EA=NAND GB Written (SLC)
+F1=Total Host GB Write
+F2=Total GB Read
+F3=Throttle Statistics
+F4=Thermal Throttle Status
+
+[SmartSanDiskLenovoHelenVenus] ;Added 8.17.0
+05=Reassigned Block Count
+09=Power On Hours
+0C=Drive Power Cycle Count
+A6=Minimum P/E Cycles
+A7=Maximum Bad Blocks per Die
+A8=Maximum P/E cycles
+A9=Total Bad Blocks
+AA=Grown Bad Blocks
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Average P/E Cycles Attribute
+AE=Unexpected Power Loss Count
+B2=Used Reserved Block Count
+B4=Remaining Reserved Block Count
+B8=End to End Error Detection/Correction Count
+BB=UECC Count
+BC=Command Time Out
+C2=Temperature
+C7=SATA CRC Errors
+D4=SATA PHY Errors
+E8=Available Reserved Space
+E9=Media Wearout Indicator
+EA=NAND GB Written (SLC)
+F1=Total Host GB Write
+F2=Total GB Read
+F3=Throttle Statistics
+F4=Thermal Throttle Status
+F9=NAND GB Written (TLC)
+
+[SmartMicronMU03] ;Added 8.17.0
+01=Raw Read Error Rate
+05=Reallocated NAND Block Count
+09=Power On Hours Count
+0C=Power Cycle Count
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Average Block Erase Count
+AE=Unexpected Power Loss Count
+B4=Unused Spare NAND Blocks
+B5=Non-4K Aligned Access
+B7=SATA interface Downshift
+B8=Error Correction Count
+BB=Reported Uncorrectable Errors
+C2=Temperature
+C4=Reallocation Event Count
+C5=Current Pending ECC Count
+C6=SMART Offline Scan Uncorrectable Error Count
+C7=UDMA CRC Error Count
+CA=Lifetime Remaining
+CE=Write Error Rate
+D2=Successful RAIN Recovery Count
+F0=Host Program Page Count
+F1=Total LBAs Written
+F2=Total LBAs Read
+F3=Total Program Page Count
+F6=Cumulative Host Sectors Written
+F7=Host Program NAND Pages Count
+F8=FTL Program NAND Pages Count
+
+[SmartSanDiskCloud] ;Added 9.0.0
+05=Retired Block Count
+09=Power On Hours
+0D=Count of Uncorrectable ECC Errors
+20=Write Amplification multiplied by 100
+21=Write Amplification Factor
+AA=Reserve Block Count
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Average Write/Erase Count
+AE=Unexpected Power Loss Count
+B2=SSD Life Left (upto 0.01%)
+BF=Clean Shutdown Count
+C0=Unclean Shutdown Count
+C2=Temperature
+C4=Number of Blocks Reallocated
+E6=Percent of Total Write/Erase Count
+E8=Spare Blocks Remaining
+E9=Total Nand Writes 64GB
+EB=Capacitor Health
+F1=Total Host Writes 64GB
+F2=Total Host Reads 64GB
+F4=Lifetime Thermal Throttle Activations
+F5=Percent Drive Life Remaining
+FD=SPI Tests Remaining
+
+[SmartSiliconMotionCVC] ;Added 9.3.0
+05=Re-Assigned Count
+09=Power-On Hours Count
+0C=Drive Power Cycle Count
+A5=SLC Cache
+AA=Grown Bad Block Count
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Avg Erase Count
+AE=Unexpected Power Loss Count
+AF=Program Fail Count (Worst case)
+B7=Total SATA Link Speed Downshift
+B8=End-to-End Data Errors corrected
+BB=Uncorrectable Errors
+BD=Max Erase Count
+BE=Temperature
+BF=Min Erase Count
+C3=Read Error Rate
+C6=Off-Line Scan Uncorrectable Sector Count
+C7=SATA CRC Error Count
+CA=SSD Life Left
+E8=Total Spare Counts
+E9=TLC NAND Write
+F1=Host Write
+F2=Host Read
+94=RAID Event Count
+95=RAID Uncorrectable Count
+A7=SSD Protect Mode
+93=Soft Retry Event Count
+EA=SLC NAND Write
+
+[SmartAdataIndustrial] ;Added 9.3.1
+09=Power-On hours Count
+0C=Drive Power Cycle Count
+A7=SSD Protect Mode
+A8=SATA PHY Error Count
+A9=Bad Block Count
+AD=Erase Count
+AF=Bad Cluster Table Count
+B4=Spare block count left
+C0=Unexpected Power Loss Count
+C2=Temperature
+E7=SSD life left
+E9=Flash Write Sector Count
+EA=Flash Read Sector Count
+F1=Write Sector Count
+F2=Read Sector Count

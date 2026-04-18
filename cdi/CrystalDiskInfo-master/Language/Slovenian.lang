@@ -1,0 +1,1745 @@
+[Information]
+; (Latest Translator, First Translator, Second Translator ...)
+TRANSLATOR=Jadran Rudec, Boris Urbančič
+VERSION=CrystalDiskInfo 9.2.0
+
+[Language]
+LANGUAGE=Slovenščina
+CHARACTER_CODE=Unicode (UTF-16, LE, w/ BOM)
+; Locale ID: https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c?redirectedfrom=MSDN
+LOCALE_ID=0x0424
+
+[Url]
+WIKIPEDIA_SMART=https://en.wikipedia.org/wiki/Self-Monitoring,_Analysis_and_Reporting_Technology
+
+[Menu]
+FILE=&Datoteka
+CUSTOMIZE=&Prilagodi
+EXIT=&Izhod
+EDIT=&Uredi
+COPY=&Kopiraj
+FUNCTION=&Funkcije
+HIDE_SMART_INFO=Skrij podatke &S.M.A.R.T.
+HIDE_SERIAL_NUMBER=Skrij serijsko &številko
+SHOW_DRIVE_LETTER=Prikaži &črke pogonov
+ADVANCED_DISK_SEARCH=&Napredno iskanje diskov
+EVENT_LOG=&Dnevnik dogodkov
+AAM_APM_CONTROL=Spremljanje AA&M/APM
+AUTO_AAM_APM_ADAPTION=Samodejno prilagajanje AAM/A&PM
+RESIDENT=S&talno
+STARTUP=&Zagon
+OPEN_DISK_MANAGEMENT=Odpri '&Upravljanje diskov'
+OPEN_DEVICE_MANAGER=Odpri 'Upravitelja &naprav'
+ADVANCED_FEATURE=Napredne &funkcije
+REFRESH=&Osveži
+RESCAN=Pri&kaži
+DISABLE=&Onemogoči
+AUTO_REFRESH=S&amodejno osveži
+AUTO_REFRESH_TARGET=Samodejno osveži &cilj
+AUTO_REFRESH_TARGET_ALL_DISK=Samodejno osveži - Iz&beri vse diske
+AUTO_REFRESH_UNTARGET_ALL_DISK=Samodejno osveži - Odstrani vse izbrane diske
+WAIT_TIME_AT_STARTUP=&Čakalni čas ob zagonu
+GRAPH=&Graf
+THEME=&Tema
+DISK=Di&sk
+HELP=Po&moč
+HELP_WEB=P&omoč [splet]
+HELP_ABOUT=&Vizitka
+HELP_ABOUT_SMART=Podatki o &S.M.A.R.T. (Wikipedia) [splet]
+LANGUAGE=&Jezik
+ITEM=V&nos
+TEMPERATURE_TYPE=Vrsta &temperature
+CELSIUS=Celzij (°C)
+FAHRENHEIT=Fahrenheit (°F)
+HEALTH_STATUS_SETTING=&Nastavitev stanja
+
+;Graph
+OPTION=&Možnost
+LEGEND_POSITION=&Položaj legende
+NORTH_WEST=&Levo zgoraj
+NORTH_EAST=&Desno zgoraj
+SOUTH_WEST=Levo &spodaj
+SOUTH_EAST=Desno spodaj
+MAX_PLOT_POINT=&Največ točk izrisa
+TIME_FORMAT=&Oblika časa
+PAINT_WEEKEND=Po&barvaj konec tedna
+ALL=&Vse
+
+;2.7.0
+COPY_OPTION=&Možnost kopiranja
+RESIDENT_STYLE=&Stalni slog
+MINIMIZE=Poman&jšaj
+HIDE=&Skrij
+
+;3.0.0
+ZOOM=&Povečava
+AUTO=Sam&odejno
+ATTRIBUTE=&Atribut
+
+;3.5.0
+ASCII_VIEW=Prikaz ASCII
+AUTO_DTECTION=Samodejno zaznavanje
+SECOND=sek.
+MINUTE=min.
+HOUR=ur
+
+:3.9.4
+WORKAROUND=&Začasne rešitve
+
+;4.0.0
+ALERT_MAIL=Opozorilna e-pošta
+MAIL_SETTINGS=Nastavitve E-pošte
+SMART_IN_ENGLISH=S.M.A.R.T. v angleščini
+FONT_SETTING=Nastavitve pisave
+
+;5.0.0
+ALERT_FEATURES=Funkcije opozori&la
+ALARM_HISTORY=Zgodovina alarmov
+ALERT_SOUND=Zvok opozorila
+SOUND_SETTINGS=Nastavitve zvoka
+GADGET_SUPPORT=Podpora pripomočkov
+INSTALL_GADGET=Namesti pripomoček
+ENABLE_AUTO=Omogoči (Samodejno zaznavanje)
+ENABLE_ALL=Omogoči (Vsi diski)
+ENABLE_RAID=Omogoči (Samo nosilec RAID)
+
+;6.0.0
+HIDE_NO_SMART_DISK=&Skrij ne S.M.A.R.T. diske 
+GREEN_MODE=&Zeleni način
+
+;8.6.0
+SAVE_TEXT=Shrani (&besedilo)
+SAVE_IMAGE=&Shrani (slika)
+
+;9.0.0
+DRIVE_SORT_METHOD=Metoda razvrščanja pogona
+PHYSICAL_DRIVE_ID=ID fizičnega pogona
+DRIVE_LETTER=Črka pogona
+DRIVE_MENU_NUMBER=Prikaz števila pogonov
+
+;9.2.0
+VOICE=Glas
+
+;9.3.0
+STARTUP_VOICE=Startup Voice
+
+;9.5.0
+HIDE_RAID_VOLUME=Hide &RAID Volume
+[TrayMenu]
+EXIT=Zapri program
+REFRESH=Osveži
+RESCAN=Znova preglej
+ENABLE=Omogoči
+DISABLE=Onemogoči
+ENABLE_ALL=Omogoči vse
+DISABLE_ALL=Onemogoči vse
+AUTO_REFRESH=Samodejno osveži
+AUTO_REFRESH_01_MIN=1 min.
+AUTO_REFRESH_03_MIN=3 min.
+AUTO_REFRESH_05_MIN=5 min.
+AUTO_REFRESH_10_MIN=10 min.
+AUTO_REFRESH_30_MIN=30 min.
+AUTO_REFRESH_60_MIN=60 min.
+AUTO_REFRESH_TARGET=Samodejno osveži cilj
+AUTO_REFRESH_TARGET_ALL_DISK=Samodejno osveži - Označi vse diske
+AUTO_REFRESH_UNTARGET_ALL_DISK=Samodejno osveži - Odznači vse diske
+ALARM_SETTING_TEMPERATURE=Nastavitve alarma - Temperatura
+ALARM_SETTING_HEALTH_STATUS=Nastavitev alarma - Stanje diska
+SHOW_MAIN_WINDOW=Prikaži glavno okno
+SHOW_TEMPERATURE_ICON=Prikaži ikono temperature
+SHOW_ALL_TEMPERATURE_ICON=Prikaži vse ikone temperature
+HIDE_ALL_TEMPERATURE_ICON=Skrij vse ikone temperature
+COLLECTIVE_SETTING=Skupna nastavitev
+GRAPH=Graf
+;Added 3.0
+SHOW_TEMPERATURE_ICON_ONLY=Prikaži le ikono temperature
+
+[DiskStatus]
+GOOD=Dobro
+CAUTION=Pozor!
+BAD=Slabo
+UNKNOWN=Neznano
+DISK=Disk
+
+[Dialog]
+LIST_ID=ID
+LIST_CURRENT=Trenutno
+LIST_WORST=Najslabše
+LIST_THRESHOLD=Prag
+LIST_RAW_VALUES=Surove vrednosti
+;LIST_DESCRIPTION=Opis
+LIST_ATTRIBUTE_NAME=Ime atributa
+
+FIRMWARE=Vdelana prog. oprema
+SERIAL_NUMBER=Serijska številka
+INTERFACE=Vmesnik
+STANDARD=Standard
+TRANSFER_MODE=Način prenosa
+BUFFER_SIZE=Velik. medpomnilnika
+NV_CACHE_SIZE=Velik. predpomnilnika NV
+ROTATION_RATE=Stopnja vrtenja
+TEMPERATURE=Temperatura
+POWER_ON_HOURS=Ur delovanja
+POWER_ON_COUNT=Št. vklopov napajanja
+DRIVE_LETTER=Črka pogona
+FEATURE=Funkcije
+HEALTH_STATUS=Stanje diska
+
+UNKNOWN=Neznano
+POWER_ON_COUNT_UNIT=krat
+POWER_ON_HOURS_UNIT=ur
+POWER_ON_DAYS_UNIT=dni
+POWER_ON_YEARS_UNIT=let
+
+;4.3
+TOTAL_HOST_WRITES=Skup. pisanj gostitelja
+TOTAL_HOST_READS=Skup. branj gostitelja
+TOTAL_NAND_WRITES=Skup. pisanj NAND 
+
+;4.5
+WEAR_LEVELING_COUNT=Štev. izravnav obrabe
+
+;6.1
+CURRENT_MODE_SUPPORTED_MODE=Trenutni način | Podprti način
+MAJOR_VERSION_MINOR_VERSION=Glavna različica | Nižja različica
+
+;8.5.0
+FONT_FACE=Pisava
+FONT_SCALE=Velikost (%)
+DEFAULT=Privzeto
+OK=Vredu
+
+;8.9.0
+ENABLED=Omogočeno
+DISABLED=Onemogočeno
+
+[Message]
+DETECT_UNIT_POWER_ON_HOURS=Enota zaznavanja 'Ur delovanja' (traja prib. 130 sek.)
+DETECT_DISK=Zaznavanje diska
+PLEASE_ENABLE_WMI=Omogoči WMI (Windows Management Instrumentation)
+PLEASE_RESTART_THIS_APPLICATION=Za spremembo teme znova zaženite program
+DISK_NOT_FOUND=Diska ni mogoče najti
+
+[Alarm]
+ALARM_TEMPERATURE=Alarm - Temperatura
+ALARM_HEALTH_STATUS=Alarm - Stanje diska
+DEGRADATION=Upadanje
+RECOVERY=Obnovitev
+;3.5.0
+ALARM_HEALTH_STATUS=Stanje diska
+
+[Graph]
+PLEASE_SELECT_ITEM=Izberite vnos
+ACTUAL_VALUE=Dejanska vrednost (surova vrednost)
+NORMALIZED_VALUE=Normalizirana vrednost (trenutna vrednost)
+ALL_ON=Vse vključeno
+ALL_OFF=Vse izključeno
+RESET=Ponastavi
+
+[Customize]
+LINE_COLOR=Barva črte
+BACKGROUND_IMAGE=Slika ozadja
+SUPPORTED_IMAGE_FORMAT=Podprt format slike
+ALL_FILES=Vse datoteke
+
+;5.0.0
+SUPPORTED_SOUND_FORMAT=Podprti zvočni formati
+
+[AamApm]
+AAM_LOW=<- Tiho (80h)
+AAM_HIGH=Izvedba (FEh) ->
+AAM_RECOMMEND=Priporočena vrednost
+APM_LOW=<- Najmanjša poraba (01h)
+APM_HIGH=Izvedba (FEh) ->
+;3.5.0
+AUTOMATIC_ACOUSTIC_MANAGEMENT=Samodejno akustično upravljanje (AAM)
+ADVANCED_POWER_MANAGEMENT=Napredno upravljanje napajanja (APM)
+
+[WindowTitle]
+ABOUT=Vizitka CrystalDiskInfo
+GRAPH=Graf
+CUSTOMIZE=Prilagodi
+VERSION_INFORMATION=Podatki o različici
+AAM_APM_CONTROL=Spremljanje AAM/APM
+HEALTH_STATUS_SETTING=Nastavitve stanja
+
+;5.0.0
+ALARM_HISTORY=Zgodovina alarmov
+SOUND_SETTINGS=Nastavitve zvoka
+
+;5.1.0
+FONT_SETTING=Nastavitve pisave
+
+[HealthStatus]
+THRESHOLD_OF_CAUTION=Prag opozorila
+APPLY=Uporabi
+DEFAULT=Privzeto
+
+[Smart]
+UNKNOWN=Neznano
+VENDOR_SPECIFIC=Specifično za prodajalca
+01=Stopnja bralnih napak
+02=Izvedba pretoka
+03=Čas vrtenja
+04=Štev. začetkov/ustavljanj
+05=Štev. prerazporejenih sektorjev
+06=Branj roba kanala
+07=Stopnja iskalnih napak
+08=Izvedba iskalnega časa
+09=Štev. ur napajanja
+0A=Štev. ponovnih poskusov vrtenja
+0B=Poskusov ponovne umeritve
+0C=Štev. ciklov napajanja
+0D=Stopnja mehkih bralnih napak stab
+16=Trenutna raven Helija
+B8=Napaka 'od konca-do konca'
+BB=Prijavljeno nepopravljivih napak
+BC=Prekinitev ukaza
+BD=Pisanj v visokem letu
+BE=Temperatura pretoka zraka
+BF=Stopnja napak 'G-Sense'
+C0=Štev. umikov izklopa napajanja
+C1=Štev. ciklov nalaganj/razlaganj
+C2=Temperatura
+C3=Obnovljena ECC strojna oprema
+C4=Štev. prerazporeditev dogodkov
+C5=Štev. trenutno čakajočih sektorjev
+C6=Štev. nepopravljivih sektorjev
+C7=Štev. napak CRC UltraDMA
+C8=Stopnja napak pisanja
+C9=Stopnja mehkih napak branja
+CA=Napaka oznake podatkovnega naslova
+CB=Manjkajoč preklic
+CC=Mehki popravek ECC
+CD=Stopnja toplotne trdnosti
+CE=Višina letenja
+CF=Trenutna višina vrtenja
+D0=Brnenje vrtenja
+D1=Izvedba iskanja brez povezave
+D3=Vibracije pri pisanju
+D4=Šok pri pisanju
+DC=Odmik diska
+DD=Stopnja napak 'G-Sense'
+DE=Naložen ur
+DF=Štev. ponovnih poskusov nalaganja/razlaganja
+E0=Trenje nalaganja
+E1=Štev. ciklov nalaganj/razlaganj
+E2=Obremenitev 'v-času'
+E3=Štev. okrepitev navora
+E4=Cikel umika izklopa napajanja
+E6=Amplituda glave GMR
+E7=Temperatura
+F0=Ur letenja glave
+FA=Stopnja ponovnega poskusa bralnih napak
+FE=Zaščita pred prostim padcem
+
+;Updated 5.4.0
+F1=Skup. pisanj gostitelja
+F2=Skup. branj gostitelja
+
+;Updated 9.5.0
+17=Helium Condition Lower
+18=Helium Condition Upper
+1B=MAMR Health Monitor
+
+[SmartSsd]
+01=Stopnja bralnih napak
+02=Zmogljivost pretoka
+03=Čas vrtenja
+04=Štev. začetkov/ustavljanj
+05=Štev. prerazporejenih sektorjev
+06=Branj roba kanala
+07=Stopnja iskalnih napak
+08=Uspešnost iskalnega časa
+09=Štev. ur napajanja
+0A=Štev. ponovnih poskusov vrtenja
+0B=Poskusov ponovne umeritve
+0C=Štev. ciklov napajanja
+0D=Stopnja mehkih bralnih napak vboda
+C0=Štev. nevarnih izklopov
+C2=Temperatura
+C4=Štev. prerazporeditev dogodkov
+C5=Štev. trenutno čakajočih sektorjev
+C6=Štev. nepopravljivih sektorjev
+; CrystalDiskInfo assign
+FF=Preostalo življenje
+
+;Updated 5.4.0
+F1=Skup. pisanj gostitelja
+F2=Skup. branj gostitelja
+
+[SmartMtron]
+BB=Skup. štev. brisanj
+
+[SmartIndilinx]
+01=Stopnja bralnih napak
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+C2=Temperatura
+B8=Začetno štev. slabih blokov
+C3=Štev. blokov neuspelih programov
+C4=Štev. blokov neuspelih brisanj
+C5=Štev. neuspelih branj blokov
+C6=Skup. štev. branj sektorjev
+C7=Skup. štev. pisanj sektorjev
+C8=Skup. štev. ukazov za branje
+C9=Skup. štev. ukazov za pisanje
+CA=Skup. štev. napak bitov iz Flasha
+CB=Skup. štev. branj sektorjev z napakami popravljivega bita
+CC=Polna zastavica slebega bloka
+CD=Specifikacija največjega štev. PE
+CE=Najmanjše štev. brisanj
+CF=Največje štev. brisanj
+D0=Povprečno štev. brisanj
+D1=Preostanek življenja naprave
+
+[SmartJMicron60x]
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+C2=Temperatura
+E5=ID ustavitve sistema, ID Flasha
+E8=Podatki o različici vdelane programske opreme
+E9=Zapis neuspeha ECC
+EA=Povprečno štev. brisanj, Največje štev. brisanj
+EB=Štev. dobrih blokov, Štev. sistemskih blokov
+
+[SmartIntel]
+03=Čas vrtenja
+04=Štev. Zagonov/Zaustavitev
+05=Štev. prerazporejenih sektorjev
+09=Štev. ur napajanja
+0C=Štev. ciklov napajanja
+AA=Razpoložljivi rezerviran prostor
+AB=Štev. neuspelih programov
+AC=Štev. neuspelih brisanj
+AE=Nepričakovana izguba napajanja
+AF=Neuspeh zaščite pred izgubo napajanja
+B7=Štev. upadov SATA
+B8=Štev. zaznavanj napak 'od konca-do konca'
+BB=Štev. nepopravljivih napak
+BE=Temperatura
+C0=Štev. nevarnih izklopov sistema
+C2=Temperatura
+C5=Štev. čakajočih sektorjev
+C7=Štev. napak CRC
+E1=Pisanj gostitelja
+E2=Časov. omejena delovna obremenitev obrabe medija
+E3=Razmerje pisanja/branja časovno omejene delovne obremenitve gostitelja
+E4=Časovnik omejene delovne obremenitve
+E8=Razpoložljivi rezerviran prostor
+E9=Kazalnik obrabe medija
+EA=Stanje termičnega dušenja
+F1=Skupno pisanj v LBA
+F2=Skupno branj LBA
+F3=Skupno pisanj v NAND
+F9=Skupno pisanj v NAND
+
+[SmartSamsung] ;Updated 6.6
+05=Štev. prerazporejenih sektorjev
+09=Ur napajanja
+0C=Štev. vklopov
+AF=Štev. neuspelih programov (Čip)
+B0=Štev. neuspelih brisanj (Čip)
+B1=Štev. izravnave obrabe
+B2=Štev. uporabljenih rezervir. blokov (Čip)
+B3=Štev. uporabljenih rezervir. blokov (Skupno)
+B4=Štev. neuporabljenih rezervir. blokov (Skupno)
+B5=Štev. neuspelih programov (Skupno)
+B6=Štev. neuspelih brisanj (Skupno)
+B7=Izvajanje slabih blokov (Skupno)
+BB=Štev. nepopravljivih napak
+BE=Temperatura zračnega pretoka
+C2=Temperatura
+C3=Stopnja napak ECC
+C6=Štev. nepopravljivih napak brez povezave
+C7=Štev. napak CRC
+C9=Stanje Super cap-a
+CA=Stanje načina SSD
+EB=Štev. obnovitev POR-a
+F1=Skupno zapisano LBA
+F2=Skupno prebrano LBA
+
+;Added 6.6
+AA=Štev. neuporabljenih rezervir. blokov (Čip) 
+AB=Štev. neuspelih programov (Čip)
+AC=Štev. neuspelih brisanj (Čip)
+AD=Štev. izravnave obrabe
+AE=Štev. nepričakovanih izgub napajanja
+B8=Zaznavanje napak
+E9=Normalizirana obraba medija
+
+[SmartSandForce] ;Updated 3.7.0
+01=Stopnja surovih bralnih napak
+05=Štev. upokojenih blokov
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+0D=Stopnja mehkih bralnih napak
+64=Izbrisano gigabajtov
+AA=Štev. rezervnih blokov
+AB=Štev. neuspehov programa
+AC=Štev. neuspehov brisanja
+AE=Štev. nepričakovanih izgub napajanja
+B1=Območje obrabe Delta
+B5=Štev. neuspehov programa
+B6=Štev. neuspehov brisanja
+B8=Prijavljena V/I napaka 'Napake zaznavanja kode'
+BB=Prijavljeno nepopravljivih napak
+C2=Temperatura
+C3=Štev. nepopravljivih ECC napak 'v letu'
+C4=Štev. dogodkov prerazporeditve
+C6=Štev. nepopravljivih sektorjev
+C7=Štev. napak SATA R-napake
+C9=Nepopravljiva stopnja mehkih bralnih napak
+CC=Stopnja mehkega popravka ECC
+E6=Stanje zašlite življenja pogona
+E7=Preostalo življenje SSD
+E8=Razpoložljiv rezerviran prostor
+EB=Stanje varnostne kopije izpada napajanja
+F1=Doživljenskih pisanj iz gostitelja
+F2=Doživljenskih branj gostitelja
+
+[SmartJMicron61x] ;Added 3.9.0
+01=Stopnja bralnih napak
+02=Zmogljivost pretoka
+03=Čas vrtenja
+05=Štev. prerazporejenih sektorjev
+07=Stopnja napak iskanja
+08=Izvedba časa iskanja
+09=Ur napajanja
+0A=Štev. ponovitev vrtenja
+0C=Štev. ciklov napajanja
+A8=Štev. PHY napak SATA
+AF=Štev. tabel slabih gruč (Štev. neuspehov ECC)
+C0=Štev. nepričakovanih izgub napajanja
+C2=Temperatura
+C5=Trenutno štev. sektorjev na čakanju
+AA=Štev. slabih blokov
+AD=Štev. brisanj
+
+[SmartMicron] ;Added 4.0.0/ Updated 6.6.0
+; RAIN = Odvečna matrika neodvisnega NAND-a
+01=Stopnja surovih bralnih napak
+05=Prerazporejenih blokov NAND
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+0D=Stopnja mehkih napak
+0E=Kapaciteta naprave (NAND)
+0F=Uporabniška kapaciteta
+10=Razpoložljivih rezervir. blokov
+11=Preostanek rezervir. blokov
+64=Skup. štev. brisanj
+AA=Štev. rezervir. blokov
+AB=Štev. neuspelih programov
+AC=Štev. neuspelih brisanj
+AD=Povprečno štev. brisanj blokov
+AE=Štev. nepričakovanih izgub napajanja
+B4=Neuporabljeno rezervnih blokov NAND
+B5=Štev. neusklajenih dostopov
+B7=Upadanje vmesnika SATA
+B8=Štev. popravkov napak
+BB=Prijavljeno nepopravljivih napak
+BC=Štev. prekinitev ukaza
+BD=Tovarniško štev. slabih blokov
+C2=Temperatura
+C3=Kumulativno štev. popravkov bita ECC
+C4=Štev. dogodkov prerazporeditve
+C5=Štev. trenutno čakajočih sektorjev
+C6=Štev. nepopravljivih napak pametnega pregleda brez povezave
+C7=Stopnja napak Ultra DMA CRC
+CA=Odstot.uporabljenega življenja
+CE=Stopnja napak pri pisanju
+D2=Štev. uspešnih obnovitev RAIN
+EA=Skupno branj bajtov
+F2=Napredek zaščite pisanja
+F3=Popravljeno bitov ECC
+F4=Kumulativni prag dogodkov ECC 
+F5=Strani NAND kumulativnega programa
+F6=Skupno pisanj gostiteljskih sektorjev
+F7=Štev. strani gostiteljskega programa
+F8=Štev. strani programa v ozadju
+
+; Updated 8.11.0
+F9=Skupno štev. ISP za osvežitev
+FA=Skupno štev. Do RefCal
+FB=Skupno štev. bralnih ravnin NAND (nizki 4 bajti)
+FC=Skupno štev. bralnih ravnin NAND (visoki 4 bajti)
+FD=Skupno štev. prehodov za ponovno preslikavo blokov
+FE=Skupno štev. pregledov v ozadju nad omejitvijo
+DF=Skupno pregledov v ozadju
+
+[SmartMicronMU02] ;Updated 8.17.0
+; RAIN = Odvečna matrika neodvisnega NAND-a
+01=Stopnja surovih bralnih napak
+05=Štev. prerazporejenih sektorjev
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+0D=Stopnja mehkih napak
+0E=Kapaciteta naprave (NAND)
+0F=Uporabniška kapaciteta
+10=Razpoložljivih rezervir. blokov
+11=Preostanek rezeriranih blokov
+64=Skup. štev. brisanj
+AA=Štev. rezervir. blokov
+AB=Štev. neuspelih programov
+AC=Štev. neuspelih brisanj
+AD=Povprečno štev. brisanja blokov
+AE=Štev. nepričakovanih izgub napajanja
+B4=Neuporabljeno rezervnih blokov NAND
+B7=Upadanje vmesnika SATA
+B8=Štev. popravkov napak
+BB=Prijavljeno nepopravljivih napak
+BC=Štev. prekinitev ukaza
+BD=Tovarniško štev. slabih blokov
+C2=Temperatura
+C3=Kumulativno štev. popravkov bita ECC
+C4=Štev. dogodkov prerazporeditve
+C5=Štev. trenutno čakajočih sektorjev
+C6=Štev. nepopravljivih napak pametnega pregleda brez povezave 
+C7=Stopnja napak Ultra DMA CRC
+CA=Odstot.uporabljenega življenja
+CE=Stopnja napak pri pisanju
+D2=Štev. uspešnih obnovitev RAIN
+EA=Skupno prebrano bajtov
+F3=Popravljeno bitov ECC
+F4=ECC kumulativni prag dogodkov
+F5=Kumulativnih strani programa NAND
+F6=Skupno pisanj gostiteljskih sektorjev
+F7=Štev. strani gostiteljskega programa
+F8=Štev. strani programa v ozadju
+
+; Updated 6.6.0
+A0=Štev. nepopravljivih sektorjev
+A1=Veljavnih rezervir. blokov
+A3=Začetnih neveljavnih blokov
+94=Total SLC Štev. brisanj
+95=Največje štev. brisanj SLC
+96=Najmanjše štev. brisanj SLC
+97=Povprečno štev. brisanj SLC
+A4=Skup. štev. brisanj NAND
+A5=Največje štev. brisanj NAND
+A6=Najmanjše štev. brisanj NAND
+A7=Povprečno štev. brisanj NAND
+A9=Odstot.preostalega življenja
+B5=Štev. neuspelih programov
+B6=Štev. neuspelih brisanj
+C0=Štev. umikov izklopa napajanja
+E8=Razpoložljivi rezerviran prostor
+F1=Skupno pisanj LBA
+F2=Skupno branj LBA
+F5=Skup. štev. pisanj NAND
+F6=Skup. štev. pisanj SLC
+F7=Štev. obnovitev RAID-a
+
+; Updated 8.10.0
+F9=Skup. štev. osveževanja ISP-ponudnikov internet. storitev
+FA=Skup. štev. Do RefCal
+FB=Skup. štev. odčitanih ravnin NAND (Nizkih 4 bajtov)
+FC=Skup. štev. odčitanih ravnin NAND (Visokih 4 bajtov)
+FD=Skup. štev. prehodov preusmeritev blokov
+FE=Skupno pregledov v ozadju čez omejitv števila
+DF=Skupno pregledov v ozadju
+
+[SmartOcz] ;Added 4.5.0
+01=Stopnja surovih bralnih napak
+03=Čas vrtenja
+04=Štev. Začetkov/Zaustavitev
+05=Štev. prerazporejenih sektorjev
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+C2=Temperatura
+E8=Skup. štev. pisanj sektorjev
+E9=Preostanek življenja
+
+; Added 6.6.0
+64=Skupno izbrisanih blokov
+A7=Način zaščite SSD
+A8=Štev. PHY napak SATA
+A9=Štev. slabih blokov
+AD=Štev. brisanj
+B8=Tovarniško štev. slabih blokov
+C0=Štev. nepričakovanih izgub napajanja
+CA=Skup. štev. popravljenih bitov
+CD=Največje ocenjeno štev. PE
+CE=Najmanjše štev. brisanj
+CF=Največje štev. brisanj
+D3=Štev. nepopravljivih napak SATA
+D4=Branj strani NAND med ponovnim poskusom
+D5=Preprostih poskusov ponovnega branja
+D6=Prilagodljivih poskusov ponovnega branja
+DD=Nepopravljivih napak notranjih podatkovnih poti
+DE=Štev. obnovitev RAID-a
+E6=Zaščita izgube napajanja
+FB=Štev. branj NAND
+
+;Updated 6.7.0
+F1=Skup. pisanj gostitelja
+F2=Skup. branj gostitelja
+
+[SmartPlextor] ;Added (5.1.0)/Updated (5.4.0)
+01=Stopnja bralnih napak
+05=Štev. prerazporejenih sektorjev
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+AA=Odraslo slabih blokov
+AB=Štev. programskih napak
+AC=Štev. neuspelih brisanj
+AD=Povpr. štev. programov/brisanj
+AE=Nepričakovano štev. izgub napajanja
+AF=Štev. napak programa (najslabši primer)
+B0=Štev. neuspelih brisanj (najslabši primer)
+B1=Štev. izravnave obrabe
+B2=Štev. uporabljenih rezervir. blokov (najslabši primer)
+B3=Štev. porabljenih rezervir. blokov
+B4=Štev. neuporabljenih rezervir. blokov (Skupno)
+B5=Štev. programskih napak
+B6=Štev. neuspelih brisanj
+B7=Premik navzdol vmesnika SATA
+B8=Popravljenih napake v podatkih od konca do konca
+BB=Štev. nepopravljivih napak
+BC=Zakasnitev ukaza 
+C0=Štev. nevarnih izklopov sistema
+C3=Stopnja ECC
+C4=Štev. dogodkov prerazporeditve
+C6=Štev. nepopravljivih sektorjev
+C7=Štev. napak ultra CRC
+E8=Razpoložljiv rezerviran prostor
+E9=NAND GB pisanj
+F1=Skupno pisanj gostitelja
+F2=Skupno branj gostitelja 
+
+[SmartSanDisk] ;Added 5.2.0
+05=Štev. prerazporejenih blokov
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+AA=Štev. rezervnih blokov
+AB=Štev. neuspelih programov
+AC=Štev. neuspelih brisanj
+AD=Povprečno štev. pisanj/brisanj
+AE=Štev. nepričakovanih izgub napajanja
+BB=Prijavljeno nepopravljivih napak
+C2=Temperatura
+E6=Odstot.skupnega štev. pisanj/brisanj
+E8=Preostanek rezervnih blokov
+EA=Odstot.skupnega štev. pisanj/brisanj (Blokov BC)
+F1=Skup. pisanj gostitelja
+F2=Skup. branj gostitelja
+
+[SmartOczVector] ;Added (5.3.0)
+05=Akumulirano izvajanje slabih blokovs
+09=Štev. ur napajanja
+0C=Štev. ciklov napajanja
+AB=Razpoložljivo previsoko štev. blokov
+AE=Štev. ciklov napajanja (Nenačrtovano)
+C2=Temperatura
+BB=Skupno nepopravljivih branj NAND
+C3=Skupno neuspešnih programiranj
+C4=Skupno neuspelih brisanj
+C5=Skupno neuspehov branja (Nepopravljivih)
+C6=Branj gostitelja
+C7=Pisanj gostitelja
+D0=Povprečno štev. brisanj
+D2=SATA Štev. napak CRC
+E9=Preostanek življenja
+F9=Skup. štev. programiranja NAND
+
+;Updated 5.5.0
+F1=Skup. pisanj gostitelja
+F2=Skup. branj gostitelja
+
+;Updated 6.6.0
+64=Skupno izbrisanih blokov
+B8=Tovarniško Skup. štev. slabih blokov
+CA=Skup. štev. popravljenih branj bitov
+CD=Največje ocenjeno štev. PE
+CE=Najmanjše štev. brisanj
+CF=Največje štev. brisanj
+D4=Skup. štev. NAND branj strani, ki zahtevajo ponovni poskus branja
+D5=Skup. štev. poskusov preprostega ponovnega branja
+D6=Skup. štev. poskusov prilagodljivega ponovnega branja
+DD=Nepopravljive napake notranje zaščite podatkovnih poti
+DE=Štev. obnovitev RAID-a
+E0=V garanciji
+E1=Polarnost DAS
+E2=Delni Pfail
+E6=Zastavica aktiviranja pisanja dušenja
+F9=Skup. štev. programiranja NAND (strani)
+FB=Skup. štev. branj NAND
+
+[SmartCorsair] ;Added 6.2.0
+01=Stopnja surovih bralnih napak
+05=Štev. upokojenih blokov
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+AA=Štev. rezervnih blokov
+AC=Štev. neuspelih brisanj
+AE=Štev. nepričakovanih izgub napajanja
+B5=Štev. neuspelih programov
+BB=Prijavljeno nepopravljivih napak
+C2=Temperatura
+C4=Štev. dogodkov prerazporeditve
+E7=Preostalo življenje SSD
+F1=Doživljenjsko pisanj GB
+F2=Doživljenjsko branj GB
+
+[SmartToshiba] ;Added 6.2.0
+01=Stopnja bralnih napak
+02=Izvedba pretočnosti
+03=Čas vrtenja
+04=Štev. Zagonov/Zaustavitev
+05=Štev. prerazporejenih sektorjev
+07=Stopnja napak iskanja
+08=Izvedba časa iskanja
+09=Ur napajanja
+0A=Štev. ponovitev vrtenja
+0B=Ponovitev ponovne kalibracije
+0C=Štev. ciklov napajanja
+A7=Način zaščite SSD
+A8=Štev. PHY napak SATA
+A9=Skup. štev. slabih blokov
+AD=Štev. brisanj
+C0=Štev. nepričakovanih izgub napajanja
+C2=Temperatura
+C4=Štev. dogodkov prerazporeditve
+C5=Štev. trenutno čakajočih sektorjev
+C6=Štev. nepopravljivih sektorjev
+F1=Skup. pisanj gostitelja
+F2=Skup. branj gostitelja
+
+[SmartSanDiskGb] ;Added 6.2.0
+01=Stopnja bralnih napak
+05=Štev. prerazporejenih blokov
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+A5=Štev. brisanj blokov (SLC)
+A6=Najmanj ciklov P/E
+A7=Največ slabih blokov/smrt
+A8=Največ ciklov P/E
+A9=Skupno slabih blokov
+AA=Odraščenih slabih blokov
+AB=Štev. neuspelih programov
+AC=Štev. neuspelih brisanj
+AD=Povprečnih ciklov P/E
+AE=Štev. nepričakovanih izgub napajanja
+B8=Štev. zaznavanj napake 'od konca-do konca'/Štev. popravkov
+BB=Prijavljeno nepopravljivih napak
+BC=Štev. prekinitev ukaza
+C2=Temperatura
+C7=Štev. napak CRC
+D4=Štev. PHY napak SATA
+E6=Kazalnik obrabe medija
+E7=Preostalo življenje SSD
+E8=Razpoložljivi rezerviran prostor
+E9=Zapisano GB v NAND
+EA=Zapisano GB v NAND (SLC)
+EE=Kazalnik obrabe medija (Preostali cikli)
+F1=Skupno zapisano GB
+F2=Skupno GB branja
+F4=Stanje dušenja temperature
+F9=Zapisano GB v NAND
+
+[SmartKingston] ;Added 6.6.0
+;https://media.kingston.com/support/downloads/MKP_521_Phison_SMART_attribute.pdf
+01=Stopnja bralnih napak
+02=Izvedba pretočnosti
+03=Čas vrtenja
+05=Štev. prerazporejenih sektorjev
+07=Stopnja napak iskanja
+08=Izvedba časa iskanja
+09=Ur napajanja
+0A=Štev. ponovitev vrtenja
+0C=Štev. ciklov napajanja
+A8=Štev. PHY napak SATA
+AA=Štev. slabih blokov
+AD=Štev. brisanj
+AF=Štev. tabel slabih gruč
+BB=Nepopravljivih napak
+C0=Štev. nevarnih izklopov sistema
+C2=Temperatura
+C4=Kasnejše štev. slabih blokov
+C5=Štev. trenutno čakajočih sektorjev
+C7=Štev. napak CRC
+DA=Štev. napak CRC
+E7=Preostalo življenje SSD
+E9=Doživljenskih pisanj na Flash
+F0=Pisanje glave
+F1=Pisanj gostitelja
+F2=Branj gostitelja
+F4=Povprečno štev. brisanj
+F5=Največje štev. brisanj
+F6=Skup. štev. brisanj
+
+[SmartNVMe] ;Added 9.7.0
+01=Kritično opozorilo
+02=Sestavljena temperatura
+03=Dostopna rezerva
+04=Preg dostopne rezerve
+05=Odstot.uporabljenega
+06=Prebrano podatkovnih enot
+07=Zapisano podatkovnih enot
+08=Ukazov za branje gostitelja
+09=Ukazov za pisanje gostitelja
+0A=Čas zasedenosti krmilnika
+0B=Ciklov napajanja
+0C=Ur napajanja
+0D=Nevarnih zaustavitev sistema
+0E=Napak celovitosti medijev in podatkov
+0F=Štev. vnosov v dnevnik informacij o napakah
+10=Warning Composite Temperature Time
+11=Critical Composite Temperature Time
+12=Temperature Sensor 1
+13=Temperature Sensor 2
+14=Temperature Sensor 3
+15=Temperature Sensor 4
+16=Temperature Sensor 5
+17=Temperature Sensor 6
+18=Temperature Sensor 7
+19=Temperature Sensor 8
+1A=Thermal Management Temperature 1 Transition Count
+1B=Thermal Management Temperature 2 Transition Count
+1C=Total Time For Thermal Management Temperature 1
+1D=Total Time For Thermal Management Temperature 2
+
+[SmartRealtek] ;Added by Realtek
+01=Stopnja napak surovih podatkov
+05=Štev. prerazporejenih sektorjev
+09=Štev. ur napajanja
+0C=Štev. ciklov napajanja
+A1=GDN
+A2=Skup. štev. brisanj
+A3=Največ ciklov PE
+A4=Povprečno štev. brisanj
+A5=Začetno štev. slabih blokov
+A6=Skup. štev. slabih blokov
+A7=Način zaščite SSD
+A8=Štev. PHY napak SATA
+A9=Stanje
+AB=Štev. neuspelih programov
+AC=Štev. neuspelih brisanj
+AE=Štev. nepričakovanih izgub napajanja
+AF=Štev. neuspehov ECC
+B5=Štev. neusklajenih dostopov
+BB=Prijavljeno nepopravljivih napak
+C2=Temperatura ohišja
+C3=Kumulativno popravljen ECC
+C4=Štev. dogodkov prerazporeditve
+C7=Ultra DMA Štev. napak CRC
+CE=Najmanjše štev. brisanj
+CF=Največje štev. brisanj
+E7=Preostalo življenje
+E8=Razpoložljivi rezerviran prostor
+F1=Življenska doba pisanja
+F2=Življenska doba branja
+F9=Skupno GB zapisanih v NAND (SLC)
+FA=Skupno GB zapisanih v NAND (SLC)
+
+[SmartSKhynix] ; Updated 8.8.0
+01=Stopnja bralnih napak
+05=Re-Štev. dodeljenih sektorjev
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+64=Skup. štev. brisanj
+A8=Najmanjše štev. brisanj
+A9=Največje štev. brisanj
+AA=Štev. rezervnih blokov
+AB=Štev. neuspelih programov
+AC=Štev. neuspelih brisanj
+AE=Štev. nepričakovanih izgub napajanja
+AF=Štev. neuspelih programov (najslabši primer)
+B0=Štev. neuspelih brisanj (najslabši primer)
+B1=Štev. izravnave obrabe
+B2=Štev. uporabljenih rezervir. blokov (najslabši primer)
+B3=Štev. uporabljenih rezervir. blokov (skupno SSD)
+B4=Štev. neuporabljenih rezervir. blokov (skupno SSD)
+B5=Štev. neuspelih programov (skupno SSD)
+B6=Štev. neuspelih brisanj (skupno SSD)
+B7=Štev. upadanj SATA
+B8=Štev. zazavanj napak 'od konca-do konca'
+BB=Štev. nepopravljivih napak
+BC=Štev. prekinitev ukaza
+BF=Štev. dogodkov 'Op-shock'
+C2=Temperatura
+C3=Stopnja ECC
+C4=Štev. dogodkov prerazporeditve
+C6=Štev. nepopravljivih sektorjev
+C7=Štev. napak CRC
+C9=Stopnja nepopravljivih mehkih bralnih napak
+CC=Stopnja mehkega popravka ECC
+D4=Štev. napak PHY
+E7=Preostalo življenje SSD
+E9=Preostalo življenje SSD
+EA=Zapisan NAND
+F1=Skupno zapisano LBA
+F2=Skupno prebrano LBA
+FA=Skup. štev. ponovitev branja NAND
+
+[SmartKioxia] ; Added 8.8.0
+09=Štev. ur napajanja
+0C=Štev. ciklov napajanja
+A7=Način zaščite SSD
+A8=Štev. PHY napak SATA
+A9=Štev. slabih blokov
+AD=Štev. brisanj (Uporabniški podatki)
+C0=Štev. nepričakovanih izgub napajanja
+C2=Temperatura
+F1=Pisanj gostitelja
+
+[SmartWdc] ; Added 8.8.0
+01=Stopnja bralnih napak
+05=Štev. prerazporejenih blokov
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+A5=Štev. brisanj blokov (SLC)
+A6=Najmanj ciklov P/E
+A7=Največ slabih blokov na smrt
+A8=Največ ciklov P/E
+A9=Skupno slabih blokov
+AA=Odraščenih slabih blokov
+AB=Štev. neuspelih programov
+AC=Štev. neuspelih brisanj
+AD=Povprečnih ciklov P/E
+AE=Štev. nepričakovanih izgub napajanja
+B8=Štev. zaznavanj napak 'od konca-do konca'/Štev. popravkov
+BB=Prijavljeno nepopravljivih napak
+BC=Štev. prekinitev ukaza
+C2=Temperatura
+C7=Štev. napak CRC
+D4=SATA PHY napaka
+E6=Kazalnik obrabe medija
+E8=Razpoložljivi rezerviran prostor
+E9=Zapisano GB v NAND
+EA=Zapisano GB v NAND (SLC)
+EE=Kazalnik obrabe medija (Preostali cikli)
+F1=Skupno zapisano GB
+F2=Skupno prebrano GB
+F3=Skupno pisanj NAND
+F4=Stanje dušenja temperature
+F9=Zapisano GB v NAND
+
+[SmartKingstonSuv]
+; https://media.kingston.com/support/downloads/UV400-SMART-attribute.pdf
+; https://media.kingston.com/support/downloads/UV500_SMART_attribute.pdf
+01=Stopnja bralnih napak
+05=Štev. prerazporejenih sektorjev
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+AA=Štev. uporabljenih rezervir. blokov
+AB=Štev. neuspelih programov
+AC=Štev. neuspelih brisanj
+AE=Štev. nepričakovanih izklopov napajanja
+AF=Štev. neuspelih programov Najslabša smrt
+B0=Štev. neuspelih brisanj Najslabša smrt
+B1=Štev. izravnave obrabe
+B2=Štev. uporabljenih rezervir. blokov Najslabša smrt
+B4=Štev. neuporabljenih rezervir. blokov (Skupno SSD)
+BB=Prijavljeno nepopravljivih napak
+C2=Temperatura
+C3=Štev. napak 'v-letu' ECC
+C4=Štev. dogodkov prerazporeditve
+C5=Štev. sektorjev na čakanju
+C7=Štev. napak CRC UDMA
+C9=Nepopravljiva stopnja bralnih napak
+CC=Stopnja mehkega popravka ECC
+E7=Preostalo življenje SSD
+EA=Doživljenskih pisanj NAND
+F1=Doživljenskih pisanj gostitelja
+F2=Doživljenskih branj gostitelja
+FA=Skup. štev. ponovitev branja NAND
+
+[SmartKingstonKC600]
+;https://media.kingston.com/support/downloads/KC600-SMART-attribute.pdf
+01=Stopnja bralnih napak
+05=Štev. ponovno dodeljenih blokov NAND
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+94=Rezervirano
+95=Rezervirano
+96=Rezervirano
+97=SLC Povprečno štev. brisanj
+9F=Štev. 1-bitnih napak DRAM-a
+A0=Prijavljeno napak UECC (Nepopravljivih)
+A1=Razpoložljivi rezerviran prostor
+A4=Rezervirano
+A5=Rezervirano
+A6=Rezervirano
+A7=Povprečno štev. brisanj
+A8=Rezervirano
+A9=Odstot.ocenjene preostale življenske dobe
+B1=Rezervirano
+B5=Štev. neuspelih programov
+B6=Štev. neuspelih brisanj
+C0=Štev. nepričakovanih izgub napajanja
+C2=Temperatura naprave
+C3=Obnovljen ECC strojne opreme
+C4=Štev. dogodkov prerazporeditve
+C7=Štev. napak CRC UDMA 
+E7=Odstot.osenjenepreostale življenske dobe
+E8=Štev. neuporabljenih rezervir. blokov
+F1=Skupno pisanj LBA-jev
+F2=Skupno branj LBA-jev
+F5=Skupno pisanj na medij
+
+[SmartKingstonDC500]
+;https://media.kingston.com/support/pdf/MKP_521-7_SMART-DC500_attribute_hr.pdf
+01=Štev. nakap UNC gostitelja
+09=Ur napajanja
+0C=Cikel vklopov/izklopov napajanja
+A7=Zaščiten način
+A8=Štev. PHY napak SATA
+A9=Stopnja slabih blokov
+AA=Podatek o slabem bloku
+AC=Štev. neuspehov brisanja
+AD=Štev. brisanj
+B5=Štev. neuspelih programov
+B6=Štev. neuspehov brisanja
+BB=Štev. nakap UNC gostitelja
+C0=Štev. nepričakovanih izgub napajanja
+C2=Temperatura
+C4=Skupno kasnejše štev. slabih blokov
+C7=Štev. napak CRC
+CF=Štev. termičnega dušenja
+DA=Štev. napak CRC
+E7=Preostalo življenje SSD
+E8=Štev. neuspehov branja
+E9=Pisanj NAND
+F1=Pisanj gostitelja
+F2=Branj gostitelja
+F4=Povprečno štev. brisanj
+F5=Največje štev. brisanj
+F6=Skup. štev. brisanj
+
+[SmartKingstonSA400]
+;https://github.com/hiyohiyo/CrystalDiskInfo/issues/20
+01=Nepopravljivih napak
+09=Ur napajanja
+0C=Ciklov napajanja
+94=Edinstveno za prodajalca
+95=Edinstveno za prodajalca
+A7=Edinstveno za prodajalca
+A8=Štev. PHY napak SATA
+A9=Edinstveno za prodajalca
+AA=Štev. slabih blokov
+AC=Edinstveno za prodajalca
+AD=Štev. brisanj
+B5=Edinstveno za prodajalca
+B6=Edinstveno za prodajalca
+BB=Nepopravljiva napaka ECC
+C2=Temperatura
+C4=Dogodkov prerazporeditve
+C7=Napaka SATA CRC
+DA=Štev. napak CRC
+E7=Kazalnik obrabe SSD
+E9=Doživljenskih pisanj NAND
+F1=Doživljensko pisanj iz gostitelja
+F2=Doživljensko branj iz gostitelja
+F4=Povprečno štev. brisanj
+F5=Največje štev. brisanj
+F6=Skup. štev. brisanj
+
+[SmartSsstc]
+01=Stopnja surovih bralnih napak
+05=Štev. prerazporejenih blokov
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+AA=Razpoložljivi rezerviran prostor
+AB=Štev. neuspelih programov(Skupno)
+AC=Štev. neuspelih brisanj(Skupno)
+AD=Average Program/Štev. brisanj
+AE=Štev. nepričakovanih izgub napajanja
+AF=Štev. neuspelih programov (najslabši primer)
+B0=Štev. neuspelih brisanj (najslabši primer)
+B1=Štev. izravnave obrabe
+B2=Štev. uporabljenih rezervir. blokov (najslabši primer)
+B3=Štev. uporabljenih rezervir. blokov (Skupno)
+B4=Štev. neuporabljenih rezervir. blokov (Skupno)
+B7=Upadanje vmesnika SATA
+B8=Štev. podatkovnik napak 'od konca-do konca'
+BB=Štev. nepopravljivih napak
+BC=Časovna omejitev ukaza
+C2=Temperatura pogona
+C3=Stopnja ECC
+C6=Štev. nepopravljivih napak brez povezave
+C7=SATA Štev. napak CRC
+E5=Zaščita izgube napajanja
+E7=Odstot.preostalega življenja
+E8=Razpoložljivi rezerviran prostor 
+E9=Zapisano GB v NAND
+F1=Skup. pisanj gostitelja
+F2=Skup. branj gostitelja
+F3=Zapisano GB v NAND
+
+[SmartIntelDc]
+;https://github.com/hiyohiyo/CrystalDiskInfo/issues/18
+01=Štev. surovih bralnih napak
+05=Prerazporejeno štev. blokov Flasha
+09=Štev. ur napajanja
+0C=Štev. ciklov napajanja
+0E=Kapaciteta naprave
+0F=Uporabniška kapaciteta
+10=Razpoložljivih rezervir. blokov
+11=Preostala rezerva na voljo
+AC=Skupno neuspehov brisanj bloka
+AD=Največje štev. brisanj na blok
+AE=Štev. nepričakovanih izgub napajanja
+AF=Povprečno štev. brisanj
+B0=Napaka pri zaščiti pred izgubo napajanja
+B5=Skupno neuspehov bloka programa
+B8=Štev. zaznavanj napak 'od konca-do konca'
+BB=Štev. nepopravljivih napak
+C2=Temperatura
+C5=Štev. sektorjev na čakanju
+C6=Štev. nepopravljivih napak brez povezave
+C7=Štev. napak CRC
+CA=Odstot.uporebljenega življenja pogona
+E2=Časov. omejena delovna obremenitev - Obraba medija
+E3=Časov. omejena delovna obremenitev - Razmerje branja/pisanja gostitelja
+E4=Časovnik omejene delovne obremenitve
+EA=Skupno branj bajtov gostitelja
+EB=Skupno napisanih gostiteljskih bajtov/sektorjev
+F1=Skupno zapisanih NAND bajtov/sektorjev
+
+[SmartApacer]
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+A3=Največje štev. brisanj
+A4=Povprečno štev. brisanj
+A6=Skupno kasnejše štev. slabih blokov
+A7=Način zaščite SSD
+A8=Štev. PHY napak SATA
+AB=Štev. neuspelih programov
+AC=Štev. neuspelih brisanj
+AF=Štev. tabel slabih gruč
+C0=Štev. nepričakovanih izgub napajanja
+C2=Temperatura
+E7=Preostalo življenje
+F1=Skupno zapisano sektorjev
+
+[SmartSiliconMotion]
+01=Stopnja bralnih napak
+05=Štev. prerazporejenih sektorjev
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+94=SLC Skup. štev. brisanj
+95=SLC Največje štev. brisanj
+96=SLC Najmanjše štev. brisanj
+97=SLC Povprečno štev. brisanj
+9F=Štev. 1-bitnih napak DRAM-a
+A0=Štev. nepopravljivih sektorjev pri branju/pisanju
+A1=Štev. veljavnih rezervir. blokov
+A2=Štev. podatkovnih blokov predpomnilnika
+A3=Štev. začetnih neveljavnih blokov
+A4=Skup. štev. brisanj
+A5=Največje štev. brisanj
+A6=Najmanjše štev. brisanj
+A7=Povprečno štev. brisanj
+A8=Največje štev. brisanj Spec
+A9=Prostanek življenja
+AF=Štev. neuspelih programov v najhujši smrti
+B0=Štev. neuspelih brisanj v najhujši smrti
+B1=Skupno številoizravnave obrabe
+B2=Štev. neveljavnih blokov med izvajanjem
+B5=Skup. štev. neuspelih programov
+B6=Skup. štev. neuspelih brisanj
+BB=Štev. nepopravljivih napak
+C0=Štev. umikov izklopa napajanja
+C2=Temperatura
+C3=Obnovljen ECC strojne opreme
+C4=Štev. dogodkov prerazporeditve
+C5=Štev. trenutno čakajočih sektorjev
+C6=Štev. nepopravljivih napak brez povezave
+C7=Ultra DMA Štev. napak CRC
+E8=Razpoložljivi rezerviran prostor
+F1=Skupno zapisano LBA
+F2=Skupno prebrano LBA
+F5=Štev. pisanj sektorjav Flasha
+
+[SmartJMicron66x]
+01=Stopnja bralnih napak
+02=Izvedba pretočnosti
+03=Čas vrtenja
+05=Štev. prerazporejenih sektorjev
+07=Stopnja napak iskanja
+08=Izvedba časa iskanja
+09=Ur napajanja
+0A=Štev. ponovitev vrtenja
+0C=Štev. ciklov napajanja
+A7=Način zaščite SSD
+A8=Štev. PHY napak SATA
+AA=Štev. slabih blokov
+AD=Štev. brisanj
+AF=Štev. tabel slabih gruč
+B4=Štev. rezervnih blokov
+C0=Štev. nepričakovanih izgub napajanja
+C2=Temperatura
+C5=Štev. trenutno čakajočih sektorjev
+E7=Življenje pogona
+E9=Štev. pisanj sektorjev (NAND)
+F0=Pisanje glave
+F1=Skupno pisanj LBA
+F2=Skupno branj LBA
+
+[SmartPhison]
+01=Stopnja bralnih napak
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+A8=Štev. PHY napak SATA
+AA=Štev. slabih blokov
+AD=Štev. brisanj
+C0=Štev. nepričakovanih izgub napajanja
+C2=Temperatura
+DA=Štev. napak CRC
+E7=Preostalo življenje SSD
+F1=Pisanj gostitelja
+
+[SmartSeagate]
+; https://crystalmark.info/board/c-board.cgi?cmd=one;no=1818;id=#1818
+01=Stopnja bralnih napak
+05=Štev. upokojenih sektorjev
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+10=Razpoložljivih rezervir. blokov
+11=Preostanek rezeriranih blokov
+A8=Štev. PHY napak SATA
+AA=Štev. slabih blokov
+AB=Štev. neuspelih programov
+AC=Štev. neuspelih brisanj
+AD=Štev. brisanj
+AE=Štev. nepričakovanih izgub napajanja
+B1=Območje obrabe Delta
+B5=Štev. neuspelih programov
+B6=Štev. neuspelih brisanj
+C0=Štev. nepričakovanih izgub napajanja
+C2=Temperatura
+C9=Stopnja mehkih napak
+CC=Stopnja mehkega popravka ECC
+DA=Štev. napak CRC
+E7=Preostalo življenje SSD
+E8=Štev. neuspelih branj blokov
+E9=Zapisano GB v NAND
+EA=Doživljenskih pisanj na Flash
+EB=Pisanj NAND sektorjev
+F1=Doživljenskih pisanj iz gostitelja
+F2=Doživljenskih branj gostitelja
+FA=Doživljenskih ponovitev branja NAND
+
+[SmartSeagateIronWolf]
+; https://www.seagate.com/www-content/manuals/ironwolf-110-ssd/pdf/IronWolf_110_SSD_PM-100841919_B.pdf
+01=Stopnja surovih bralnih napak
+05=Štev. prerazporejenih sektorjev
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+64=Flash izbrisano gigabajtov
+66=Doživljensko štev. ustopov PS4
+67=Doživljensko štev. izstopov PS3
+AA=Grown Štev. slabih blokov
+AB=Štev. neuspelih programov
+AC=Štev. neuspelih brisanj
+AD=Average Program/Štev. brisanj
+AE=Štev. nepričakovanih izgub napajanja
+B1=Območje obrabe Delta
+B7=Štev. upadov vmesnika SATA/PCIe
+BB=Štev. nepopravljivih ECC
+C2=Temperatura
+C3=Štev. popravljivih DVIGOV ECC
+C6=Štev. nepopravljivih bralnih napak
+C7=Štev. napak SATA R-napaka (CRC)
+E6=Stanje doživljenske zaščite pogona
+E7=Preostalo življenje SSD
+E8=Razpoložljivi rezerviran prostor
+E9=Doživljenskih pisanj na Flash
+F1=Doživljenskih pisanj iz gostitelja
+F2=Doživljenskih branj gostitelja
+F3=Prost prostor
+
+[SmartMarvell] ; Added 8.8.3
+05=Štev. novih slabih blokov
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+A4=Skup. štev. brisanj
+A5=Največje štev. brisanj
+A6=Najmanjše štev. brisanj
+A7=Povprečno štev. brisanj
+C0=Štev. umikov izklopa napajanja
+C2=Temperatura
+C7=Štev. napak CRC SATA
+F1=Skupno zapisano
+F2=Skupno prebrano
+
+[SmartMaxiotek] ; Added 8.8.6
+05=Štev. prerazporejenih sektorjev
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+A7=Način zaščite SSD
+A8=Štev. napak PHY
+A9=Štev. slabih blokov
+AB=Štev. neuspelih programov
+AC=Štev. neuspelih brisanj
+AD=Štev. brisanj
+AF=Štev. tabel slabih gruč
+B1=Štev. ponovitev branja
+B4=Štev. preostalih rezervnih blokov
+BB=Prijavljeno napak UNC
+C0=Štev. nepričakovanih izgub napajanja
+C2=Temperatura
+C4=Štev. prerazporejenih dogodkov
+C7=Štev. napak CRC UDMA
+CE=Najmanjše štev. brisanj
+CF=Največje štev. brisanj
+D0=Povprečno štev. brisanj
+D1=Najmanjše štev. brisanj blokov SLC
+D2=Največje štev. brisanj blokov SLC
+D3=Povprečno štev. brisanj blokov SLC
+E7=Preostalo življenje SSD
+E9=Pisanj štev. sektorjev v NAND
+EA=Branj štev. sektorjev iz NAND
+F1=Štev. pisanj sektorjav
+F2=Štev. branj sektorjav
+F5=Štev. napak bita
+
+[SmartSeagateBarraCuda] ; Added 8.9.0
+01=Štev. napak UECC
+05=Štev. upokojenih sektorjev
+09=Ur napajanja
+0C=Štev. ciklov napajanja
+10=Razpoložljivih rezervir. blokov
+11=Preostanek rezeriranih blokov
+A8=Štev. PHY napak SATA
+AA=Štev. slabih blokov
+AB=Štev. neuspelih programov
+AC=Štev. neuspelih brisanj
+AD=Štev. brisanj
+AE=Štev. nepričakovanih izgub napajanja
+B1=Območje obrabe Delta
+B5=Štev. neuspelih programov
+B6=Štev. neuspelih brisanj
+C0=Štev. nepričakovanih izgub napajanja
+C2=Temperatura
+C9=Stopnja mehkih napak
+CC=Stopnja mehkega popravka ECC
+DA=Štev. napak CRC
+E7=Preostalo življenje SSD
+E8=Štev. neuspelih branj blokov
+E9=Zapisano GB v NAND
+EA=Doživljenskih pisanj na Flash
+EB=Pisanj NAND sektorjev
+F1=Doživljenskih pisanj iz gostitelja
+F2=Doživljenskih branj gostitelja
+FA=Doživljenskih ponovitev branja NAND
+
+[SmartYmtc] ; Added 8.10.0
+05=Štev. novih slabih blokov
+09=Štev. ur napajanja
+0C=Štev. ciklov napajanja
+AA=Največje štev. slabih blokov
+A8=Štev. PHY napak SATA
+A9=Štev. slabih blokov
+AB=Štev. neuspelih programov
+AC=Štev. neuspelih brisanj
+AD=Štev. brisanj
+AF=Štev. slabih gruč
+B7=Upadanje vmesnika SATA
+B8=Zaznavanj napak 'Od konca do konca'/Štev. popravkov
+BB=Štev. nepopravljivih napak
+BE=Temperatura
+C0=Štev. nepričakovanih izgub napajanja
+C4=Štev. znova dodeljenih dogodkov
+C7=Štev. napak CRC
+CE=Najmanjše štev. brisanj
+CF=Največje štev. brisanj
+D0=Povprečno štev. brisanj
+D1=Najmanjše štev. brisanj SLC
+D2=Največje štev. brisanj SLC
+D3=Povprečno štev. brisanj SLC
+E7=Preostalo življenje SSD
+E9=Štev. zapisanih sektorjev v NAND
+EA=Štev. branj sektorjev v NAND
+F1=Skupno pisanj LBA
+F2=Skupno branj LBA
+F3=Temperatura NAND
+F5=Štev. napak bita
+
+[SmartScy] ;Added 8.12.8
+01=Stopnja surovih bralnih napak
+05=Štev. prerazporejenih sektorjev
+07=Stopnja napak iskanja
+09=Ur napajanja
+0C=Štev. ciklov napajanja pogona
+A7=Povprečno štev. brisanj
+AB=Štev. napak v programu
+AC=Štev. napak brisanja
+AD=Štev. brisanj
+B1=Štev. ponovnih poskusov branja
+B4=Preostalo štev. rezervnih blokov
+B7=Napačen blok med izvajanjem
+BB=Prijavljenih napak UNC
+C0=Štev. nepričakovanih izgub napajanja
+C2=Nadzorovana temperatura
+C3=Kumulativno štev. popravkov bitov ECC
+C4=Štev. prerazporejenih dogodkov
+C5=Trenutni sektor v čakanju
+C7=Štev. napak UDMA CRC
+E7=Preostalo življenje SSD
+F1=Skupno pisanj LBA
+F2=Skupno branj LBA
+F5=Skupno pisanj Nand Flash
+
+[SmartRecadata] ;Added 8.14.0
+07=Stopnja napak iskanja
+09=Ur napajanja
+0C=Štev. ciklov napajanja pogona
+A7=Povprečno štev. brisanj
+AB=Štev. napak v programu
+AC=Štev. napak brisanja
+AD=Štev. brisanj
+B1=Štev. ponovnih poskusov branja
+B4=Preostalo štev. rezervnih blokov
+B7=Napačen blok med izvajanjem
+BB=Prijavljenih napak UNC
+C0=Štev. nepričakovanih izgub napajanja
+C2=Nadzorovana temperatura
+C3=Kumulativno štev. popravkov bitov ECC
+C4=Štev. prerazporejenih dogodkov
+C5=Trenutni sektor v čakanju
+C7=Štev. napak UDMA CRC
+E7=Preostalo življenje SSD
+F1=Skupno pisanj LBA
+F2=Skupno branj LBA
+F5=Skupno pisanj Nand Flash
+
+[SmartSanDiskHp] ;Added 8.17.0
+01=Stopnja napak pri surovem branju
+05=Ponovno dodeljeno štev. blokov
+09=Ur napajanja
+0C=Štev. ciklov napajanja pogona
+AA=Rezervirano štev. blokov
+AB=Štev. napak programa
+AC=Štev. napak brisanja
+AD=Štev. izravnav obrabe
+AE=Štev. nepričakovanih izgub napajanja
+B0=Neuporabljeno štev. rezervir. blokov
+B7=Štev. prehodov navzdol vmesnika SATA
+B8=Štev. zaznav/popravkov napak od konca do konca
+BB=Štev. nepopravljivih napak
+BC=Iztek ukaza
+BE=Temperatura pretoka zraka
+C2=Temperatura
+C4=Prerazporejeno štev. dogodkov
+C7=Štev. napak CRC
+C9=Preostala življenjska doba SSD
+E6=Indikator obrabe medija
+F1=Skupno branj LBA
+F2=Skupno branj LBA
+F3=Statistika plina
+F4=Stanje temperaturnega plina
+F9=TLC NAND GB pisanj
+
+[SmartSanDiskHpVenus] ;Added 8.17.0
+01=Stopnja napak pri surovem branju
+05=Ponovno dodeljeno štev. blokov
+09=Urnapajanja
+0C=Štev. ciklov napajanja pogona
+AA=Rezervirano štev. blokov
+AB=Štev. napak programa
+AC=Štev. napak brisanja
+AD=Štev. izravnave obrabe
+AE=Štev. nepričakovanih izgub napajanja
+B0=Neuporabljeno štev. rezervir. blokov
+B7=Štev. prehodov navzdol vmesnika SATA
+B8=Štev. zaznav/popravkov napak od konca do konca
+BB=Štev. nepopravljivih napak
+BC=Iztek ukaza
+BE=Temperatura pretoka zraka
+C2=Temperatura
+C4=Prerazporejeno štev. dogodkov
+C7=Štev. napak CRC
+C9=Preostala življenjska doba SSD
+E6=Indikator obrabe medija
+F1=Skupno pisanj LBA
+F2=Skupno branj LBA
+F3=Skupno NAND pisanj
+F4=Stanje temperaturea plina
+F9=TLC NAND GB pisanj
+
+[SmartSanDiskDell] ;Added 8.17.0
+05=Ponovno dodeljeno štev. blokov
+09=Ur napajanja
+0C=Štev. ciklov napajanja pogona
+AF=Štev. napak programa (komponenta v najslabšem primeru)
+B0=Štev. napak brisanja (komponenta v najslabšem primeru)
+B1=Štev. izravnave obrabe
+B2=Uporabljeno štev. rezervir. blokov (komponenta v najslabšem primeru)
+B3=Uporabljeno štev. rezervir. blokov (skupaj SSD)
+B4=Štev. preostalih rezervir. blokov (skupaj SSD)
+B5=Štev. napak programa (SSD skupaj)
+B6=Štev. neuspešnih izbrisov (skupaj SSD)
+BB=Štev. nepopravljivih napak
+C2=Temperatura
+C3=Stopnja ECC
+C7=Štev. napak CRC
+E6=Indikator obrabe medija
+EE=Indikator obrabe medija (preostali cikli)
+F1=Skupno pisanj LBA
+F2=Skupno branj LBA
+
+[SmartSanDiskLenovo] ;Added 8.17.0
+05=Ponovno dodeljeno štev. blokov
+09=Ur napajanja
+0C=Štev. ciklov napajanja pogona
+A6=Najmanjši P/E cikli
+A7=Največje štev. slabih blokov na smrt
+A8=Največji P/E cikli
+A9=Skupno slabih blokov
+AA=Razraslih slabih blokov
+AB=Štev. napak programa
+AC=Štev. napak brisanja
+AD=Atribut povprečnih ciklov P/E
+AE=Štev. nepričakovanih izgub napajanja
+B2=Uporabljeno štev. rezervir. blokov
+B4=Štev. preostalih rezervir. blokov
+B8=Štev. zaznav/popravkov napak od konca do konca
+BB=Štev. UECC
+BC=Iztek ukaza
+C2=Temperatura
+C7=Napak SATA CRC
+D4=Napak SATA PHY
+E6=Indikator obrabe medija
+E8=Razpoložljiv rezerviran prostor
+E9=NAND GB pisanj
+EA=NAND GB pisanj (SLC)
+F1=Skupno GB pisanj gostitelja
+F2=Skupno GB branj
+F3=Statistika plina
+F4=Stanje termičnega plina
+
+[SmartSanDiskLenovoHelenVenus] ;Added 8.17.0
+05=Ponovno dodeljeno štev. blokov
+09=Ur napajanja
+0C=Štev. ciklov napajanja pogona
+A6=Najmanj P/E ciklov
+A7=Največje štev. slabih blokov na smrt
+A8=Največji P/E cikli
+A9=Skupno slabih blokov
+AA=Razrasli slabi bloki
+AB=Štev. napak programa
+AC=Štev. napak brisanja
+AD=Atribut povprečnih ciklov P/E
+AE=Štev. nepričakovanih izgub napajanja
+B2=Uporabljeno štev. rezervir. blokov
+B4=Štev. preostalih rezervir. blokov
+B8=Štev. zaznav/popravkov napak od konca do konca
+BB=Štev. UECC
+BC=Iztek ukaza
+C2=Temperatura
+C7=Napak SATA CRC
+D4=Napak SATA PHY
+E8=Razpoložljiv rezerviran prostor
+E9=Indikator izrabljenosti medija
+EA=NAND  GB pisanj (SLC)
+F1=Skupno pisanje GB gostitelja
+F2=Skupno branj GB
+F3=Statistika plina
+F4=Stanje termičnega plina
+F9=NAND GB pisanj (TLC)
+
+[SmartMicronMU03] ;Added 8.17.0
+01=Stopnja napak pri neobdelanem branju
+05=Prerazporejeno štev. blokov NAND
+09=Štev. ur napajanja
+0C=Štev. ciklov napajanja
+AB=Štev. napak programa
+AC=Štev. napak brisanja
+AD=Povprečno štev. izbrisa blokov
+AE=Štev. nepričakovanih izgub napajanja
+B4=Neuporabljeni rezervni bloki NAND
+B5=Ne-4K poravnan dostop
+B7=SATA vmesnik prestavljen navzdol
+B8=Štev. popravkov napak
+BB=Sporočenih nepopravljivih napak
+C2=Temperatura
+C4=Štev. dogodkov prerazporeditve
+C5=Trenutno štev. ECC v teku
+C6=Štev. nepopravljivih napak SMART pregleda brez povezave
+C7=Štev. napak CRC UDMA
+CA=Preostala življenjska doba
+CE=Stopnja napak pri pisanju
+D2=Štev. uspešnih obnovitev RAIN
+F0=Štev. strani gostiteljskega programa
+F1=Skupno pisanj LBA
+F2=Skupno branj LBA
+F3=Skupno štev. strani programa
+F6=Zapisanih kumulativnih gostiteljskih sektorjev
+F7=Štev. strani gostiteljskega programa NAND
+F8=Štev. strani FTL programa NAND
+
+[SmartSanDiskCloud] ;Added 9.0.0
+05=Število umaknjenih blokov
+09=Urdelovanja
+0D=Število nepopravljivih napak ECC
+20=Ojačitev zapisa pomnožena s 100
+21=Faktor ojačanja zapisa
+AA=Štev. rezervnih blokov
+AB=Število napak programa
+AC=Število napak pri brisanju
+AD=povprečno število pisanja/brisanja
+AE=Štev. nepričakovanih izgub napajanja
+B2=Preostala življenjska doba SSD (do 0,01 %)
+BF=Čisto število zaustavitev
+C0=Nečisto število zaustavitev
+C2=Temperatura
+C4=Število prerazporejenih blokov
+E6=Odstotek skupnega števila pisanja/brisanja
+E8=Preostali rezervni bloki
+E9=Skupaj Nand zapiše 64 GB
+EB=zdravje kondenzatorja
+F1=Skup. pisanj gostitelja 64 GB
+F2=Skup. branj gostitelja 64 GB
+F4=Življenjske aktivacije toplotnega plina
+F5=Odstotek preostale življenjske dobe pogona
+FD=Preostali preizkusii SPI
+
+[SmartSiliconMotionCVC] ;Added 9.3.0
+05=Re-Assigned Count
+09=Power-On Hours Count
+0C=Drive Power Cycle Count
+A5=SLC Cache
+AA=Grown Bad Block Count
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Avg Erase Count
+AE=Unexpected Power Loss Count
+AF=Program Fail Count (Worst case)
+B7=Total SATA Link Speed Downshift
+B8=End-to-End Data Errors corrected
+BB=Uncorrectable Errors
+BD=Max Erase Count
+BE=Temperature
+BF=Min Erase Count
+C3=Read Error Rate
+C6=Off-Line Scan Uncorrectable Sector Count
+C7=SATA CRC Error Count
+CA=SSD Life Left
+E8=Total Spare Counts
+E9=TLC NAND Write
+F1=Host Write
+F2=Host Read
+94=RAID Event Count
+95=RAID Uncorrectable Count
+A7=SSD Protect Mode
+93=Soft Retry Event Count
+EA=SLC NAND Write
+
+[SmartAdataIndustrial] ;Added 9.3.1
+09=Power-On hours Count
+0C=Drive Power Cycle Count
+A7=SSD Protect Mode
+A8=SATA PHY Error Count
+A9=Bad Block Count
+AD=Erase Count
+AF=Bad Cluster Table Count
+B4=Spare block count left
+C0=Unexpected Power Loss Count
+C2=Temperature
+E7=SSD life left
+E9=Flash Write Sector Count
+EA=Flash Read Sector Count
+F1=Write Sector Count
+F2=Read Sector Count

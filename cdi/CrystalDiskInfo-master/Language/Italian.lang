@@ -1,0 +1,1745 @@
+[Information]
+;----------- Text Format = UTF-16 LE - Language revised on 29.05.2023
+TRANSLATOR=tfr, bovirus (bovirus@gmail.com)
+VERSION=9.0.0
+
+[Language]
+LANGUAGE=Italiano
+CHARACTER_CODE=Unicode (UTF-16, LE, w/ BOM)
+; Local ID : http://msdn.microsoft.com/en-us/library/0h88fahh.aspx
+LOCALE_ID=0x0410, 0x0810
+
+[Url]
+WIKIPEDIA_SMART=https://it.wikipedia.org/wiki/Self-Monitoring%2C_Analysis_and_Reporting_Technology
+
+[Menu]
+FILE=&File
+CUSTOMIZE=&Personalizza
+EXIT=&Esci
+EDIT=&Modifica
+COPY=&Copia
+FUNCTION=F&unzioni
+HIDE_SMART_INFO=Nascondi informazioni &S.M.A.R.T.
+HIDE_SERIAL_NUMBER=Nascondi &numero seriale
+SHOW_DRIVE_LETTER=Nascondi &lettere dell'unità
+ADVANCED_DISK_SEARCH=&Analisi avanzata disco
+EVENT_LOG=Registro e&venti
+AAM_APM_CONTROL=Controllo AA&M/APM
+AUTO_AAM_APM_ADAPTION=Adattamento auto AAM/A&PM
+RESIDENT=R&esidente
+STARTUP=&Esegui all'avvio di Windows
+OPEN_DISK_MANAGEMENT=Apri [Gestione &disco]
+OPEN_DEVICE_MANAGER=Apri [&Gestione periferiche]
+ADVANCED_FEATURE=Opzioni avan&zate
+REFRESH=&Aggiorna
+RESCAN=Ri&leva
+DISABLE=&Disabilitato
+AUTO_REFRESH=A&ggiornamento automatico
+AUTO_REFRESH_TARGET=Aggiornamento automatico - Selezione uni&tà
+AUTO_REFRESH_TARGET_ALL_DISK=Aggiornamento automatico - &Seleziona tutti i dischi
+AUTO_REFRESH_UNTARGET_ALL_DISK=Aggiornamento automatico - Desele&ziona tutti i dischi
+WAIT_TIME_AT_STARTUP=Ri&tardo all'avvio
+GRAPH=&Grafico
+THEME=&Tema
+DISK=&Disco
+HELP=&?
+HELP_WEB=&? [Web]
+HELP_ABOUT=&Info su CrystalDiskInfo
+HELP_ABOUT_SMART=Info su &S.M.A.R.T. (Wikipedia) [web]
+LANGUAGE=Lingua
+ITEM=&Elemento
+TEMPERATURE_TYPE=Scala t&emperatura
+CELSIUS=Celsius (°C)
+FAHRENHEIT=Fahrenheit (°F)
+HEALTH_STATUS_SETTING=Imposta&zioni stato disco
+
+;Graph
+OPTION=&Opzioni
+LEGEND_POSITION=Posizione della &legenda
+NORTH_WEST=&Nord ovest
+NORTH_EAST=Nord &est
+SOUTH_WEST=Sud &ovest
+SOUTH_EAST=&Sud est
+MAX_PLOT_POINT=Punto &massimo del diagramma
+TIME_FORMAT=&Formato data/ora
+PAINT_WEEKEND=&Includi fine settimana
+ALL=&Tutto
+
+;2.7.0
+COPY_OPTION=&Opzioni di copia
+RESIDENT_STYLE=Effetto quando residente
+MINIMIZE=Minimizza
+HIDE=Nascondi
+
+;3.0.0
+ZOOM=&Zoom
+AUTO=&Automatico
+ATTRIBUTE=&Attributo
+
+;3.5.0
+ASCII_VIEW=Vista ASCII
+AUTO_DTECTION=Auto rilevamento
+SECOND=sec.
+MINUTE=min.
+HOUR=ore
+
+:3.9.4
+WORKAROUND=S&oluzione
+
+;4.0.0
+ALERT_MAIL=Mail avviso
+MAIL_SETTINGS=Impostazioni mail
+SMART_IN_ENGLISH=S.M.A.R.T. in inglese
+FONT_SETTING=Impostazione font
+
+;5.0.0
+ALERT_FEATURES=Funzioni a&llerta
+ALARM_HISTORY=Cronologia allarme
+ALERT_SOUND=Notifiche allerta
+SOUND_SETTINGS=Impostazioni audio
+GADGET_SUPPORT=Supporto gadget
+INSTALL_GADGET=Installa gadget
+ENABLE_AUTO=Abilita (rilevamento automatico)
+ENABLE_ALL=Abilita (tutti i dischi)
+ENABLE_RAID=Abilita (Solo volumi RAID)
+
+;6.0.0
+HIDE_NO_SMART_DISK=&Nascondi dischi non S.M.A.R.T.
+GREEN_MODE=Modo &green
+
+;8.6.0
+SAVE_TEXT=Salva come &testo
+SAVE_IMAGE=&Salva come immagine
+
+;9.0.0
+DRIVE_SORT_METHOD=Metodo ordinamento unità
+PHYSICAL_DRIVE_ID=ID unità fisica
+DRIVE_LETTER=Lettera unità
+DRIVE_MENU_NUMBER=Visualizza numero di unità
+
+;9.2.0
+VOICE=Voice
+
+;9.3.0
+STARTUP_VOICE=Startup Voice
+
+;9.5.0
+HIDE_RAID_VOLUME=Hide &RAID Volume
+[TrayMenu]
+EXIT=Esci
+REFRESH=Aggiorna
+RESCAN=Rileva
+ENABLE=Abilita
+DISABLE=Disabilita
+ENABLE_ALL=Abilita tutto
+DISABLE_ALL=Disabilita tutto
+AUTO_REFRESH=Aggiornamento automatico
+AUTO_REFRESH_01_MIN=1 min.
+AUTO_REFRESH_03_MIN=3 min.
+AUTO_REFRESH_05_MIN=5 min.
+AUTO_REFRESH_10_MIN=10 min.
+AUTO_REFRESH_30_MIN=30 min.
+AUTO_REFRESH_60_MIN=60 min.
+AUTO_REFRESH_TARGET=Aggiornamento automatico - Selezione unità
+AUTO_REFRESH_TARGET_ALL_DISK=Aggiornamento automatico - Seleziona tutti i dischi
+AUTO_REFRESH_UNTARGET_ALL_DISK=Aggiornamento automatico - Deseleziona tutti i dischi
+ALARM_SETTING_TEMPERATURE=Impostazioni allarme - Temperatura
+ALARM_SETTING_HEALTH_STATUS=Impostazioni allarme - Stato disco
+SHOW_MAIN_WINDOW=Mostra Finestra di dialogo principale
+SHOW_TEMPERATURE_ICON=Mostra icona temperatura
+SHOW_ALL_TEMPERATURE_ICON=Visualizza tutte le icone temperatura
+HIDE_ALL_TEMPERATURE_ICON=Nascondi tutte le icone temperatura
+COLLECTIVE_SETTING=Impostazioni comuni
+GRAPH=Grafico
+;Added 3.0
+SHOW_TEMPERATURE_ICON_ONLY=Visualizza solo icona temperatura
+
+[DiskStatus]
+GOOD=Buono
+CAUTION=A rischio
+BAD=Pericolo
+UNKNOWN=Ignoto
+DISK=Disco
+
+[Dialog]
+LIST_ID=ID
+LIST_CURRENT=Attuale
+LIST_WORST=Peggiore
+LIST_THRESHOLD=Soglia
+LIST_RAW_VALUES=Valori grezzi
+;LIST_DESCRIPTION=Descrizione
+LIST_ATTRIBUTE_NAME=Parametro
+
+FIRMWARE=Versione firmware
+SERIAL_NUMBER=Numero seriale
+INTERFACE=Interfaccia
+STANDARD=Standard
+TRANSFER_MODE=Modo trasferimento
+BUFFER_SIZE=Dimensione buffer
+NV_CACHE_SIZE=Dimensione cache
+ROTATION_RATE=Regime di rotazione
+TEMPERATURE=Temperatura
+POWER_ON_HOURS=Acceso da (ore)
+POWER_ON_COUNT=Numero accensioni
+DRIVE_LETTER=Lettere unità
+FEATURE=Funzioni supportate
+HEALTH_STATUS=Stato disco
+
+UNKNOWN=Sconosciuto
+POWER_ON_COUNT_UNIT=volte
+POWER_ON_HOURS_UNIT=ore
+POWER_ON_DAYS_UNIT=giorni
+POWER_ON_YEARS_UNIT=anni
+
+;4.3
+TOTAL_HOST_WRITES=Totale scritture
+TOTAL_HOST_READS=Totale letture
+TOTAL_NAND_WRITES=Totale scritture NAND
+
+;4.5
+WEAR_LEVELING_COUNT=Livello wearing
+
+;6.1
+CURRENT_MODE_SUPPORTED_MODE=Modo attuale | Modi supportati
+MAJOR_VERSION_MINOR_VERSION=Versione principale | Versione build
+
+;8.5.0
+FONT_FACE=Tipo font
+FONT_SCALE=Scala font (%)
+DEFAULT=Predefinito
+OK=OK
+
+;8.9.0
+ENABLED=Abilitato
+DISABLED=Disabilitato
+
+[Message]
+DETECT_UNIT_POWER_ON_HOURS=Calcolo delle ore accensione (richiede 130 secondi circa)
+DETECT_DISK=Rilevamento disco
+PLEASE_ENABLE_WMI=Attiva WMI (Windows Management Instrumentation)
+PLEASE_RESTART_THIS_APPLICATION=Riavvia l'applicazione per modificare il tema
+DISK_NOT_FOUND=Disco non trovato
+
+[Alarm]
+ALARM_TEMPERATURE=Allarme - Temperatura
+ALARM_HEALTH_STATUS=Allarme - Stato disco
+DEGRADATION=Degrado
+RECOVERY=Recupero
+;3.5.0
+INFO_HEALTH_STATUS=Info - Stato salute unità
+
+[Graph]
+PLEASE_SELECT_ITEM=Seleziona voce
+ACTUAL_VALUE=Valore effettivo (valore grezzo)
+NORMALIZED_VALUE=Valore normalizzato (valore corrente)
+ALL_ON=Attiva tutto
+ALL_OFF=Disattiva tutto
+RESET=Ripristina
+
+[Customize]
+LINE_COLOR=Colore linee
+BACKGROUND_IMAGE=Immagine di sfondo
+SUPPORTED_IMAGE_FORMAT=Formati immagine supportati
+ALL_FILES=Tutti i file
+
+;5.0.0
+SUPPORTED_SOUND_FORMAT=Formati supportati suono
+
+[AamApm]
+AAM_LOW=<- Silenzioso (80h)
+AAM_HIGH=Prestazioni (FEh) ->
+AAM_RECOMMEND=Valore raccomandato
+APM_LOW=<- Potenza min (01h)
+APM_HIGH=Prestazioni (FEh) ->
+;3.5.0
+AUTOMATIC_ACOUSTIC_MANAGEMENT=Gestione acustica automatica (AAM)
+ADVANCED_POWER_MANAGEMENT=Gestione alimentazione avanzata (APM)
+
+[WindowTitle]
+ABOUT=Info su CrystalDiskInfo
+GRAPH=Grafico
+CUSTOMIZE=Personalizza
+VERSION_INFORMATION=Informazioni versione
+AAM_APM_CONTROL=Controllo AAM/APM
+HEALTH_STATUS_SETTING=Impostazioni stato salute
+
+;5.0.0
+ALARM_HISTORY=Cronologia allarme
+SOUND_SETTINGS=Impostazioni audio
+
+;5.1.0
+FONT_SETTING=Impostazione font
+
+[HealthStatus]
+THRESHOLD_OF_CAUTION=Valore soglia di attenzione
+APPLY=Applica
+DEFAULT=Predefinito
+
+[Smart]
+UNKNOWN=Sconosciuto
+VENDOR_SPECIFIC=Specifico del produttore
+01=Errori lettura
+02=Prestazione medie
+03=Tempo avvio motore
+04=Avvia/ferma conteggio
+05=Settori riallocati
+06=Margine canale lettura
+07=Errori seek
+08=Prestazioni tempo seek
+09=Acceso da (ore)
+0A=Riavviamenti motore
+0B=Tentativi ricalibrazione
+0C=Cicli ON/OFF dispositivo
+0D=Errori lettura software
+16=Livello elio attuale
+B8=Errore End-to-End
+BB=Errori non correggibili segnalati
+BC=Timeout comando
+BD=Scritture high fly
+BE=Temperatura flusso aria
+BF=Errori G-Sense
+C0=Ritrazioni allo spegnimento
+C1=Cicli load/unload
+C2=Temperatura
+C3=ECC hardware recuperati
+C4=Eventi riallocazione
+C5=Settori scrittura pendente
+C6=Settori non correggibili
+C7=Errori CRC UltraDMA
+C8=Errori scrittura
+C9=Errori lettura software
+CA=Errori marcatore indirizzo dati
+CB=Annulla run out
+CC=Correzione software ECC
+CD=Asperità termiche
+CE=Altezza volo testina
+CF=Attuale spin high
+D0=Ronzio rotazione
+D1=Prestazioni seek offline
+D3=Vibrazioni durante scrittura
+D4=Shock durante scrittura
+DC=Scostamento disco
+DD=Errori G-Sense
+DE=Ore lavoro
+DF=Tentativi load/unload
+E0=Carica frizione
+E1=Cicli load/unload
+E2=Tempo caricamento
+E3=Amplificazione torque
+E4=Cicli spegnimento
+E6=Amplificazione testina GMR
+E7=Temperatura
+F0=Ore volo testina
+FA=Errori ritentativi lettura
+FE=Protezione da caduta
+
+;Updated 5.4.0
+F1=Scritture LBA (totali)
+F2=Letture LBA (totali)
+
+;Updated 9.5.0
+17=Helium Condition Lower
+18=Helium Condition Upper
+1B=MAMR Health Monitor
+
+[SmartSsd]
+01=Errori lettura
+02=Prestazione medie
+03=Tempo avvio motore
+04=Avvia/ferma conteggio
+05=Contatore settori riallocati
+06=Margine canale lettura
+07=Errori seek
+08=Prestazioni tempo seek
+09=Acceso da (ore)
+0A=Contatore riavviammenti motore
+0B=Tentativi ricalibrazione
+0C=Cicli on/off dispositivo
+0D=Errori lettura software
+C0=Spegnimenti non sicuri
+C2=Temperatura
+C4=Eventi riallocazione
+C5=Settori scrittura pendente
+C6=Settori non correggibili
+; CrystalDiskInfo assign
+FF=Vita rimanente
+
+;Updated 5.4.0
+F1=Scritture totali host
+F2=Letture totali host
+
+[SmartMtron]
+BB=Cancellazioni totali
+
+[SmartIndilinx]
+01=Errori lettura
+09=Ore accensione
+0C=Cicli accensione
+B8=Blocchi iniziali danneggiati
+C2=Temperatura
+C3=Blocchi programma falliti
+C4=Blocchi errore cancellazione
+C5=Blocchi errore lettura
+C6=Settori letti (totali)
+C7=Settori scritti (totali)
+C8=Comandi lettura (totali)
+C9=Comandi scrittura (totali)
+CA=Bit errore della flash (totali)
+CB=Settori letti con errori correggibili (totali)
+CC=Indicatore blocco errato
+CD=Specifica contatore PE max
+CE=Cancellazione minima
+CF=Cancellazione massima
+D0=Media cancellazione
+D1=Vita rimanente unità
+
+[SmartJMicron60x]
+09=Ore accensione
+0C=Cicli accensione
+C2=Temperatura
+E5=ID sistema blocco, ID flash
+E8=Info versione firmware
+E9=Registrazione ECC fallita
+EA=Media cancellazione, cancellazione massima
+EB=Contatori corretti, blocchi di sistema
+
+[SmartIntel]
+03=Tempo avvio motore
+04=Avvia/ferma conteggio
+05=Settori riallocati
+09=Ore accensione
+0C=Cicli accensione
+AA=Spazio riservato disponibile
+AB=Programmazioni fallite
+AC=Cancellazioni fallite
+AE=Mancanze alimentazione inaspettate
+AF=Errori protezione mancanza alimentazione
+B7=Downshift SATA
+B8=Contatore errori End to End
+BB=Errori non correggibili
+BE=Temperatura
+C0=Spegnimenti non previsti
+C2=Temperatura
+C5=Settori pendenti
+C7=Errori CRC
+E1=Scritture da PC
+E2=Tempo medio caricamento
+E3=Tempo medio rapporto lettura/scrittura da host
+E4=Temporizzatore caricatore
+E8=Spazio riservato disponibile
+E9=Indicatore media wearout
+EA=Stato livello termico
+F1=Blocchi LBA scritti (totali)
+F2=Blocchi LBA letti (totali)
+F3=Totale scritture  NAND
+F9=Scritture NANND (totali)
+
+[SmartSamsung] ;Updated 6.6
+05=Settori riallocati
+09=Ore accensione
+0C=Cicli accensione
+AF=Fallimenti programma (chip)
+B0=Cancellazioni fallite (chip)
+B1=Livello uso
+B2=Blocchi riservati usati (chip)
+B3=Blocchi riservati usati (totali)
+B4=Blocchi riservati non usati (totali)
+B5=Fallimenti programma (totale)
+B6=Cancellazioni fallite (totali)
+B7=Blocchi danneggiati runtime (totali)
+BB=Errori non correggibili
+BE=Temperatura flusso aria
+C2=Temperatura
+C3=Tasso errore ECC
+C6=Errori non correggibili offline
+C7=Errori CRC
+C9=Stato SuperCap
+CA=Stato modo SSD
+EB=Recuperi POR
+F1=Scritture LBA (totali)
+F2=Letture LBA (totali)
+
+;Added 6.6
+AA=Blocchi riservati non usati (Chip) 
+AB=Fallimenti programma (Chip)
+AC=Fallimenti cancellazione (Chip)
+AD=Livellamento wear
+AE=Mancanze alimentazione inaspettate
+B8=Rilevamento errore
+E9=Wear-out normalizzato media
+
+[SmartSandForce] ;Updated 3.7.0
+01=Errori lettura RAW
+05=Blocchi ritirati
+09=Ore dall'accensione
+0C=Cicli di accensione
+0D=Errori lettura software
+64=Gigabyte cancellati
+AA=Blocchi riservati
+AB=Fallimenti programma
+AC=Cancellazioni fallite
+AE=Mancanze alimentazione inaspettate
+B1=Delta intervallo uso
+B5=Fallimenti programma
+B6=Cancellazioni fallite
+B8=Codice errori segnalati operazioni I/O
+BB=Errori non correggibili segnalati
+C2=Temperatura
+C3=Errori ECC non correggibili OntheFly
+C4=Eventi riallocazione
+C6=Settori non correggibili
+C7=Errori CRC SATA R-Error
+C9=Errori software non correggibili
+CC=Correzioni ECC software
+E6=Stato curva vita
+E7=Vita rimanente SSD
+E8=Spazio riservato disponibile
+EB=Stato SuperCap
+F1=Vita scritture dall'host
+F2=Vita letture dall'host
+
+[SmartJMicron61x] ;Added 3.9.0
+01=Errori lettura
+02=Prestazione media globale
+03=Tempo accensione
+05=Settori riallocati
+07=Errori posizionamento
+08=Prestazioni tempo posizionamento
+09=Ore accensioni
+0A=Ritentativi pin
+0C=Cicli accensione
+A8=Errori PHY SATA
+AF=Tabella settori difettosi (fallito ECC)
+C0=Mancanze alimentazione inaspettate
+C2=Temperatura
+C5=Settore pendente corrente
+AA=Blocchi difettosi
+AD=Numero cancellazioni
+
+[SmartMicron] ;Added 4.0.0/ Updated 6.6.0
+; RAIN = Redundant Array of Independent NAND
+01=Errori lettura RAW
+05=Settori riallocati
+09=Tempo accensione
+0C=Numero accensioni
+0D=Tasso errori software
+0E=Memoria dispositivo (NAND)
+0F=Memoria utente
+10=Blocchi liberi disponibili
+11=Blocchi liberi rimanenti
+64=Totale cancellazioni
+AA=Blocchi riservati
+AB=Fallimenti programma
+AC=Fallimenti cancellazione
+AD=Media cancellazione blocco
+AE=Mancanze alimentazione inaspettate
+B4=Blocchi NAND non usati riservati
+B5=Accessi non allineati
+B7=Downshift interfaccia SATA
+B8=Correzione errori
+BB=Errori non correggibili segnalati
+BC=Timeout comandi
+BD=Blocchi difettosi di fabbrica
+C2=Temperatura
+C3=Correzioni cumulative bit ECC
+C4=Eventi riallocazione
+C5=Settori pendenti correnti
+C6=Errori non correggibili nell'analisi SMART offline
+C7=Errori CRC Ultra DMA
+CA=Percentuale vita usata
+CE=Errori scrittura
+D2=Recuperi RAIN completati
+EA=Totale byte letti
+F2=Progresso protezione scrittura
+F3=Bit ECC corretti
+F4=Soglia eventi ECC cumulativo
+F5=Pagine cumulative programmazione NAND
+F6=Totale settori scritti host
+F7=Pagine programma host
+F8=Pagine programmazione FTL
+
+; Updated 8.11.0
+F9=ISP aggiornamento totale
+FA=Totale Do RefCal
+FB=Totale piano lettura NAND (4 byte basso)
+FC=Totale piano lettura NAND (4 byte alto)
+FD=Remap blocchi OK
+FE=Totale oltre limite scansione in background
+DF=Totale scansione in background
+
+[SmartMicronMU02] ;Updated 8.17.0
+; RAIN = Redundant Array of Independent NAND
+01=Tasso errore lettura RAW
+05=Settori riallocati
+09=Ore accensione
+0C=Cicli accensione
+0D=Tasso errori software
+0E=Capacità unità (NAND)
+0F=Capacità utente
+10=Blocchi riserva disponibili
+11=Blocchi riserva rimanenti
+64=Totale cancellazioni
+AA=Blocchi riservati
+AB=Fallimenti programma
+AC=Fallimenti cancellazioni
+AD=Media cancellazione blocchi
+AE=Mancanze alimentazione inaspettate
+B4=Blocchi riservati NAND non usati
+B7=Downshift interfaccia SATA
+B8=Correzioni errori
+BB=Errori non recuperabili segnalati
+BC=Timeout comando
+BD=Blocchi originali danneggiati
+C2=Temperatura
+C3=Correzioni bit ECC cumulative
+C4=Eventi riallocazione
+C5=Settori pendenti attuali
+C6=Errori non correggibili nell'analisi SMART offline
+C7=Tasso errori CRC Ultra DMA
+CA=Percentuale usata vita unità
+CE=Tasso errori scrittura
+D2=Recuperi RAIN completati
+EA=Totale byte letti
+F3=Bit ECC corretti
+F4=Livello eventi ECC cumulativo
+F5=Pagina NAND programma cumulative
+F6=Totale settori scritti host
+F7=Pagine programma host
+F8=Pagine programma in background
+
+; Updated 6.6.0
+A0=Settori non correggibili
+A1=Blocchi di riserva validi
+A3=Blocchi non validi iniziali
+94=Totale cancellazioni SLC 
+95=Massimo cancellazioni SLC 
+96=Minimo cancellazioni SLC 
+97=Media cancellazioni SLC 
+A4=Totale cancellazioni TLC 
+A5=Massimo cancellazioni TLC  
+A6=Minimo cancellazioni TLC  
+A7=Media cancellazioni TLC  
+A9=Percentuale rimanente vita unità 
+B5=Fallimenti programma 
+B6=Fallimenti cancellazione 
+C0=Ritiro spegnimento 
+E8=Spazio riservato disponibile 
+F1=Totale scritture LBA 
+F2=Totale letture LBA 
+F5=Totale scritture TLC 
+F6=Totale scritture SLC 
+F7=Recuperi RAID 
+
+; Updated 8.10.0
+F9=ISP aggiornamento totale
+FA=Totale Do RefCal
+FB=Totale piano lettura NAND (4 byte basso)
+FC=Totale piano lettura NAND (4 byte alto)
+FD=Remap bloccki OK
+FE=Totale oltre limite scansione in background
+DF=Totale scansione in background
+
+[SmartOcz] ;Added 4.5.0
+01=Tasso errore lettura RAW
+03=Tempo accensione
+04=Cicli start/stop
+05=Settori riallocati
+09=Ore accensione
+0C=Cicli accensione
+C2=Temperatura
+E8=Totale settori scritti
+E9=Vita rimanente
+
+; Added 6.6.0
+64=Totale blocchi cancellati
+A7=Modo protezione SSD
+A8=Conteggio errori PHY ATA
+A9=Blocchi errati
+AD=Cancellazioni
+B8=Blocchi di fabbrica danneggiati
+C0=Mancanze alimentazione inaspettate
+CA=Totale numero bit corretti
+CD=Massimo tasso PE
+CE=Minimo cancellazioni
+CF=Massimo cancellazioni
+D3=Errori non correggibili SATA
+D4=Letture pagine NAND durante recupero
+D5=Letture semplici durante tentativi di recupero
+D6=Letture adattive durante tentativi recupero
+DD=Errori non correggibili percorso dati interno
+DE=Recuperi RAID
+E6=Protezione mancanza alimentazione
+FB=Letture NAND
+
+;Updated 6.7.0
+F1=Totale scritture host
+F2=Totale letture host
+
+[SmartPlextor] ;Added (5.1.0)/Updated (5.4.0)
+01=Tasso errore lettura
+05=Settori riallocati
+09=Ore accensione
+0C=Numero accensioni
+AA=Crescita blocchi danneggiati
+AB=Totale fallimenti scrittura
+AC=Totale cancellazioni fallite
+AD=Media scrittura/cancellazioni
+AE=Mancanze alimentazione inaspettate
+AF=Scritture fallite (caso peggiore)
+B0=Cancellazioni fallite (caso peggiore)
+B1=Livello sorvolo
+B2=Blocchi riservati usati (caso peggiore)
+B3=Blocchi riservati usati
+B4=Blocchi riservati non usati (totale)
+B5=Fallimenti programma
+B6=Fallimenti cancellazione
+B7=DownShift interfaccia SATA
+B8=Errori corretti dati end-to-end
+BB=Errori non correggibili
+BC=Time out comando
+C0=Spegnimenti non pianificati
+C3=Tasso ECC
+C4=Eventi riallocazione
+C6=Settori non correggibili
+C7=Errori CRC ultra
+E8=Spazio riservato disponibile
+E9=GB scritti nella NAND
+F1=Totale scritture LBA
+F2=Totale letture LBA
+
+[SmartSanDisk] ;Added 5.2.0
+05=Blocchi ritirati
+09=Ore accensione
+0C=Cicli accensione
+AA=Blocchi riservati
+AB=Fallimenti programma
+AC=Fallimenti cancellazioni
+AD=Media scritture/cancellazioni
+AE=Mancanze alimentazione inaspettate
+BB=Errori non correggibili segnalati
+C2=Temperatura
+E6=Percentuale totale scritture/cancellazioni
+E8=Vita rimanente
+EA=Percentuale totale scritture/cancellazioni (blocchi BC)
+F1=Totale scritture host
+F2=Totale letture host
+
+[SmartOczVector] ;Added 5.3.0
+05=Blocchi danneggiati accumulati nell'uso
+09=Ore accensione
+0C=Cicli accensione
+AB=Blocchi disponibili oltre le previsioni
+AE=Cicli accensione (non pianificati)
+BB=Totale letture NAND non correggibili
+C3=Totale programmazioni fallite
+C4=Totale cancellazioni fallite
+C5=Totale letture fallite (non correggibili)
+C6=Letture da host
+C7=Scritture su host
+C2=Temperatura
+D0=Cancellazioni medie
+D2=Errori CRC SATA
+E9=Vita rimanente
+F9=Totale programmazioni NAND
+
+;Updated 5.5.0
+F1=Totale scritture host
+F2=Totale letture host
+
+;Updated 6.6.0
+64=Totale blocchi cancellati
+B8=Totale blocchi errati di fabbrica
+CA=Totale numero bit letti
+CD=Max tasso PE
+CE=Min cancellazioni
+CF=Max cancellazioni
+D4=Totale pagine NAND lette richieste lettura recupero
+D5=Totale letture semplici durante richieste recupero
+D6=Totale letture adattive durante richieste recupero
+DD=Errori non correggibili protezione percorso dati interno
+DE=recuperi RAID
+E0=In garanzia
+E1=Polarità DAS
+E2=Pfail parziale
+E6=Flag attivazione soglia scrittura
+F9=Totale programmazioni NAND (pagine)
+FB=Totale letture NAND
+
+[SmartCorsair] ;Added 6.2.0
+01=Tasso errori lettura RAW
+05=Blocchi ritirati
+09=Ore accensione
+0C=Cicli alimentazione
+AA=Blocchi riservati
+AC=Cancellazioni fallite
+AE=Mancanze alimentazione inaspettate
+B5=Scritture fallite
+BB=Errori non recuperabili segnalati
+C2=Temperatura
+C4=Eventi riallocazione
+E7=Vita rimanente SSD
+F1=GB scritti vita
+F2=GB letti vita
+
+[SmartToshiba] ;Added 6.2.0
+01=Tasso errori lettura
+02=Prestazioni medie
+03=Tempo spin-up
+04=Avvio/Stop
+05=Settori riallocati
+07=Tasso errore seek
+08=Tempo seek
+09=Ore accensione
+0A=Ritentativi spin
+0B=Tentativi ricalibrazione
+0C=Cicli accensione
+A7=Modo protetto SSD
+A8=Errore PHT SATA
+A9=Totale blocchi danneggiati
+AD=Cancellazioni
+C0=Mancanze alimentazione inaspettate
+C2=Temperatura
+C4=Eventi riallocazione
+C5=Settori attualmente pendenti
+C6=Settori non correggibili
+F1=Totale scritture host
+F2=Totale letture host
+
+[SmartSanDiskGb] ;Added 6.2.0
+01=Tasso errori lettura
+05=Blocchi riallocati
+09=Ore accensione
+0C=Cicli alimentazione
+A5=Cancellazioni blocchi (SLC)
+A6=Cicli S/C min
+A7=Blocchi/die danneggiati max
+A8=Cicli cancellazione max
+A9=Totale blocchi danneggiati
+AA=Aumento blocchi danneggiati
+AB=Scritture fallite
+AC=Cancellazioni fallite
+AD=Media cicli cancellazione
+AE=Mancanze alimentazione inaspettate
+B8=Rilevamenti/correzionie errori end-to-end
+BB=Errori non recuperabili segnalati
+BC=Timeout comando
+C2=Temperatura
+C7=Errori CRC
+D4=Errori PHT SATA
+E6=Percentuale totale S/C
+E7=Vita residua SSD
+E8=Blocchi riserva rimanenti
+E9=Totale GB scritte nella NAND
+EA=GB scritti nella NAND (SLC)
+EE=Indicatore usura supporti (cicli rimanenti)
+F1=Totale GB scritti
+F2=Totale GB letti
+F4=Stato acceleratore temperatura
+F9=GB scritti nella NAND
+
+[SmartKingston] ;Added 6.6.0
+;https://media.kingston.com/support/downloads/MKP_521_Phison_SMART_attribute.pdf
+01=Tasso errore lettura
+02=Prestazioni trasferimento
+03=Tempo spinup
+05=Settori riallocati
+07=Tasso errore seek
+08=Prestazioni tempo seek
+09=Ore accensione
+0A=Ritentativi spin
+0C=Cicli di accensione
+A8=Errori PHY SATA
+AA=Blocchi danneggiati
+AD=Cancellazioni
+AF=Tabella cluster danneggiati
+BB=Errori non correggibili
+C0=Spegnimenti non protetti
+C2=Temperatura
+C4=Blocchi danneggiati successivamente
+C5=Settori pendenti attualmente
+C7=Errori CRC
+DA=Errori CRC
+E7=Vita rimanente SSD
+E9=Vita scritture nella flash
+F0=Testina scrittura
+F1=Scritture host
+F2=Letture host
+F4=Media cancellazioni
+F5=Max cancellazioni
+F6=Totale cancellazioni
+
+[SmartNVMe] ;Added 9.7.0
+01=Avviso critico
+02=Temperatura composita
+03=Riserva disponibile
+04=Livello riserva disponibile
+05=Percentuale usata
+06=Letture unità dati
+07=Scritture unità dati
+08=Comandi lettura host
+09=Comandi scrittura host
+0A=Tempo busy controller
+0B=Cicli alimentazione
+0C=Ore accensione
+0D=Spegnimenti non protetti
+0E=Errori integrità supporto e dati
+0F=Elementi registro eventi informazione errore
+10=Warning Composite Temperature Time
+11=Critical Composite Temperature Time
+12=Temperature Sensor 1
+13=Temperature Sensor 2
+14=Temperature Sensor 3
+15=Temperature Sensor 4
+16=Temperature Sensor 5
+17=Temperature Sensor 6
+18=Temperature Sensor 7
+19=Temperature Sensor 8
+1A=Thermal Management Temperature 1 Transition Count
+1B=Thermal Management Temperature 2 Transition Count
+1C=Total Time For Thermal Management Temperature 1
+1D=Total Time For Thermal Management Temperature 2
+
+[SmartRealtek] ;Added by Realtek
+01=Tasso errore RAW
+05=Settori riallocati
+09=N. ore accensione
+0C=N. accensioni
+A1=GDN
+A2=Totale cancellazioni
+A3=Ciclo PE max
+A4=Cancellazioni medie
+A5=Blocchi errati iniziali
+A6=Blocchi errati totali
+A7=Modo protezione SSD
+A8=Errori fisici SATA
+A9=Salute
+AB=Scritture fallite
+AC=Cancellazioni fallite
+AE=N. spegnimenti non previsti
+AF=ECC falliti
+B5=Accessi non allineati
+BB=Errori non correggibili riportati
+C2=Temperatura contenitore
+C3=ECC corretti cumulativi
+C4=Eventi riallocazione
+C7=Errori CRC Ultra DMA
+CE=Cancellazioni min.
+CF=Cancellazioni max.
+E7=Vita residua
+E8=Spazio riservato disponibile
+F1=Vita scrittura
+F2=Vita lettura
+F9=Totale GB scritti nella NAND
+FA=Totale GB scritti nella NAND (SLC)
+
+[SmartSKhynix] ; Updated 8.8.0
+01=Tasso errore lettura
+05=Settori ri-assegnati
+09=Ore accensione
+0C=Numero cicli alimentazione
+64=Cancellazioni totali
+A8=Min. cancellazioni
+A9=Max. cancellazioni
+AA=Blocchi riservati
+AB=Fallimenti programma
+AC=Fallimenti cancellazioni
+AE=Mancanze alimentazione inaspettate
+AF=Fallimenti programma (caso peggiore)
+B0=Fallimenti cancellazioni (caso peggiore)
+B1=Wear Leveling
+B2=Blocchi riservati usati (caso peggiore)
+B3=Blocchi riservati usati (totale SSD)
+B4=Blocchi riservati non utilizzati (SSD Total)
+B5=Fallimenti programma (totale SSD)
+B6=Fallimenti cancellazioni (totale SSD)
+B7=Downshift SATA
+B8=Rilevamento errori end-to-end
+BB=Errori non correggibili
+BC=Timeout comandi
+BF=Eventi shock operativo
+C2=Temperatura
+C3=Tasso ECC
+C4=Eventi di riallocazione
+C6=Settori non correggibili
+C7=Errori CRC
+C9=Tasso errori lettura non correggibili via software
+CC=Tasso correzione ECC software
+D4=Errori fisici
+E7=Vita rimanente SSD
+E9=Vita residua SSD
+EA=NAND scritti
+F1=Totale LBA scritti
+F2=Totale LBA letti
+FA=Totale n. ritentativi lettura NAND
+
+[SmartKioxia] ; Added 8.8.0
+09=Ore da accensione
+0C=N. cicli alimentazione
+A7=Modalità protezione SSD
+A8=Errori SATA PHY
+A9=Blocchi errati
+AD=Cancellazioni (dati utente)
+C0=Mancanze alimentazioni impreviste
+C2=Temperatura
+F1=Scritture host
+
+[SmartWdc] ; Added 8.8.0
+01=Tasso errori lettura
+05=Blocchi riassegnati
+09=Ore da accensione
+0C=N. cicli alimentazione
+A5=Cancellazioni blocchi (SLC)
+A6=Cicli min. P/E
+A7=Blocchi danneggiati max per die
+A8=Cicli max P/E
+A9=Blocchi errati
+AA=Aumento blocchi danneggiati
+AB=Errori programma
+AC=Errori cancellazione
+AD=Media cicli P/E
+AE=Mancanze alimentazione impreviste
+B8=Rilevamenti/correzioni errori end-to-end
+BB=Errori non correggibili segnalati
+BC=Timeout comando
+C2=Temperatura
+C7=Errori CRC
+D4=Errore fisico SATA
+E6=Indicatore usura supporti
+E8=Spazio di riserva disponibile
+E9=GB scritti nella NAND
+EA=GB scritti nella NAND (SLC)
+EE=Indicatore usura supporti (cicli rimanenti)
+F1=Totale GB scritti
+F2=Totale GB letti
+F3=Totale scritture NAND
+F4=Stato acceleratore temperatura
+F9=GB scritti nella NAND
+
+[SmartKingstonSuv]
+; https://media.kingston.com/support/downloads/UV400-SMART-attribute.pdf
+; https://media.kingston.com/support/downloads/UV500_SMART_attribute.pdf
+01=Tasso errori lettura
+05=Settori riassegnati
+09=Ore da accensione
+0C=N. cicli alimentazione
+AA=Blocchi di riserva usati
+AB=Errori programma
+AC=Errori cancellazione
+AE=Spegnimenti imprevisti
+AF=Program Fail Count Worst Die
+B0=Erase Fail Count Worst Die
+B1=Wear Leveling Count
+B2=Used Reserved Block Count worst Die
+B4=Unused Reserved Block Count (SSD Total)
+BB=Errori non correggibili segnalati
+C2=Temperatura
+C3=On-the-Fly ECC Error Count
+C4=Eventi di riallocazione
+C5=Pending Sector Count
+C7=UDMA CRC Error Count
+C9=Uncorrectable Read Error Rate
+CC=Soft ECC Correction Rate
+E7=Vita residua SSD
+EA=Lifetime Nand Writes
+F1=Lifetime Host Writes
+F2=Lifetime Host Reads
+FA=Total Number of NAND Read Retries
+
+[SmartKingstonKC600]
+;https://media.kingston.com/support/downloads/KC600-SMART-attribute.pdf
+01=Tasso errori lettura
+05=Re-Allocated NAND Block Count
+09=Power-On Hours
+0C=N. cicli alimentazione
+94=Reserved
+95=Reserved
+96=Reserved
+97=SLC Average Erase Count
+9F=DRAM 1 bit Error Count
+A0=Reported UECC (UnCorrectable) Errors
+A1=Available Reserved Space
+A4=Reserved
+A5=Reserved
+A6=Reserved
+A7=Average Erase Count
+A8=Reserved
+A9=Percentage Of Rated Lifetime Remaining
+B1=Reserved
+B5=Program Fail Count
+B6=Erase Fail Count
+C0=Mancanze alimentazioni impreviste
+C2=Device Temperature
+C3=Hardware ECC Recovered
+C4=Eventi di riallocazione
+C7=UDMA CRC Error Count
+E7=Percentage of Rated Lifetime Remaining
+E8=Unused Reserved Block Count
+F1=Total LBAs Written
+F2=Total LBAs Read
+F5=Total Media Writes
+
+[SmartKingstonDC500]
+;https://media.kingston.com/support/pdf/MKP_521-7_SMART-DC500_attribute_hr.pdf
+01=Host UNC Error Count
+09=Ore da accensione
+0C=Power On / Off Cycle
+A7=Protect mode
+A8=Errori SATA PHY
+A9=Bad Block Rate
+AA=Bad Block Information
+AC=Erase Failure Count
+AD=Erase Count
+B5=Program Fail Count
+B6=Erase Failure Count
+BB=Host UNC Error Count
+C0=Mancanze alimentazioni impreviste
+C2=Temperatura
+C4=Total Later Bad Block Count
+C7=Errori CRC
+CF=Thermal Throttling Count
+DA=CRC Error Count
+E7=SSD Life Remaining
+E8=Read Fail Count
+E9=NAND Write
+F1=Host Write
+F2=Host Read
+F4=Avg Erase Count
+F5=Max Erase Count
+F6=Total Erase Count
+
+[SmartKingstonSA400]
+;https://github.com/hiyohiyo/CrystalDiskInfo/issues/20
+01=Uncorrectable Errors
+09=Ore da accensione
+0C=Power Cycles
+94=Vendor Unique
+95=Vendor Unique
+A7=Vendor Unique
+A8=Errori SATA PHY
+A9=Vendor Unique
+AA=Bad Block Count
+AC=Vendor Unique
+AD=Erase Count
+B5=Vendor Unique
+B6=Vendor Unique
+BB=Uncorrectable ECC Errors
+C2=Temperatura
+C4=Reallocation Events
+C7=SATA CRC Error
+DA=CRC Error Count
+E7=SSD Wear Indicator
+E9=Lifetime Nand Writes
+F1=Lifetime Writes from Host
+F2=Lifetime Read from Host
+F4=Average Erase Count
+F5=Max Erase Count
+F6=Total Erase Count
+
+[SmartSsstc]
+01=Raw Read Error Rate
+05=Reallocated Block Count
+09=Ore da accensione
+0C=N. cicli alimentazione
+AA=Available Reserved Space
+AB=Errori programma (Total)
+AC=Errori cancellazione (Total)
+AD=Average Program/Erase Count
+AE=Mancanze alimentazione impreviste
+AF=Program Fail count (Worst case)
+B0=Erase Fail Count (Worst case)
+B1=Wear Leveling Count
+B2=Used Reserved Block Count (Worst case)
+B3=Used Reserved Block Count (Total)
+B4=Unused Reserved Block Count (Total)
+B7=SATA Interface Down shift
+B8=End-to-End Data Errors Count
+BB=Uncorrectable Error Count
+BC=Command Time out
+C2=Drive Temperature
+C3=ECC rate
+C6=OffLine Uncorrectable Error Count
+C7=SATA CRC Error Count
+E5=Power Loss Protection Failure
+E7=Percentage Lifetime Remaining
+E8=Available Reserved Space 
+E9=GB scritti nella NAND
+F1=Total Host Write
+F2=Total Host Read 
+F3=NAND GB Written
+
+[SmartIntelDc]
+;https://github.com/hiyohiyo/CrystalDiskInfo/issues/18
+01=Raw Read Error Count
+05=Reallocated Flash Block Count
+09=Ore da accensione
+0C=N. cicli alimentazione
+0E=Device Capacity
+0F=User Capacity
+10=Spare Blocks Available
+11=Remaining Spare Available
+AC=Total Block Erase Failure
+AD=Per Block Max Erase Count
+AE=Mancanze alimentazione impreviste
+AF=Average Erase Count
+B0=Power Loss Protection Error
+B5=Total Block Program Failure
+B8=Rilevamento errori end-to-end
+BB=Uncorrectable Error Count
+C2=Temperatura
+C5=Pending Sector Count
+C6=Offline Uncorrectable Error Count
+C7=Errori CRC
+CA=Percentage of Drive Life Used
+E2=Timed Workload - Media Wear
+E3=Timed Workload - Host Read/Write Ratio
+E4=Timed Workload Timer
+EA=Thermal Throttle Status
+EB=Total Host Bytes/Sectors Written
+F1=Total Nand Bytes/Sectors Written
+
+[SmartApacer]
+09=Ore da accensione
+0C=N. cicli alimentazione
+A3=Maximum Erase Count
+A4=Average Erase Count
+A6=Total Later Bad Block Count
+A7=Modalità protezione SSD
+A8=Errori SATA PHY
+AB=Errori programma
+AC=Errori cancellazione
+AF=Bad Cluster Table Count
+C0=Mancanze alimentazioni impreviste
+C2=Temperatura
+E7=Lifetime Left
+F1=Total Sectors Write
+
+[SmartSiliconMotion]
+01=Tasso errori lettura
+05=Reallocated Sectors Count
+09=Power-On Hours
+0C=N. cicli alimentazione
+94=SLC Total Erase Count
+95=SLC Maximum Erase Count
+96=SLC Minimum Erase Count
+97=SLC Average Erase Count
+9F=DRAM 1 bit Error Count
+A0=Uncorrectable sectors count when read/write
+A1=Number of Valid Spare Blocks
+A2=Number of Cache Data Block
+A3=Number of Initial Invalid Blocks
+A4=Total Erase Count
+A5=Maximum Erase Count
+A6=Minimum Erase Count
+A7=Average Erase Count
+A8=Max Erase Count of Spec
+A9=Remain Life
+AF=Program fail count in worst die
+B0=Erase fail count in worst die
+B1=Total Wear Level Count
+B2=Runtime Invalid Block Count
+B5=Total Program Fail Count
+B6=Total Erase Fail Count
+BB=Uncorrectable Error Count
+C0=Power-Off Retract Count
+C2=Temperatura
+C3=Hardware ECC Recovered
+C4=Eventi di riallocazione
+C5=Current Pending Sector Count
+C6=Uncorrectable Error Count Off-line
+C7=Ultra DMA CRC Error Count
+E8=Available Reserved Space
+F1=Total LBA Written
+F2=Total LBA Read
+F5=Flash Write Sector Count
+
+[SmartJMicron66x]
+01=Tasso errori lettura
+02=Throughput Performance
+03=Spin-Up Time
+05=Reallocated Sectors Count
+07=Seek Error Rate
+08=Seek Time Performance
+09=Power-On Hours
+0A=Spin Retry Count
+0C=N. cicli alimentazione
+A7=Modalità protezione SSD
+A8=Errori SATA PHY
+AA=Bad Block Count
+AD=Erase Count
+AF=Bad Cluster Table Count
+B4=Spare Block Count
+C0=Mancanze alimentazioni impreviste
+C2=Temperatura
+C5=Current Pending Sector Count
+E7=Drive Life
+E9=Write Sector Count (NAND)
+F0=Write Head
+F1=Total LBA Written
+F2=Total LBA Read
+
+[SmartPhison]
+01=Tasso errori lettura
+09=Ore da accensione
+0C=N. cicli alimentazione
+A8=Errori SATA PHY
+AA=Bad Block Count
+AD=Erase Count
+C0=Mancanze alimentazioni impreviste
+C2=Temperatura
+DA=Number of CRC Error
+E7=Vita residua SSD
+F1=Scritture host
+
+[SmartSeagate]
+; https://crystalmark.info/board/c-board.cgi?cmd=one;no=1818;id=#1818
+01=Tasso errori lettura
+05=Retired Sectors Count
+09=Ore da accensione
+0C=N. cicli alimentazione
+10=Spare Blocks Available
+11=Remaining Spare Blocks
+A8=Errori SATA PHY
+AA=Bad Block Count
+AB=Errori programma
+AC=Errori cancellazione
+AD=Erase Count
+AE=Mancanze alimentazione impreviste
+B1=Wear Range Delta
+B5=Program Fail Count
+B6=Erase Fail Count
+C0=Mancanze alimentazioni impreviste
+C2=Temperatura
+C9=Soft Error Rate
+CC=Soft ECC Correction Rate
+DA=CRC Error Count
+E7=Vita residua SSD
+E8=Read Failure Block Count
+E9=NAND GiB Written
+EA=Lifetime Writes To Flash
+EB=NAND sectors Written
+F1=Lifetime Writes From Host
+F2=Lifetime Reads From Host
+FA=Lifetime NAND Read Retries
+
+[SmartSeagateIronWolf]
+; https://www.seagate.com/www-content/manuals/ironwolf-110-ssd/pdf/IronWolf_110_SSD_PM-100841919_B.pdf
+01=Raw Read Error Rate
+05=Settori riassegnati
+09=Ore da accensione
+0C=N. cicli alimentazione
+64=Flash Gigabytes Erased
+66=Lifetime PS4 Entry Count
+67=Lifetime PS3 Entry Count
+AA=Grown Bad Block Count
+AB=Errori programma
+AC=Errori cancellazione
+AD=Average Program/Erase Count
+AE=Mancanze alimentazione impreviste
+B1=Wear Range Delta
+B7=SATA/PCIe Interface Downshift Count
+BB=Uncorrectable ECC Count
+C2=Temperatura
+C3=RAISE ECC Correctable Count
+C6=Uncorrectable Read Error Count
+C7=SATA R-Error (CRC) Error Count
+E6=Drive Life Protection Status
+E7=Vita residua SSD
+E8=Available Reserved Space
+E9=Lifetime Writes to Flash
+F1=Lifetime Writes From Host
+F2=Lifetime Reads From Host
+F3=Free Space
+
+[SmartMarvell] ; Added 8.8.3
+05=Number of New Bad Block
+09=Ore da accensione
+0C=N. cicli alimentazione
+A4=Total Erase Count
+A5=Maximum Erase Count
+A6=Minimum Erase Count
+A7=Average Erase Count
+C0=Power off Retract Count
+C2=Temperatura
+C7=SATA CRC Error Count
+F1=Total Written
+F2=Total Read
+
+[SmartMaxiotek] ; Added 8.8.6
+05=Settori riassegnati
+09=Power-On Hours
+0C=N. cicli alimentazione
+A7=Modalità protezione SSD
+A8=PHY Error Count
+A9=Blocchi errati
+AB=Errori programma
+AC=Errori cancellazione
+AD=Erase Count
+AF=Bad Cluster Table Count
+B1=Read Retry Count
+B4=Spare Block Count Left
+BB=Reported UNC Errors
+C0=Mancanze alimentazioni impreviste
+C2=Temperatura
+C4=Reallocated Event Count
+C7=UDMA CRC Error Count
+CE=Minimum Erase Count
+CF=Maximum Erase Count
+D0=Average Erase Count
+D1=Minimum Erase Count of SLC block
+D2=Maximum Erase Count of SLC block
+D3=Average Erase Count of SLC block
+E7=Vita residua SSD
+E9=Write Counts Sectors to Nand
+EA=Read Counts Sectors from Nand
+F1=Write Sector Count
+F2=Read Sector Count
+F5=Bit Error Count
+
+[SmartSeagateBarraCuda] ; Added 8.9.0
+01=UECC Error Count
+05=Retired Sectors Count
+09=Ore da accensione
+0C=N. cicli alimentazione
+10=Spare Blocks Available
+11=Remaining Spare Blocks
+A8=Errori SATA PHY
+AA=Bad Block Count
+AB=Errori programma
+AC=Errori cancellazione
+AD=Erase Count
+AE=Mancanze alimentazione impreviste
+B1=Wear Range Delta
+B5=Program Fail Count
+B6=Erase Fail Count
+C0=Mancanze alimentazioni impreviste
+C2=Temperatura
+C9=Soft Error Rate
+CC=Soft ECC Correction Rate
+DA=CRC Error Count
+E7=Vita residua SSD
+E8=Read Failure Block Count
+E9=NAND GiB Written
+EA=Lifetime Writes To Flash
+EB=NAND sectors Written
+F1=Lifetime Writes From Host
+F2=Lifetime Reads From Host
+FA=Lifetime NAND Read Retries
+
+[SmartYmtc] ; Added 8.10.0
+05=New Bad Block Count
+09=Ore da accensione
+0C=N. cicli alimentazione
+AA=Max Bad Block Count
+A8=Errori SATA PHY
+A9=Blocchi errati
+AB=Errori programma
+AC=Errori cancellazione
+AD=Erase Count
+AF=Bad Cluster Count
+B7=SATA Interface Downshift
+B8=End to End Error Detection/Correction Count
+BB=Uncorrectable Error Count
+BE=Temperature
+C0=Mancanze alimentazioni impreviste
+C4=Re-allocated Event Count
+C7=Errori CRC
+CE=Minimum Erase Count
+CF=Maximum Erase Count
+D0=Average Erase Count
+D1=SLC Minimum Erase Count
+D2=SLC Maximum Erase Count
+D3=SLC Average Erase Count
+E7=Vita residua SSD
+E9=Write sector count to NAND
+EA=Read sector count to NAND
+F1=Total LBA written
+F2=Total LBA Read
+F3=NAND Temperature
+F5=Bit Error Count
+
+[SmartScy] ;Added 8.12.8
+01=Raw Read Error Rate
+05=Settori riassegnati
+07=Seek Error Rate
+09=Power-On Hours
+0C=Drive Power Cycle Count
+A7=Average Erase Count
+AB=Errori programma
+AC=Errori cancellazione
+AD=Erase Count
+B1=Read Retry Count
+B4=Spare Block Count Left
+B7=Runtime Bad Block
+BB=Reported UNC Errors
+C0=Mancanze alimentazioni impreviste
+C2=Controlled Temperature
+C3=Cumulative ECC Bit Correction Count
+C4=Reallocated Event Count
+C5=Current Pending Sector
+C7=UDMA CRC Error Count
+E7=Vita residua SSD
+F1=Total LBAs Written
+F2=Total LBAs Read
+F5=Total Nand Flash Written
+
+[SmartRecadata] ;Added 8.14.0
+07=Seek Error Rate
+09=Power-On Hours
+0C=Drive Power Cycle Count
+A7=Average erase count
+AB=Errori programma
+AC=Errori cancellazione
+AD=Erase Count
+B1=Read Retry Count
+B4=Spare Block Count Left
+B7=Runtime Bad Block
+BB=Reported UNC Errors
+C0=Mancanze alimentazioni impreviste
+C2=Controlled temperature
+C3=Cumulative ECC Bit Correction Count
+C4=Reallocated Event Count
+C5=Current Pending Sector
+C7=UDMA CRC Error Count
+E7=Vita residua SSD
+F1=Total LBAs written
+F2=Total LBAs read
+F5=Total Nand Flash Written
+
+[SmartSanDiskHp] ;Added 8.17.0
+01=Raw Read Error Rate
+05=Blocchi riassegnati
+09=Ore da accensione
+0C=Drive Power Cycle Count
+AA=Reserved Block Count
+AB=Errori programma
+AC=Errori cancellazione
+AD=Wear Leveling Count
+AE=Mancanze alimentazione impreviste
+B0=Unused Reserved Block Count
+B7=SATA Interface Downshift Count
+B8=End to End Error Detection/Correction Count
+BB=Uncorrectable Error Count
+BC=Command Time Out
+BE=Airflow Temperature
+C2=Temperatura
+C4=Reallocated Event Count
+C7=Errori CRC
+C9=SSD Life Left
+E6=Indicatore usura supporti
+F1=Total LBAs Written
+F2=Total LBAs Read
+F3=Throttle Statistics
+F4=Stato acceleratore temperatura
+F9=TLC NAND GB Writes
+
+[SmartSanDiskHpVenus] ;Added 8.17.0
+01=Raw Read Error Rate
+05=Blocchi riassegnati
+09=Ore da accensione
+0C=Drive Power Cycle Count
+AA=Reserved Block Count
+AB=Errori programma
+AC=Errori cancellazione
+AD=Wear Leveling Count
+AE=Mancanze alimentazione impreviste
+B0=Unused Reserved Block Count
+B7=SATA Interface Downshift Count
+B8=End to End Error Detection/Correction Count
+BB=Uncorrectable Error Count
+BC=Command Time Out
+BE=Airflow Temperature
+C2=Temperatura
+C4=Reallocated Event Count
+C7=Errori CRC
+C9=SSD Life Left
+E6=Indicatore usura supporti
+F1=Total LBAs Written
+F2=Total LBAs Read
+F3=Totale scritture NAND
+F4=Stato acceleratore temperatura
+F9=TLC NAND GB Writes
+
+[SmartSanDiskDell] ;Added 8.17.0
+05=Blocchi riassegnati
+09=Ore da accensione
+0C=Drive Power Cycle Count
+AF=Program Fail Count (Worst Case Component)
+B0=Erase Fail Count (Worst Case Component)
+B1=Wear Leveling Count
+B2=Used Reserved Block Count (Worst Case Component)
+B3=Used Reserved Block Count (SSD Total)
+B4=Remaining Reserved Block Count (SSD Total)
+B5=Program Fail Count (SSD Total)
+B6=Erase Fail Count (SSD Total)
+BB=Uncorrectable Error Count
+C2=Temperatura
+C3=ECC Rate
+C7=Errori CRC
+E6=Indicatore usura supporti
+EE=Indicatore usura supporti (cicli rimanenti)
+F1=Total LBAs Written
+F2=Total LBAs Read
+
+[SmartSanDiskLenovo] ;Added 8.17.0
+05=Blocchi riassegnati
+09=Ore da accensione
+0C=Drive Power Cycle Count
+A6=Cicli min. P/E
+A7=Blocchi danneggiati max per die
+A8=Cicli max P/E
+A9=Blocchi erratis
+AA=Aumento blocchi danneggiati
+AB=Errori programma
+AC=Errori cancellazione
+AD=Media cicli P/E Attribute
+AE=Mancanze alimentazione impreviste
+B2=Used Reserved Block Count
+B4=Remaining Reserved Block Count
+B8=End to End Error Detection/Correction Count
+BB=UECC Count
+BC=Command Time Out
+C2=Temperatura
+C7=SATA CRC Errors
+D4=Errore fisico SATAs
+E6=Indicatore usura supporti
+E8=Available Reserved Space
+E9=GB scritti nella NAND
+EA=GB scritti nella NAND (SLC)
+F1=Total Host GB Write
+F2=Totale GB letti
+F3=Throttle Statistics
+F4=Thermal Throttle Status
+
+[SmartSanDiskLenovoHelenVenus] ;Added 8.17.0
+05=Blocchi riassegnati
+09=Ore da accensione
+0C=Drive Power Cycle Count
+A6=Cicli min. P/E
+A7=Blocchi danneggiati max per die
+A8=Cicli max P/E
+A9=Blocchi erratis
+AA=Aumento blocchi danneggiati
+AB=Errori programma
+AC=Errori cancellazione
+AD=Media cicli P/E Attribute
+AE=Mancanze alimentazione impreviste
+B2=Used Reserved Block Count
+B4=Remaining Reserved Block Count
+B8=End to End Error Detection/Correction Count
+BB=UECC Count
+BC=Command Time Out
+C2=Temperatura
+C7=SATA CRC Errors
+D4=Errore fisico SATAs
+E8=Available Reserved Space
+E9=Media Wearout Indicator
+EA=GB scritti nella NAND (SLC)
+F1=Total Host GB Write
+F2=Totale GB letti
+F3=Throttle Statistics
+F4=Thermal Throttle Status
+F9=GB scritti nella NAND (TLC)
+
+[SmartMicronMU03] ;Added 8.17.0
+01=Raw Read Error Rate
+05=Reallocated NAND Block Count
+09=Ore da accensione Count
+0C=N. cicli alimentazione
+AB=Errori programma
+AC=Errori cancellazione
+AD=Average Block Erase Count
+AE=Mancanze alimentazione impreviste
+B4=Unused Spare NAND Blocks
+B5=Non-4K Aligned Access
+B7=SATA interface Downshift
+B8=Error Correction Count
+BB=Errori non correggibili segnalati
+C2=Temperatura
+C4=Eventi di riallocazione
+C5=Current Pending ECC Count
+C6=SMART Offline Scan Uncorrectable Error Count
+C7=UDMA CRC Error Count
+CA=Lifetime Remaining
+CE=Write Error Rate
+D2=Successful RAIN Recovery Count
+F0=Host Program Page Count
+F1=Total LBAs Written
+F2=Total LBAs Read
+F3=Total Program Page Count
+F6=Cumulative Host Sectors Written
+F7=Host Program NAND Pages Count
+F8=FTL Program NAND Pages Count
+
+[SmartSanDiskCloud] ;Added 9.0.0
+05=Retired Block Count
+09=Ore da accensione
+0D=Count of Uncorrectable ECC Errors
+20=Write Amplification multiplied by 100
+21=Write Amplification Factor
+AA=Blocchi riservati
+AB=Errori programma
+AC=Errori cancellazione
+AD=Average Write/Erase Count
+AE=Mancanze alimentazione impreviste
+B2=SSD Life Left (upto 0.01%)
+BF=Clean Shutdown Count
+C0=Unclean Shutdown Count
+C2=Temperatura
+C4=Number of Blocks Reallocated
+E6=Percent of Total Write/Erase Count
+E8=Spare Blocks Remaining
+E9=Total Nand Writes 64GB
+EB=Capacitor Health
+F1=Total Host Writes 64GB
+F2=Total Host Reads 64GB
+F4=Lifetime Thermal Throttle Activations
+F5=Percent Drive Life Remaining
+FD=SPI Tests Remaining
+
+[SmartSiliconMotionCVC] ;Added 9.3.0
+05=Re-Assigned Count
+09=Power-On Hours Count
+0C=Drive Power Cycle Count
+A5=SLC Cache
+AA=Grown Bad Block Count
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Avg Erase Count
+AE=Unexpected Power Loss Count
+AF=Program Fail Count (Worst case)
+B7=Total SATA Link Speed Downshift
+B8=End-to-End Data Errors corrected
+BB=Uncorrectable Errors
+BD=Max Erase Count
+BE=Temperature
+BF=Min Erase Count
+C3=Read Error Rate
+C6=Off-Line Scan Uncorrectable Sector Count
+C7=SATA CRC Error Count
+CA=SSD Life Left
+E8=Total Spare Counts
+E9=TLC NAND Write
+F1=Host Write
+F2=Host Read
+94=RAID Event Count
+95=RAID Uncorrectable Count
+A7=SSD Protect Mode
+93=Soft Retry Event Count
+EA=SLC NAND Write
+
+[SmartAdataIndustrial] ;Added 9.3.1
+09=Power-On hours Count
+0C=Drive Power Cycle Count
+A7=SSD Protect Mode
+A8=SATA PHY Error Count
+A9=Bad Block Count
+AD=Erase Count
+AF=Bad Cluster Table Count
+B4=Spare block count left
+C0=Unexpected Power Loss Count
+C2=Temperature
+E7=SSD life left
+E9=Flash Write Sector Count
+EA=Flash Read Sector Count
+F1=Write Sector Count
+F2=Read Sector Count

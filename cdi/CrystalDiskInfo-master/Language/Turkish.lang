@@ -1,0 +1,1746 @@
+[Information]
+; (Latest Translator, First Translator, Second Translator ...)
+TRANSLATOR=Kaya Zeren, Nejdet Acar
+VERSION=8.10.0
+
+[Language]
+LANGUAGE=Türkçe
+CHARACTER_CODE=Unicode (UTF-16, LE, w/ BOM)
+; Locale ID: https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c?redirectedfrom=MSDN
+LOCALE_ID=0x041F
+
+[Url]
+WIKIPEDIA_SMART=https://en.wikipedia.org/wiki/Self-Monitoring,_Analysis_and_Reporting_Technology
+
+[Menu]
+FILE=&Dosya
+CUSTOMIZE=Ö&zelleştir
+EXIT=Çı&kış
+EDIT=Dü&zenle
+COPY=Ko&pyala
+FUNCTION=İş&lev
+HIDE_SMART_INFO=&S.M.A.R.T. Bilgilerini Gizle
+HIDE_SERIAL_NUMBER=Seri &Numarasını Gizle
+SHOW_DRIVE_LETTER=Sürücü &Harfini Görüntüle
+ADVANCED_DISK_SEARCH=&Gelişmiş Disk Arama
+EVENT_LOG=İşle&m Günlüğü
+AAM_APM_CONTROL=AA&M/APM Denetimi
+AUTO_AAM_APM_ADAPTION=Otomatik AAM/A&PM Uyumu
+RESIDENT=&Kalıcı Kıl
+STARTUP=&Başlangıçta Aç
+OPEN_DISK_MANAGEMENT="&Disk Yönetimi" Panosunu Aç
+OPEN_DEVICE_MANAGER="Aygıt &Yöneticisi" Panosunu Aç
+ADVANCED_FEATURE=Gelişmiş Ö&zellik
+REFRESH=&Yenile
+RESCAN=Yeniden &Tara
+DISABLE=&Devre dışı Bırak
+AUTO_REFRESH=&Otomatik Yenile
+AUTO_REFRESH_TARGET=&Hedefi Otomatik Yenile 
+AUTO_REFRESH_TARGET_ALL_DISK=Otomatik Yenile - &Tüm Diskleri Hedefle
+AUTO_REFRESH_UNTARGET_ALL_DISK=Otomatik &Yenile - Tüm Diskleri Hedeften Çıkar
+WAIT_TIME_AT_STARTUP=&Başlangıç Bekleme Süresi
+GRAPH=Çizel&ge
+THEME=&Tema
+DISK=&Disk
+HELP=&Yardım
+HELP_WEB=&Yardım [Web]
+HELP_ABOUT=&CrystalDiskInfo Hakkında
+HELP_ABOUT_SMART=&S.M.A.R.T. Hakkında (Wikipedia) [Web]
+LANGUAGE=&Dil
+ITEM=Ö&ge
+TEMPERATURE_TYPE=&Sıcaklık Türü
+CELSIUS=Santigrat (°C)
+FAHRENHEIT=Fahrenayt (°F)
+HEALTH_STATUS_SETTING=&Sağlık Durumu Ayarları
+
+;Graph
+OPTION=&Seçenek
+LEGEND_POSITION=&Belirteç Konumu
+NORTH_WEST=&Kuzey Batı
+NORTH_EAST=Kuzey &Doğu
+SOUTH_WEST=Güney &Batı
+SOUTH_EAST=&Güney Doğu
+MAX_PLOT_POINT=&En Fazla Nokta Sayısı
+TIME_FORMAT=&Zaman Biçimi
+PAINT_WEEKEND=&Hafta Sonunu Boya
+ALL=&Tümü
+
+;2.7.0
+COPY_OPTION=Kopyalama &Seçeneği
+RESIDENT_STYLE=Kalıcı &Biçem
+MINIMIZE=Küçült
+HIDE=Gizle
+
+;3.0.0
+ZOOM=&Yakınlaştırma
+AUTO=&Otomatik
+ATTRIBUTE=Ö&znitelikler
+
+;3.5.0
+ASCII_VIEW=ASCII Görünümü
+AUTO_DTECTION=Otomatik Algılama
+SECOND=sn.
+MINUTE=dk.
+HOUR=saat
+
+:3.9.4
+WORKAROUND=&Sorun Çözme
+
+;4.0.0
+ALERT_MAIL=Bildirim E-postası
+MAIL_SETTINGS=E-posta Ayarları
+SMART_IN_ENGLISH=İngilizce S.M.A.R.T.
+FONT_SETTING=Yazı Ayarları
+
+;5.0.0
+ALERT_FEATURES=&Uyarı Özellikleri
+ALARM_HISTORY=Uyarı Geçmişi
+ALERT_SOUND=Uyarı Sesi
+SOUND_SETTINGS=Ses Ayarları
+GADGET_SUPPORT=Araç Desteği
+INSTALL_GADGET=Araç Kur
+ENABLE_AUTO=Etkinleştir (Otomatik Algıla)
+ENABLE_ALL=Etkinleştir (Tüm Diskler)
+ENABLE_RAID=Etkinleştir (Yalnız RAID Birimi)
+
+;6.0.0
+HIDE_NO_SMART_DISK=&S.M.A.R.T. Olmayan Diskleri Gizle
+GREEN_MODE=&Yeşil Kip
+
+;8.6.0
+SAVE_TEXT=Kaydet (&metin)
+SAVE_IMAGE=Kaydet (&görsel)
+
+;9.0.0
+DRIVE_SORT_METHOD=Drive Sort Method
+PHYSICAL_DRIVE_ID=Physical Drive ID
+DRIVE_LETTER=Drive Letter
+
+;9.2.0
+VOICE=Voice
+
+;9.3.0
+STARTUP_VOICE=Startup Voice
+
+;9.5.0
+HIDE_RAID_VOLUME=Hide &RAID Volume
+[TrayMenu]
+EXIT=Çıkış
+REFRESH=Yenile
+RESCAN=Yeniden Tara
+ENABLE=Etkinleştir
+DISABLE=Devre Dışı Bırak
+ENABLE_ALL=Tümünü Etkinleştir
+DISABLE_ALL=Tümünü Devre Dışı Bırak
+AUTO_REFRESH=Otomatik Yenile
+AUTO_REFRESH_01_MIN=1 dakika
+AUTO_REFRESH_03_MIN=3 dakika
+AUTO_REFRESH_05_MIN=5 dakika
+AUTO_REFRESH_10_MIN=10 dakika
+AUTO_REFRESH_30_MIN=30 dakika
+AUTO_REFRESH_60_MIN=60 dakika
+AUTO_REFRESH_TARGET=&Hedefi Otomatik Yenile 
+AUTO_REFRESH_TARGET_ALL_DISK=Otomatik Yenile - &Tüm Diskleri Hedefle
+AUTO_REFRESH_UNTARGET_ALL_DISK=Otomatik &Yenile - Tüm Diskleri Hedeften Çıkar
+ALARM_SETTING_TEMPERATURE=Uyarı Ayarı - Sıcaklık
+ALARM_SETTING_HEALTH_STATUS=Uyarı Ayarı - Sağlık Durumu
+SHOW_MAIN_WINDOW=Ana Pencereyi Görüntüle
+SHOW_TEMPERATURE_ICON=Sıcaklık Simgesini Görüntüle
+SHOW_ALL_TEMPERATURE_ICON=Tüm Sıcaklık Simgelerini Görüntüle
+HIDE_ALL_TEMPERATURE_ICON=Tüm Sıcaklık Simgelerini Gizle
+COLLECTIVE_SETTING=Toplu Ayar
+GRAPH=Çizelge
+;Added 3.0
+SHOW_TEMPERATURE_ICON_ONLY=Yalnız Sıcaklık Simgesini Görüntüle
+
+[DiskStatus]
+GOOD=İyi
+CAUTION=Dikkat
+BAD=Kötü
+UNKNOWN=Bilinmiyor
+DISK=Disk
+
+[Dialog]
+LIST_ID=Kod
+LIST_CURRENT=Geçerli
+LIST_WORST=En Kötü
+LIST_THRESHOLD=Eşik
+LIST_RAW_VALUES=Ham Değer
+;LIST_DESCRIPTION=Açıklama
+LIST_ATTRIBUTE_NAME=Öznitelik Adı
+
+FIRMWARE=Aygıt Yazılımı
+SERIAL_NUMBER=Seri Numarası
+INTERFACE=Arabirim
+STANDARD=Standart
+TRANSFER_MODE=Aktarım Kipi
+BUFFER_SIZE=Ara Bellek Boyutu
+NV_CACHE_SIZE=NV Ön Bellek Boyutu
+ROTATION_RATE=Çevirme Oranı
+TEMPERATURE=Sıcaklık
+POWER_ON_HOURS=Çalışma Süresi
+POWER_ON_COUNT=Çalıştırılma Sayısı
+DRIVE_LETTER=Sürücü Harfi
+FEATURE=Özellikler
+HEALTH_STATUS=Sağlık Durumu
+
+UNKNOWN=Bilinmiyor
+POWER_ON_COUNT_UNIT=kez
+POWER_ON_HOURS_UNIT=saat
+POWER_ON_DAYS_UNIT=gün
+POWER_ON_YEARS_UNIT=yıl
+
+;4.3
+TOTAL_HOST_WRITES=Yazılan Toplamı
+TOTAL_HOST_READS=Okunan Toplamı
+TOTAL_NAND_WRITES=NAND Yazma Toplamı
+
+;4.5
+WEAR_LEVELING_COUNT=Aşınma Düzeyi Sayısı
+
+;6.1
+CURRENT_MODE_SUPPORTED_MODE=Geçerli Kip | Desteklenen Kip
+MAJOR_VERSION_MINOR_VERSION=Büyük Sürüm | Küçük Sürüm
+
+;8.5.0
+FONT_FACE=Yazı Türü
+FONT_SCALE=Yazı Boyutu (%)
+DEFAULT=Varsayılan
+
+;8.9.0
+ENABLED=Etkin
+DISABLED=Devre dışı
+
+[Message]
+DETECT_UNIT_POWER_ON_HOURS="Çalışılan Saat" birimi algılanıyor (130 saniye kadar sürebilir)
+DETECT_DISK=Disk Algılanıyor
+PLEASE_ENABLE_WMI=Lütfen WMI(Windows Management Instrumentation) uygulamasını etkinleştirin
+PLEASE_RESTART_THIS_APPLICATION=Lütfen temanın değiştirilmesi için uygulamayı yeniden başlatın
+DISK_NOT_FOUND=Disk Bulunamadı
+
+[Alarm]
+ALARM_TEMPERATURE=Uyarı - Sıcaklık
+ALARM_HEALTH_STATUS=Uyarı - Sağlık Durumu
+DEGRADATION=Aşınma
+RECOVERY=Kurtarma
+;3.5.0
+INFO_HEALTH_STATUS=Bilgiler - Sağlık Durumu
+
+[Graph]
+PLEASE_SELECT_ITEM=Lütfen Bir Öge Seçin
+ACTUAL_VALUE=Etkin Değer (Ham Değer)
+NORMALIZED_VALUE=Normalleştirilmiş Değer (Geçerli Değer)
+ALL_ON=Tümünü Aç
+ALL_OFF=Tümünü Kapat
+RESET=Sıfırla
+
+[Customize]
+LINE_COLOR=Satır Rengi
+BACKGROUND_IMAGE=Arka Plan Görseli
+SUPPORTED_IMAGE_FORMAT=Desteklenen Görsel Biçimi
+ALL_FILES=Tüm Dosyalar
+
+;5.0.0
+SUPPORTED_SOUND_FORMAT=Desteklenen Ses Biçimi
+
+[AamApm]
+AAM_LOW=<- Sessiz (80h)
+AAM_HIGH=Başarım (FEh) ->
+AAM_RECOMMEND=Önerilen Değer
+APM_LOW=<- En Az Güç (01h)
+APM_HIGH=Başarım (FEh) ->
+;3.5.0
+AUTOMATIC_ACOUSTIC_MANAGEMENT=Otomatik Akustik Yönetimi (AAM)
+ADVANCED_POWER_MANAGEMENT=Gelişmiş Güç Yönetimi (APM)
+
+[WindowTitle]
+ABOUT=CrystalDiskInfo Hakkında
+GRAPH=Çizelge
+CUSTOMIZE=ÖZelleştir
+VERSION_INFORMATION=Sürüm Bilgileri
+AAM_APM_CONTROL=AAM/APM Denetimi
+HEALTH_STATUS_SETTING=Sağlık Durumu Ayarı
+
+;5.0.0
+ALARM_HISTORY=Uyarı Geçmişi
+SOUND_SETTINGS=Ses Ayarları
+
+;5.1.0
+FONT_SETTING=Yazı Ayarı
+
+[HealthStatus]
+THRESHOLD_OF_CAUTION=Uyarı Eşiği
+APPLY=Uygula
+DEFAULT=Varsayılan
+
+[Smart]
+UNKNOWN=Bilinmiyor
+VENDOR_SPECIFIC=Üreticiye Özel
+01=Okuma Hatası Oranı
+02=Çıkış Başarımı
+03=Devirlenme Süresi
+04=Başlama/Durma Sayısı
+05=Yeniden Konumlandırılan Kesim Sayısı
+06=Okuma Kanalı Payı
+07=Tarama Hatası Oranı
+08=Tarama Süresi Başarımı
+09=Çalışılan Saat Sayısı
+0A=Sapma Yineleme Sayısı
+0B=Yeniden Ayarlama Yenilemeleri
+0C=Enerji Durumu Değişikliği Sayısı
+0D=Yazılım Okuma Hata Oranı Saplaması
+16=Geçerli Helyum Düzeyi
+B8=Uçtan Uca Hata
+BB=Bildirilmiş Düzeltilemeyen Hata Sayısı
+BC=Komut Zaman Aşımı
+BD=Yüksek Uçuş Yazılan
+BE=Hava Akışı Sıcaklığı
+BF=G-Sense Hata Oranı
+C0=Güç Kapalı Çıkarma Sayısı
+C1=Yükleme/Kaldırma Devir Sayısı
+C2=Sıcaklık
+C3=Donanım ECC Düzeltmesi
+C4=Yeniden Konumlandırma İşlemi Sayısı
+C5=Geçerli Bekleyen Kesim Sayısı
+C6=Düzeltilemeyen Kesim Sayısı
+C7=UltraDMA CRC Hatası Sayısı
+C8=Yazma Hata Oranı
+C9=Yazılım Okuma Hata Oranı
+CA=Veri Adresi İşaretleme Hatası
+CB=Bitme İptal
+CC=Yazılım ECC Düzeltmesi
+CD=Isıl Sertlik Oranı
+CE=Uçuş Yüksekliği
+CF=Yüksek Akım Dönme
+D0=Dönme Vızıldaması
+D1=Çevrimdışı Tarama Başarımı
+D3=Yazma Sırasında Titreşim
+D4=Yazma Sırasında Şok
+DC=Disk Vardiyası
+DD=G-Sense Hata Oranı
+DE=Yüklendiği Saat
+DF=Yükleme/Kaldırma Yineleme Sayısı
+E0=Yükleme Sürtünmesi
+E1=Yükleme/Kaldırma Devir Sayısı
+E2='İçeri' Yükleme Süresi
+E3=Tork Güçlendirme Sayısı
+E4=Güç Kapalı Çıkarma Devri
+E6=GMR Kafa Genliği
+E7=Sıcaklık
+F0=Kafa Uçuş Saati
+FA=Okuma Hatası Yineleme Oranı
+FE=Serbest Düşme Koruması
+
+;Updated 5.4.0
+F1=Yazılan Toplamı
+F2=Okunan Toplamı
+
+;Updated 9.5.0
+17=Helium Condition Lower
+18=Helium Condition Upper
+1B=MAMR Health Monitor
+
+[SmartSsd]
+01=Okuma Hatası Oranı
+02=Çıkış Başarımı
+03=Devirlenme Süresi
+04=Başlama/Durma Sayısı
+05=Yeniden Konumlandırılan Kesim Sayısı
+06=Okuma Kanalı Payı
+07=Tarama Hatası Oranı
+08=Tarama Süresi Başarımı
+09=Çalışılan Saat Sayısı
+0A=Sapma Yineleme Sayısı
+0B=Yeniden Ayarlama Yenilemeleri
+0C=Enerji Durumu Değişikliği Sayısı
+0D=Yazılım Okuma Hata Oranı Saplaması
+C0=Güvenli Olmayan Kapatma Sayısı
+C2=Sıcaklık
+C4=Yeniden Konumlandırma İşlemi Sayısı
+C5=Geçerli Bekleyen Kesim Sayısı
+C6=Düzeltilemeyen Kesim Sayısı
+; CrystalDiskInfo assign
+FF=Kalan Ömür
+
+;Updated 5.4.0
+F1=Yazılan Toplamı
+F2=Okunan Toplamı
+
+[SmartMtron]
+BB=Silinen Toplamı
+
+[SmartIndilinx]
+01=Okuma Hatası Oranı
+09=Çalışılan Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+B8=Başlangıçtaki Bozuk Blok Sayısı
+C2=Sıcaklık
+C3=Programlama Başarısızlığı Blok Sayısı
+C4=Silme Başarısızlığı Blok Sayısı
+C5=Okuma Başarısızlığı Blok Sayısı
+C6=Okunan Kesim Toplamı
+C7=Yazılan Kesim Toplamı
+C8=Okunan Komut Toplamı
+C9=Yazılan Komut Toplamı
+CA=Flash Üzerindeki Hata Biti Toplamı
+CB=Düzeltilebilecek Bit Hataları Olan Okunan Kesim Toplamı
+CC=Bozuk Blok Dolu İşareti
+CD=En Fazla PE Sayısı Özelliği
+CE=En Az Silme Sayısı
+CF=En Fazla Silme Sayısı
+D0=Ortalama Silme Sayısı
+D1=Kalan Sürücü Ömrü
+
+[SmartJMicron60x]
+09=Çalışılan Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+C2=Sıcaklık
+E5=Durma Sistem Kodu, Flaş Kodu
+E8=Aygıt Yazılımı Sürümü Bilgileri
+E9=ECC Başarısızlığı Kaydı
+EA=Ortalama Silme Sayısı, Max Silme Sayısı
+EB=İyi Blok Sayısı, Sistem Blok Sayısı
+
+[SmartIntel]
+03=Devirlenme Süresi
+04=Başlama/Durma Sayısı
+05=Yeniden Konumlandırılan Kesim Sayısı
+09=Çalışılan Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+AA=Kullanılabilecek Ayrılmış Alan
+AB=Programlama Başarısızlığı Sayısı
+AC=Silme Başarısızlığı Sayısı
+AE=Beklenmeyen Enerji Kesintisi
+AF=Enerji Kesintisi Koruma Başarısızlığı
+B7=SATA Aşağı Kayma Sayısı
+B8=Uçtan Uca Hata Algılama Sayısı
+BB=Düzeltilemeyen Hata Sayısı
+BE=Sıcaklık
+C0=Güvenli Olmayan Kapatma Sayısı
+C2=Sıcaklık
+C5=Bekleyen Kesim Sayısı
+C7=CRC Hatası Sayısı
+E1=Yazılan
+E2=Zamanlanmış İş Yükü Ortam Aşınması
+E3=Zamanlanmış İş Yükü Okuma/Yazma Oranı
+E4=Zamanlanmış İş Yükü Zamanlayıcısı
+E8=Kullanılabilecek Ayrılmış Alan
+E9=Ortam Aşınma Göstergesi
+EA=Isıl Yavaşlatma Durumu
+F1=LBA Yazılan
+F2=LBA Okunan
+F9=NAND Yazılan Toplamı
+
+[SmartSamsung] ;Updated 6.6
+05=Yeniden Konumlandırılan Kesim Sayısı
+09=Çalışılan Saat Sayısı
+0C=Enerji Verme Sayısı
+AF=Programlama Başarısızlığı Sayısı (Çip)
+B0=Silme Başarısızlığı Sayısı (Çip)
+B1=Aşınma Düzeylemesi Sayısı
+B2=Kullanılmış Ayrılmış Blok Sayısı (Çip)
+B3=Kullanılmış Ayrılmış Blok Sayısı (Toplam)
+B4=Kullanılmamış Ayrılmış Blok Sayısı (Toplam)
+B5=Programlama Başarısızlığı Sayısı (Toplam)
+B6=Silme Başarısızlığı Sayısı (Toplam)
+B7=Çalışma Zamanı Bozuk Blok (Toplam)
+BB=Düzeltilemeyen Hata Sayısı
+BE=Hava Akışı Sıcaklığı
+C2=Sıcaklık
+C3=ECC Hatası Oranı
+C6=Çevrimdışı Düzeltilemeyen Hata Sayısı
+C7=CRC Hatası Sayısı
+C9=Süper Kapasitör Durumu
+CA=SSD Kipi Durumu
+EB=POR Kurtarma Sayısı
+F1=LBA Yazılan
+F2=LBA Okunan
+
+;Added 6.6
+AA=Kullanılmayan Ayrılmış Blok Sayısı (Çip) 
+AB=Programlama Başarısızlığı Sayısı (Çip)
+AC=Silme Başarısızlığı Sayısı (Çip)
+AD=Aşınma Düzeylemesi Sayısı
+AE=Beklenmeyen Enerji Kesintisi Sayısı
+B8=Hata Algılama
+E9=Normalleştirilmiş Ortam Aşınması
+
+[SmartSandForce] ;Updated 3.7.0
+01=Ham Okuma Hatası Oranı
+05=Kullanımdan Kaldırılan Blok Sayısı
+09=Çalışılan Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+0D=Yazılım Okuma Hatası Oranı
+64=Silinen Gigabayt
+AA=Ayrılmış Blok Sayısı
+AB=Programlama Başarısızlığı Sayısı
+AC=Silme Başarısızlığı Sayısı
+AE=Beklenmeyen Enerji Kesintisi Sayısı
+B1=Aşınma Aralığı Farkı
+B5=Programlama Başarısızlığı Sayısı
+B6=Silme Başarısızlığı Sayısı
+B8=Bildirilen G/Ç Hata Algılama Kodu Hata Sayısı
+BB=Bildirilen Düzeltilemeyen Hata Sayısı
+C2=Sıcaklık
+C3=Çalışırken Düzeltilemeyen ECC Hata Sayısı
+C4=Yeniden Konumlandırma İşlemi Sayısı
+C6=Düzeltilemeyen Kesim Sayısı
+C7=SATA R-Errors Hata Sayısı
+C9=Düzeltilemeyen Yazılım Okuma Hatası Oranı
+CC=Yazılım ECC Düzeltme Oranı
+E6=Sürücü Ömrü Koruma Durumu
+E7=Kalan SSD Ömrü
+E8=Kullanılabilecek Ayrılmış Alan
+EB=Enerji Kesintisi Yedekleme Sağlığı
+F1=Ömür Boyu Yazılan
+F2=Ömür Boyu Okunan
+
+[SmartJMicron61x] ;Added 3.9.0
+01=Okuma Hatası Oranı
+02=Çıkış Başarımı
+03=Devirlenme Süresi
+05=Yeniden Konumlandırılan Kesim Sayısı
+07=Tarama Hatası Oranı
+08=Tarama Süresi Başarımı
+09=Çalışılan Saat Sayısı
+0A=Sapma Yineleme Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+A8=SATA PHY Hata Sayısı
+AF=Bozuk Küme Tablosu Sayısı (ECC Başarısızlığı Sayısı)
+C0=Beklenmeyen Enerji Kesintisi Sayısı
+C2=Sıcaklık
+C5=Geçerli Bekleyen Kesim Sayısı
+AA=Bozuk Blok Sayısı
+AD=Silme Sayısı
+
+[SmartMicron] ;Added 4.0.0/ Updated 6.6.0
+; RAIN = Redundant Array of Independent NAND
+01=Ham Okuma Hatası Oranı
+05=Yeniden Konumlandırılmış NAND Blokları
+09=Enerjilendirilmiş Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+0D=Yazılım Hata Oranı
+0E=Aygıt Kapasitesi (NAND)
+0F=Kullanıcı Kapasitesi
+10=Kullanılabilecek Yedek Blok Sayısı
+11=Kalan Yedek Blok Sayısı
+64=Silinen Toplamı
+AA=Ayrılmış Blok Sayısı
+AB=Programlama Başarısızlığı Sayısı
+AC=Silme Başarısızlığı Sayısı
+AD=Ortalama Blok Silme Sayısı
+AE=Beklenmeyen Enerji Kesintisi Sayısı
+B4=Kullanılmayan Ayrılmış NAND Bloğu Sayısı
+B5=Hizalanmamış Erişim Sayısı
+B7=SATA Arabirimi Aşağı Kaydırması
+B8=Hata Düzeltme Sayısı
+BB=Bildirilen Düzeltilemeyen Hata Sayısı
+BC=Komut Zaman Aşımı Sayısı
+BD=Fabrika Bozuk Blok Sayısı
+C2=Sıcaklık
+C3=Birikimli ECC Bit Düzeltme Sayısı
+C4=Yeniden Konumlandırma İşlemi Sayısı
+C5=Geçerli Bekleyen Kesim Sayısı
+C6=SMART Çevrimdışı Tarama Düzeltilemeyen Hata Sayısı
+C7=Ultra DMA CRC Hata Oranı
+CA=Kullanılan Ömür Yüzdesi
+CE=Yazma Hatası Oranı
+D2=Başarılı RAIN Kurtarma Sayısı
+EA=Okunan Bayt Toplamı
+F2=Yazma Koruması Gelişimi
+F3=Düzeltilen ECC Biti Sayısı
+F4=Birikimli ECC Eşik İşlemi Sayısı
+F5=Birikimli Program NAND Sayfası Sayısı
+F6=Yazılan Kesim Toplamı
+F7=Program Sayfa Sayısı
+F8=Arka Plan Program Sayfası Sayısı
+
+; Updated 8.10.0
+F9=ISP Yenileme Toplamı
+FA=Do RefCal Sayısı
+FB=NAND Okuma Düzlemi Sayısı (Alçak 4 Bayt)
+FC=NAND Okuma Düzlemi Sayısı (Yüksek 4 Bayt)
+FD=Blok Yeniden Haritalama Geçişi Toplamı
+FE=Arka Plan Tarama Aşma Sınırı Toplamı
+DF=Arka Plan Tarama Toplamı
+
+[SmartMicronMU02] ;Updated 6.6.0
+; RAIN = Redundant Array of Independent NAND
+01=Ham Okuma Hatası Oranı
+05=Yeniden Konumlandırılan Kesim Sayısı
+09=Çalışılan Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+0D=Yazılım Hata Oranı
+0E=Aygıt Kapasitesi (NAND)
+0F=Kullanıcı Kapasitesi
+10=Kullanılabilecek Yedek Blok Sayısı
+11=Kalan Yedek Blok Sayısı
+64=Silinen Toplamı
+AA=Ayrılmış Blok Sayısı
+AB=Programlama Başarısızlığı Sayısı
+AC=Silme Başarısızlığı Sayısı
+AD=Ortalama Blok Silme Sayısı
+AE=Beklenmeyen Enerji Kesintisi Sayısı
+B4=Kullanılmayan Ayrılmış NAND Bloğu Sayısı
+B7=SATA Arabirimi Aşağı Kaydırması
+B8=Hata Düzeltme Sayısı
+BB=Bildirilen Düzeltilemeyen Hata Sayısı
+BC=Komut Zaman Aşımı Sayısı
+BD=Fabrika Bozuk Blok Sayısı
+C2=Sıcaklık
+C3=Birikimli ECC Bit Düzeltme Sayısı
+C4=Yeniden Konumlandırma İşlemi Sayısı
+C5=Geçerli Bekleyen Kesim Sayısı
+C6=SMART Çevrimdışı Tarama Düzeltilemeyen Hata Sayısı
+C7=Ultra DMA CRC Hata Oranı
+CA=Kullanılan Ömür Yüzdesi
+CE=Yazma Hatası Oranı
+D2=Başarılı RAIN Kurtarma Sayısı
+EA=Okunan Bayt Toplamı
+F3=Düzeltilen ECC Biti Sayısı
+F4=Birikimli ECC Eşik İşlemi Sayısı
+F5=Birikimli Program NAND Sayfası Sayısı
+F6=Yazılan Kesim Toplamı
+F7=Program Sayfa Sayısı
+F8=Arka Plan Program Sayfası Sayısı
+
+; Updated 6.6.0
+A0=Düzeltilemeyen Kesim Sayısı
+A1=Geçerli Yedek Blok Sayısı
+A3=Başlangıçtaki Geçersiz Blok Sayısı
+94=SLC Silinen Toplamı
+95=En Fazla SLC Silme Sayısı
+96=En Az SLC Silme Sayısı
+97=Ortalama SLC Silme Sayısı
+A4=NAND Silinen Toplamı
+A5=En Fazla NAND Silme Sayısı
+A6=En Az NAND Silme Sayısı
+A7=Ortalama NAND Silme Sayısı
+A9=Kalan Ömür Süresi Yüzdesi
+B5=Programlama Başarısızlığı Sayısı
+B6=Silme Başarısızlığı Sayısı
+C0=Enerji Kesikken Çıkartma Sayısı
+E8=Kullanılabilecek Ayrılmış Alan
+F1=LBA Yazılan Toplamı
+F2=LBA Okunan
+F5=NAND Yazılan Toplamı
+F6=SLC Yazılan Toplamı
+F7=RAID Kurtarma Sayısı
+
+; Updated 8.10.0
+F9=ISP Yenileme Toplamı
+FA=Do RefCal Sayısı
+FB=NAND Okuma Düzlemi Sayısı (Alçak 4 Bayt)
+FC=NAND Okuma Düzlemi Sayısı (Yüksek 4 Bayt)
+FD=Blok Yeniden Haritalama Geçişi Toplamı
+FE=Arka Plan Tarama Aşma Sınırı Toplamı
+DF=Arka Plan Tarama Toplamı
+
+[SmartOcz] ;Added 4.5.0
+01=Ham Okuma Hatası Oranı
+03=Devirlenme Süresi
+04=Başlatma Durdurma Sayısı
+05=Yeniden Konumlandırılan Kesim Sayısı
+09=Çalışılan Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+C2=Sıcaklık
+E8=Yazılan Kesim Toplamı
+E9=Kalan Ömür
+
+; Added 6.6.0
+64=Silinen Blok Toplamı
+A7=SSD Koruma Kipi
+A8=SATA PHY Hata Sayısı
+A9=Bozuk Blok Sayısı
+AD=Silme Sayısı
+B8=Fabrika Bozuk Blok Sayısı
+C0=Beklenmeyen Enerji Kesintisi Sayısı
+CA=Düzeltilmiş Bit Toplamı
+CD=En Yüksek PE Sayıları
+CE=En Az Silme Sayısı
+CF=En Fazla Silme Sayısı
+D3=SATA Düzeltilemeyen Hata Sayısı
+D4=Yineleme Sırasında NAND Sayfa Okumaları
+D5=Basit Okuma Yinelemesi Girişimi
+D6=Uyumlu Okuma Yineleme Girişimi
+DD=İç Veri Yolu Düzeltilemeyen Hata Sayısı
+DE=RAID Kurtarma Sayısı
+E6=Enerji Kesintisi Koruması
+FB=NAND Okuma Sayısı
+
+;Updated 6.7.0
+F1=Yazılan
+F2=Okunan
+
+[SmartPlextor] ;Added 5.1.0
+01=Okuma Hatası Oranı
+05=Yeniden Konumlandırılan Kesim Sayısı
+09=Çalışılan Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+C0=Güvenli Olmayan Kapatma Sayısı
+C2=Sıcaklık
+C4=Yeniden Konumlandırma İşlemi Sayısı
+C6=Düzeltilemeyen Kesim Sayısı
+F1=LBA Yazılan
+F2=LBA Okunan
+
+;Updated 5.4.0
+B1=Aşınma Düzeylemesi Sayısı
+B2=Kullanılmış Ayrılmış Blok Sayısı (En Kötü Durum)
+B5=Programlama Başarısızlığı Sayısı
+B6=Silme Başarısızlığı Sayısı
+BB=Düzeltilemeyen Hata Sayısı
+C7=CRC Hatası Sayısı
+E8=Kullanılabilecek Ayrılmış Alan
+
+;Added 6.2.0
+AA=Büyüyen Bozuk Bloklar
+AB=Programlama Başarısızlığı Sayısı
+AC=Silme Başarısızlığı Sayısı
+AD=Ortalama Programlama/Silme Sayısı
+AE=Beklenmeyen Enerji Kesintisi Sayısı
+AF=Programlama Başarısızlığı Sayısı (En Kötü Durum)
+B0=Silme Başarısızlığı Sayısı (En Kötü Durum)
+B3=Kullanılmış Ayrılmış Blok Sayısı
+B4=Kullanılmamış Ayrılmış Blok Sayısı (Toplam)
+B7=SATA Arabirimi Aşağı Kaydırma
+B8=Düzeltilen Uçtan Uca Veri Hatası Sayısı
+BC=Komut Zaman Aşımı
+C3=ECC Oranı
+E9=NAND Yazılan GB
+
+[SmartSanDisk] ;Added 5.2.0
+05=Yeniden Atanmış Blok Sayısı
+09=Enerjilendirilmiş Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+AA=Ayrılmış Blok Sayısı
+AB=Programlama Başarısızlığı Sayısı
+AC=Silme Başarısızlığı Sayısı
+AD=Ortalama Yazma/Silme Sayısı
+AE=Beklenmeyen Enerji Kesintisi Sayısı
+BB=Bildirilen Düzeltilemeyen Hata Sayısı
+C2=Sıcaklık
+E6=Yazma/Silinen Toplamı Yüzdesi
+E8=Kalan Yedek Blok Sayısı
+EA=Yazma/Silinen Toplamı Yüzdesi (BC blokları)
+F1=Yazılan
+F2=Okunan
+
+[SmartOczVector] ;Added 5.3.0
+05=Birikimli Çalışma Zamanı Bozuk Blok Sayısı
+09=Çalışılan Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+AB=Kullanılabilir Fazladan Verilmiş Blok Sayısı
+AE=Enerji Değişimi Sayısı (Planlanmamış)
+BB=Düzeltilemeyen NAND Okuma Toplamı
+C2=Sıcaklık
+C3=Programlama Başarısızlığı Toplamı
+C4=Silme Başarısızlığı Toplamı
+C5=Okuma Başarısızlığı Toplamı (Düzeltilemeyen)
+C6=Okunan
+C7=Yazılan
+D0=Ortalama Silme Sayısı
+D2=SATA CRC Hatası Sayısı
+E9=Kalan Ömür
+F9=NAND Programlama Sayısı
+
+;Updated 5.5.0
+F1=Yazılan
+F2=Okunan
+
+;Updated 6.6.0
+64=Silinen Blok Toplamı
+B8=Fabrika Bozuk Blok Sayısı
+CA=Düzeltilen Okunan Bit Toplamı
+CD=En Yüksek Değerlendirilen PE Sayısı
+CE=En Az Silme Sayısı
+CF=En Fazla Silme Sayısı
+D4=Okuma Yinelemesinde Gerek Duyulan NAND Sayfası Okuma Sayısı
+D5=Basit Okuma Yinelemesi Girişimi Toplamı
+D6=Uyumlu Okuma Yinelemesi Girişimi Toplamı
+DD=İç Veri Yolu Koruması Düzeltilemeyen Hata Sayısı
+DE=RAID Kurtarma Sayısı
+E0=Garanti Kapsamında
+E1=DAS Polaritesi
+E2=Kısmi Pfail
+E6=Yazma Yavaşlatması Etkinleştirme İşareti
+F9=NAND Programlama Sayısı (Sayfa)
+FB=NAND Okuma Sayısı
+
+[SmartCorsair] ;Added 6.2.0
+01=Ham Okuma Hatası Oranı
+05=Kullanımdan Kaldırılan Blok Sayısı
+09=Enerjilendirilmiş Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+AA=Ayrılmış Blok Sayısı
+AC=Silme Başarısızlığı Sayısı
+AE=Beklenmeyen Enerji Kesintisi Sayısı
+B5=Programlama Başarısızlığı Sayısı
+BB=Bildirilen Düzeltilemeyen Hata Sayısı
+C2=Sıcaklık
+C4=Yeniden Konumlandırma İşlemi Sayısı
+E7=Kalan SSD Ömrü
+F1=Ömür Boyunca Yazılan GB
+F2=Ömür Boyunca Okunan GB
+
+[SmartToshiba] ;Added 6.2.0
+01=Okuma Hatası Oranı
+02=Çıkış Başarımı
+03=Devirlenme Süresi
+04=Başlama/Durma Sayısı
+05=Yeniden Konumlandırılan Kesim Sayısı
+07=Tarama Hatası Oranı
+08=Tarama Süresi Başarımı
+09=Çalışılan Saat Sayısı
+0A=Sapma Yineleme Sayısı
+0B=Yeniden Ayarlama Yenilemeleri
+0C=Enerji Durumu Değişikliği Sayısı
+A7=SSD Koruma Kipi
+A8=SATA PHY Hata Sayısı
+A9=Bozuk Blok Toplamı
+AD=Silme Sayısı
+C0=Beklenmeyen Enerji Kesintisi Sayısı
+C2=Sıcaklık
+C4=Yeniden Konumlandırma İşlemi Sayısı
+C5=Geçerli Bekleyen Kesim Sayısı
+C6=Düzeltilemeyen Kesim Sayısı
+F1=Yazılan
+F2=Okunan
+
+[SmartSanDiskGb] ;Added 6.2.0
+01=Okuma Hatası Oranı
+05=Yeniden Atanmış Blok Sayısı
+09=Enerjilendirilmiş Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+A5=Blok Silme Sayısı (SLC)
+A6=En Az P/E Döngüsü
+A7=Her Bitimdeki En Fazla Bozuk Blok 
+A8=En Fazla P/E Döngüsü
+A9=Bozuk Blok Toplamı
+AA=Büyüyen Bozuk Bloklar
+AB=Programlama Başarısızlığı Sayısı
+AC=Silme Başarısızlığı Sayısı
+AD=Ortalama P/E Döngü Sayısı
+AE=Beklenmeyen Enerji Kesintisi Sayısı
+B8=Uçtan Uca Hata Algılama/Düzeltme Sayısı
+BB=Bildirilen Düzeltilemeyen Hata Sayısı
+BC=Komut Zaman Aşımı Sayısı
+C2=Sıcaklık
+C7=CRC Hatası Sayısı
+D4=SATA PHY Hatası
+E6=Ortam Aşınma Göstergesi
+E7=Kalan SSD Ömrü
+E8=Kullanılabilecek Ayrılmış Alan
+E9=Yazılan NAND GB
+EA=Yazılan NAND GB (SLC)
+EE=Ortam Aşınma Göstergesi (Kalan Döngü)
+F1=Yazılan GB Toplamı
+F2=Okunan GB Toplamı
+F4=Sıcaklık Yavaşlatma Durumu
+F9=Yazılan NAND GB
+
+[SmartKingston] ;Added 6.6.0
+;https://media.kingston.com/support/downloads/MKP_521_Phison_SMART_attribute.pdf
+01=Okuma Hatası Oranı
+02=Çıkış Başarımı
+03=Devirlenme Süresi
+05=Yeniden Konumlandırılan Kesim Sayısı
+07=Tarama Hatası Oranı
+08=Tarama Süresi Başarımı
+09=Çalışılan Saat Sayısı
+0A=Sapma Yineleme Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+A8=SATA PHY Hata Sayısı
+AA=Bozuk Blok Sayısı
+AD=Silme Sayısı
+AF=Bozuk Küme Tablosu Sayısı
+BB=Düzeltilemeyen Hata Sayısı
+C0=Güvenli Olmayan Kapatma Sayısı
+C2=Sıcaklık
+C4=Sonraki Bozuk Blok Sayısı
+C5=Geçerli Bekleyen Kesim Sayısı
+C7=CRC Hatası Sayısı
+DA=CRC Hatası Sayısı
+E7=Kalan SSD Ömrü
+E9=Ömür Boyu Flaş Yazma Sayısı
+F0=Yazma Kafası
+F1=Yazılan
+F2=Okunan
+F4=Ortalama Silme Sayısı
+F5=En Fazla Silme Sayısı
+F6=Silinen Toplamı
+
+[SmartNVMe] ;Added 9.7.0
+01=Kritik Uyarı
+02=Birleşik Sıcaklık
+03=Kullanılabilecek Yedek
+04=Kullanılabilecek Yedek Eşiği
+05=Kullanma Yüzdesi
+06=Okunan Veri Birimi
+07=Yazılan Veri Birimi
+08=Okuma Komutu Sayısı
+09=Yazma Komutu Sayısı
+0A=Denetçi Meşgul Süresi
+0B=Enerji Döngüsü Sayısı
+0C=Enerjilendirilmiş Saat Sayısı
+0D=Güvenli Olmayan Kapatma Sayısı
+0E=Ortam ve Veri Bütünlüğü Hata Sayısı
+0F=Hata Bilgileri Günlüğü Kayıtlarının Sayısı
+10=Warning Composite Temperature Time
+11=Critical Composite Temperature Time
+12=Temperature Sensor 1
+13=Temperature Sensor 2
+14=Temperature Sensor 3
+15=Temperature Sensor 4
+16=Temperature Sensor 5
+17=Temperature Sensor 6
+18=Temperature Sensor 7
+19=Temperature Sensor 8
+1A=Thermal Management Temperature 1 Transition Count
+1B=Thermal Management Temperature 2 Transition Count
+1C=Total Time For Thermal Management Temperature 1
+1D=Total Time For Thermal Management Temperature 2
+
+[SmartRealtek] ;Added by Realtek
+01=Ham Veri Hata Oranı
+05=Yeniden Konumlandırılan Kesim Sayısı
+09=Enerji Verilen Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+A1=GDN
+A2=Silinen Toplamı
+A3=En Fazla PE Döngüsü
+A4=Ortalama Silme Sayısı
+A5=Başlangıçtaki Bozuk Blok Sayısı
+A6=Bozuk Blok Toplamı
+A7=SSD Koruma Kipi
+A8=SATA PHY Hata Sayısı
+A9=Sağlık
+AB=Programlama Başarısızlığı Sayısı
+AC=Silme Başarısızlığı Sayısı
+AE=Beklenmeyen Enerji Kesintisi Sayısı
+AF=ECC Başarısız Sayısı
+B5=Hizalanmamış Erişim Sayısı
+BB=Bildirilen Düzeltilemeyen Hata Sayısı
+C2=Kutu Sıcaklığı
+C3=Birikimli Düzeltilmiş ECC
+C4=Yeniden Konumlandırma İşlemi Sayısı
+C7=Ultra DMA CRC Hatası Sayısı
+CE=En Az Silme Sayısı
+CF=En Fazla Silme Sayısı
+E7=Kalan Ömür Süresi
+E8=Kullanılabilecek Ayrılmış Alan
+F1=Yazma Ömrü Süresi
+F2=Okuma Ömrü Süresi
+F9=NAND Yazılan GB Toplamı
+FA=NAND Yazılan GB Toplamı (SLC)
+
+[SmartSKhynix] ; Updated 8.8.0
+01=Okuma Hatası Oranı
+05=Yeniden Atanmış Kesim Sayısı
+09=Çalışılan Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+64=Silinen Toplamı
+A8=En Az Silme Sayısı
+A9=En Fazla Silme Sayısı
+AA=Ayrılmış Blok Sayısı
+AB=Programlama Başarısızlığı Sayısı
+AC=Silme Başarısızlığı Sayısı
+AE=Beklenmeyen Enerji Kesintisi Sayısı
+AF=Programlama Başarısızlığı Sayısı(En Kötü Durum)
+B0=Silme Başarısızlığı Sayısı(Worst Case)
+B1=Aşınma Düzeylemesi Sayısı
+B2=Kullanılan Ayrılmış Blok Sayısı (En Kötü Durum)
+B3=Kullanılan Ayrılmış Blok Sayısı (SSD Toplamı)
+B4=Kullanılmayan Ayrılmış Blok Sayısı (SSD Toplamı)
+B5=Programlama Başarısızlığı Sayısı(SSD Toplamı)
+B6=Silme Başarısızlığı Sayısı(SSD Toplamı)
+B7=SATA Aşağı Kaydırma Sayısı
+B8=Uçtan Uca Hata Algılama Sayısı
+BB=Düzeltilemeyen Hata Sayısı
+BC=Komut Zaman Aşımı Sayısı
+BF=İşletim Şoku Sayısı
+C2=Sıcaklık
+C3=ECC Oranı
+C4=Yeniden Konumlandırma İşlemi Sayısı
+C6=Düzeltilemeyen Kesim Sayısı
+C7=CRC Hatası Sayısı
+C9=Düzeltilemeyen Yazılım Okuma Hatası Oranı
+CC=Yazılım ECC Düzeltme Oranı
+D4=PHY Hata Sayısı
+E7=Kalan SSD Ömrü
+E9=Kalan SSD Ömrü
+EA=NAND Yazılan
+F1=LBA Yazılan
+F2=LBA Okunan
+FA=NAND Okuma Yinelemesi Toplamı
+
+[SmartKioxia] ; Added 8.8.0
+09=Çalışılan Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+A7=SSD Koruma Kipi
+A8=SATA PHY Hata Sayısı
+A9=Bozuk Blok Sayısı
+AD=Silme Sayısı (User Data)
+C0=Beklenmeyen Enerji Kesintisi Sayısı
+C2=Sıcaklık
+F1=Yazılan
+
+[SmartWdc] ; Added 8.8.0
+01=Okuma Hatası Oranı
+05=Yeniden Atanmış Blok Sayısı
+09=Enerjilendirilmiş Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+A5=Blok Silme Sayısı (SLC)
+A6=En Az P/E Döngüsü
+A7=Her Bitimdeki En Fazla Bozuk Blok 
+A8=En Fazla P/E Döngüsü
+A9=Bozuk Blok Toplamı
+AA=Büyüyen Bozuk Bloklar
+AB=Programlama Başarısızlığı Sayısı
+AC=Silme Başarısızlığı Sayısı
+AD=Ortalama P/E Döngü Sayısı
+AE=Beklenmeyen Enerji Kesintisi Sayısı
+B8=Uçtan Uca Hata Algılama/Düzeltme Sayısı
+BB=Bildirilen Düzeltilemeyen Hata Sayısı
+BC=Komut Zaman Aşımı Sayısı
+C2=Sıcaklık
+C7=CRC Hatası Sayısı
+D4=SATA PHY Hatası
+E6=Ortam Aşınma Göstergesi
+E8=Kullanılabilecek Ayrılmış Alan
+E9=NAND Yazılan GB
+EA=NAND Yazılan GB (SLC)
+EE=Ortam Aşınma Göstergesi (Cycles Remaining)
+F1=Yazılan GB Toplamı
+F2=Okunan GB Toplamı
+F4=Sıcaklık Throttle Status
+F9=NAND Yazılan GB
+
+[SmartKingstonSuv]
+; https://media.kingston.com/support/downloads/UV400-SMART-attribute.pdf
+; https://media.kingston.com/support/downloads/UV500_SMART_attribute.pdf
+01=Okuma Hatası Oranı
+05=Yeniden Konumlandırılan Kesim Sayısı
+09=Enerjilendirilmiş Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+AA=Kullanılmış Ayrılmış Blok Sayısı
+AB=Programlama Başarısızlığı Sayısı
+AC=Silme Başarısızlığı Sayısı
+AE=Beklenmeyen Enerji Kesintisi Sayısı
+AF=Programlama Başarısızlığı Sayısı En Kötü Bitim
+B0=Silme Başarısızlığı Sayısı En Kötü Bitim
+B1=Aşınma Düzeylemesi Sayısı
+B2=Kullanılmış Ayrılmış Blok Sayısı En Kötü Bitim
+B4=Kullanılmamış Ayrılmış Blok Sayısı (SSD Total)
+BB=Bildirilen Düzeltilemeyen Hata Sayısı
+C2=Sıcaklık
+C3=Çalışmada ECC Hata Sayısı
+C4=Yeniden Konumlandırma İşlemi Sayısı
+C5=Bekleyen Kesim Sayısı
+C7=UDMA CRC Hatası Sayısı
+C9=Düzeltilemeyen Okuma Hatası Oranı
+CC=Yazılım ECC Düzeltme Oranı
+E7=Kalan SSD Ömrü
+EA=NAND Ömür Boyu Yazılan
+F1=Ömür Boyu Yazılan
+F2=Ömür Boyu Okunan
+FA=NAND Okuma Yinlemesi Sayısı
+
+[SmartKingstonKC600]
+;https://media.kingston.com/support/downloads/KC600-SMART-attribute.pdf
+01=Okuma Hatası Oranı
+05=Yeniden Konumlandırılan NAND Blok Sayısı
+09=Çalışılan Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+94=Ayrılmış
+95=Ayrılmış
+96=Ayrılmış
+97=SLC Ortalama Silme Sayısı
+9F=DRAM 1 Bit Hatası Sayısı
+A0=Bildirilen UECC (Düzeltilemeyen) Hata Sayısı
+A1=Kullanılabilecek Ayrılmış Alan
+A4=Ayrılmış
+A5=Ayrılmış
+A6=Ayrılmış
+A7=Ortalama Silme Sayısı
+A8=Ayrılmış
+A9=Öngörülen Ömür Süresinde Kalan Yüzde
+B1=Ayrılmış
+B5=Programlama Başarısızlığı Sayısı
+B6=Silme Başarısızlığı Sayısı
+C0=Beklenmeyen Enerji Kesintisi Sayısı
+C2=Aygıt Sıcaklığı
+C3=Donanım ECC Kurtarma
+C4=Yeniden Konumlandırma İşlemi Sayısı
+C7=UDMA CRC Hatası Sayısı
+E7=Öngörülen Ömür Süresinden Kalan Yüzde
+E8=Unused Ayrılmış Blok Sayısı
+F1=LBA Yazılan
+F2=LBA Okunan
+F5=Ortam Yazılan Toplamı
+
+[SmartKingstonDC500]
+;https://media.kingston.com/support/pdf/MKP_521-7_SMART-DC500_attribute_hr.pdf
+01=UNC Hata Sayısı
+09=Enerjilendirilmiş Saat Sayısı
+0C=Enerji Verme / Kesme Döngüsü
+A7=Koruma Kipi
+A8=SATA PHY Hata Sayısı
+A9=Bozuk Blok Oranı
+AA=Bozuk Blok Bilgileri
+AC=Silme Başarısızlığı Sayısı
+AD=Silme Sayısı
+B5=Programlama Başarısızlığı Sayısı
+B6=Silme Başarısızlığı Sayısı
+BB=UNC Hata Sayısı
+C0=Beklenmeyen Enerji Kesintisi Sayısı
+C2=Sıcaklık
+C4=Sonraki Bozuk Blok Toplamı
+C7=CRC Hatası Sayısı
+CF=Isıl Yavaşlatma Sayısı
+DA=CRC Hatası Sayısı
+E7=SSD Kalan Ömür
+E8=Başarısız Okuma Sayısı
+E9=NAND Yazılan
+F1=Yazılan
+F2=Okunan
+F4=Ortalama Silme Sayısı
+F5=En Fazla Silme Sayısı
+F6=Toplam Silme Sayısı
+
+[SmartKingstonSA400]
+;https://github.com/hiyohiyo/CrystalDiskInfo/issues/20
+01=Düzeltilemeyen Hata Sayısı
+09=Enerjilendirilmiş Saat Sayısı
+0C=Enerji Döngüsü
+94=Üreticiye Özel
+95=Üreticiye Özel
+A7=Üreticiye Özel
+A8=SATA PHY Hata Sayısı
+A9=Üreticiye Özel
+AA=Bozuk Blok Sayısı
+AC=Üreticiye Özel
+AD=Silme Sayısı
+B5=Üreticiye Özel
+B6=Üreticiye Özel
+BB=Düzeltilemeyen ECC Hata Sayısı
+C2=Sıcaklık
+C4=Yeniden Konumlandırma İşlemleri
+C7=SATA CRC Hatası
+DA=CRC Hatası Sayısı
+E7=SSD Aşınma Göstergesi
+E9=NAND Ömür Boyu Yazılan
+F1=Ömür Boyu Yazılan
+F2=Ömür Boyu Okunan
+F4=Ortalama Silme Sayısı
+F5=En Fazla Silme Sayısı
+F6=Silme Sayısı
+
+[SmartSsstc]
+01=Ham Okuma Hatası Oranı
+05=Yeniden Konumlandırılmış Blok Sayısı
+09=Enerjilendirilmiş Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+AA=Kullanılabilecek Ayrılmış Alan
+AB=Programlama Başarısızlığı Sayısı(Toplam)
+AC=Silme Başarısızlığı Sayısı(Toplam)
+AD=Ortalama Programlama/Silme Sayısı
+AE=Beklenmeyen Enerji Kesintisi Sayısı
+AF=Programlama Başarısızlığı Sayısı (En Kötü Durum)
+B0=Silme Başarısızlığı Sayısı (En Kötü Durum)
+B1=Aşınma Düzeylemesi Sayısı
+B2=Kullanılmış Ayrılmış Blok Sayısı (En Kötü Durum)
+B3=Kullanılmış Ayrılmış Blok Sayısı (Toplam)
+B4=Kullanılmamış Ayrılmış Blok Sayısı (Toplam)
+B7=SATA Arabirimi Aşağı Kaydırma
+B8=Uçtan Uca Veri Hatası Sayısı
+BB=Düzeltilemeyen Hata Sayısı
+BC=Komut Zaman Aşımı
+C2=Sürücü Sıcaklığı
+C3=ECC Oranı
+C6=Çevrimdışı Düzeltilemeyen Hata Sayısı
+C7=SATA CRC Hatası Sayısı
+E5=Enerji Kesintisi Koruma Başarısızlığı
+E7=Kalan Ömür Süresi Yüzdesi
+E8=Kullanılabilecek Ayrılmış Alan 
+E9=NAND Yazılan GB
+F1=Yazılan
+F2=Okunan
+F3=NAND Yazılan GB
+
+[SmartIntelDc]
+;https://github.com/hiyohiyo/CrystalDiskInfo/issues/18
+01=Ham Okuma HAtası Sayısı
+05=Yeniden Konumlandırılmış Flaş Blok Sayısı
+09=Çalışılan Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+0E=Aygıt Kapasitesi
+0F=Kullanıcı Kapasitesi
+10=Kullanılabilecek Yedek Blok Sayısı
+11=Kullanılabilecek Kalan Yedek
+AC=Blok Silme Başarısızlığı Toplamı
+AD=Her Bloktaki En Fazla Silme Sayısı
+AE=Beklenmeyen Enerji Kesintisi Sayısı
+AF=Ortalama Silme Sayısı
+B0=Enerji Kesintisi Koruması Hatası
+B5=Blok Programlama Başarısızlığı Toplamı
+B8=Uçtan Uca Hata Algılama Sayısı
+BB=Düzeltilemeyen Hata Sayısı
+C2=Sıcaklık
+C5=Bekleyen Kesim Sayısı
+C6=Çevrimdışı Düzeltilemeyen Hata Sayısı
+C7=CRC Hatası Sayısı
+CA=Kullanılan Sürücü Ömrü Yüzdesi
+E2=Zamanlanmış İş Yükü - Ortam Aşınması
+E3=Zamanlanmış İş Yükü - Okuma/Yazma Oranı
+E4=Zamanlanmış İş Yükü Zamanlayıcısı
+EA=Okunan Bayt
+EB=Yazılan Bayt/Kesim
+F1=NAND Yazılan Bayt/Kesim
+
+[SmartApacer]
+09=Enerjilendirilmiş Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+A3=En Fazla Silme Sayısı
+A4=Ortalama Silme Sayısı
+A6=Sonraki Bozuk Blok Sayısı
+A7=SSD Koruma Kipi
+A8=SATA PHY Hata Sayısı
+AB=Programlama Başarısızlığı Sayısı
+AC=Silme Başarısızlığı Sayısı
+AF=Bozuk Küme Tablosu Sayısı
+C0=Beklenmeyen Enerji Kesintisi Sayısı
+C2=Sıcaklık
+E7=Kalan Ömür
+F1=Yazılan Kesim Toplamı
+
+[SmartSiliconMotion]
+01=Okuma Hatası Oranı
+05=Yeniden Konumlandırılan Kesim Sayısı
+09=Çalışılan Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+94=SLC Silme Sayısı
+95=SLC En Fazla Silme Sayısı
+96=SLC En Az Silme Sayısı
+97=SLC Ortalama Silme Sayısı
+9F=DRAM 1 Bit Hatası Sayısı
+A0=Okuma/yazma sırasında düzeltilemeyen kesim sayısı
+A1=Geçerli Yedek Blok Sayısı
+A2=Ön Bellek Veri Blok Sayısı
+A3=Başlangıçtaki Geçersiz Blok Sayısı
+A4=Silme Sayısı
+A5=En Fazla Silme Sayısı
+A6=En Az Silme Sayısı
+A7=Ortalama Silme Sayısı
+A8=Özelliği En Fazla Silme Sayısı
+A9=Kalan Ömür
+AF=Programlama Başarısızlığı Sayısı En Kötü Bitim
+B0=Silme Başarısızlığı Sayısı En Kötü Bitim
+B1=Aşınma Düzeyi Sayısı
+B2=Çalışma Zamanı Geçersiz Blok Sayısı
+B5=Programlama Başarısızlığı Sayısı
+B6=Silme Başarısızlığı Sayısı
+BB=Düzeltilemeyen Hata Sayısı
+C0=Enerji Kesikken Çıkartma Sayısı
+C2=Sıcaklık
+C3=Donanım ECC Kurtarma
+C4=Yeniden Konumlandırma İşlemi Sayısı
+C5=Geçerli Bekleyen Kesim Sayısı
+C6=Düzeltilemeyen Hata Sayısı Off-line
+C7=Ultra DMA CRC Hatası Sayısı
+E8=Kullanılabilecek Ayrılmış Alan
+F1=LBA Yazılan
+F2=LBA Okunan
+F5=Flash Write Sector Count
+
+[SmartJMicron66x]
+01=Okuma Hatası Oranı
+02=Çıkış Başarımı
+03=Devirlenme Süresi
+05=Yeniden Konumlandırılan Kesim Sayısı
+07=Tarama Hatası Oranı
+08=Tarama Süresi Başarımı
+09=Çalışılan Saat Sayısı
+0A=Sapma Yineleme Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+A7=SSD Koruma Kipi
+A8=SATA PHY Hata Sayısı
+AA=Bozuk Blok Sayısı
+AD=Silme Sayısı
+AF=Bozuk Küme Tablosu Sayısı
+B4=Yedek Blok Sayısı
+C0=Beklenmeyen Enerji Kesintisi Sayısı
+C2=Sıcaklık
+C5=Geçerli Bekleyen Kesim Sayısı
+E7=Sürücü Ömrü
+E9=Yazılan Kesim Sayısı (NAND)
+F0=Yazma Kafası
+F1=LBA Yazılan
+F2=LBA Okunan
+
+[SmartPhison]
+01=Okuma Hatası Oranı
+09=Enerjilendirilmiş Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+A8=SATA PHY Hata Sayısı
+AA=Bozuk Blok Sayısı
+AD=Silme Sayısı
+C0=Beklenmeyen Enerji Kesintisi Sayısı
+C2=Sıcaklık
+DA=CRC Hatası Sayısı
+E7=Kalan SSD Ömrü
+F1=Yazılan
+
+[SmartSeagate]
+; https://crystalmark.info/board/c-board.cgi?cmd=one;no=1818;id=#1818
+01=Okuma Hatası Oranı
+05=Kullanımdan Kaldırılan Kesim Sayısı
+09=Enerjilendirilmiş Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+10=Kullanılabilecek Yedek Blok Sayısı
+11=Kalan Yedek Blok Sayısı
+A8=SATA PHY Hata Sayısı
+AA=Bozuk Blok Sayısı
+AB=Programlama Başarısızlığı Sayısı
+AC=Silme Başarısızlığı Sayısı
+AD=Silme Sayısı
+AE=Beklenmeyen Enerji Kesintisi Sayısı
+B1=Aşınma Aralığı Farkı
+B5=Programlama Başarısızlığı Sayısı
+B6=Silme Başarısızlığı Sayısı
+C0=Beklenmeyen Enerji Kesintisi Sayısı
+C2=Sıcaklık
+C9=Yazılım Hata Oranı
+CC=Yazılım ECC Düzeltme Oranı
+DA=CRC Hatası Sayısı
+E7=Kalan SSD Ömrü
+E8=Okuma Başarısızlığı Blok Sayısı
+E9=NAND Yazılan GiB
+EA=Ömür Boyu Flaş Yazma Sayısı
+EB=NAND Yazılan Kesim
+F1=Ömür Boyu Yazılan
+F2=Ömür Boyu Okunan
+FA=NAND Ömür Boyu Okuma Yinelemesi
+
+[SmartSeagateIronWolf]
+; https://www.seagate.com/jp/ja/internal-hard-drives/ssd/ironwolf-nas-ssd/#specs
+01=Ham Okuma Hatası Oranı
+05=Yeniden Konumlandırılan Kesim Sayısı
+09=Enerjilendirilmiş Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+64=Flash Silinen Gigabayt
+66=Ömür Boyu PS4 Kayıt Sayısı
+67=Ömür Boyu PS3 Çıkış Sayısı
+AA=Büyüyen Bozuk Blok Sayısı
+AB=Programlama Başarısızlığı Sayısı
+AC=Silme Başarısızlığı Sayısı
+AD=Ortalama Programlama/Silme Sayısı
+AE=Beklenmeyen Enerji Kesintisi Sayısı
+B1=Aşınma Aralığı Farkı
+B7=SATA/PCIe Arabirimi Aşağı Kayma Sayısı
+BB=Düzeltilemeyen ECC Sayısı
+C2=Sıcaklık
+C3=RAISE ECC Düzeltilebilir Sayısı
+C6=Düzeltilemeyen Okuma Hatası Sayısı
+C7=SATA R-Error (CRC) Hata Sayısı
+E6=Sürücü Ömrü Koruma Durumu
+E7=Kalan SSD Ömrü
+E8=Kullanılabilecek Ayrılmış Alan
+E9=Ömür Boyu Flaş Yazma Sayısı
+F1=Ömür Boyu Yazılan
+F2=Ömür Boyu Okunan
+F3=Boş Alan
+
+[SmartMarvell] ; Added 8.8.3
+05=Yeni Bozuk Blok Sayısı
+09=Enerjilendirilmiş Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+A4=Total Silme Sayısı
+A5=En Fazla Silme Sayısı
+A6=En Az Silme Sayısı
+A7=Ortalama Silme Sayısı
+C0=Enerji Kesikken Çıkartma Sayısı
+C2=Sıcaklık
+C7=SATA CRC Hatası Sayısı
+F1=Yazılan
+F2=Okunan
+
+[SmartMaxiotek] ; Added 8.8.6
+05=Yeniden Konumlandırılan Kesim Sayısı
+09=Çalışılan Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+A7=SSD Koruma Kipi
+A8=PHY Hata Sayısı
+A9=Bozuk Blok Sayısı
+AB=Programlama Başarısızlığı Sayısı
+AC=Silme Başarısızlığı Sayısı
+AD=Silme Sayısı
+AF=Bozuk Küme Tablosu Sayısı
+B1=Okuma Yineleme Sayısı
+B4=Kalan Yedek Blok Sayısı
+BB=Bildirilen UNC Hata Sayısı
+C0=Beklenmeyen Enerji Kesintisi Sayısı
+C2=Sıcaklık
+C4=Yeniden Konumlandırma İşlemi Sayısı
+C7=UDMA CRC Hatası Sayısı
+CE=En Az Silme Sayısı
+CF=En Fazla Silme Sayısı
+D0=Ortalama Silme Sayısı
+D1=SLC Blok En Az Silme Sayısı
+D2=SLC Blok En Fazla Silme Sayısı
+D3=SLC Blok Ortalama Silme Sayısı
+E7=Kalan SSD Ömrü
+E9=MAMD Yazılan Kesim Sayısı
+EA=NAND Okunan Kesim Sayısı
+F1=Yazılan Kesim Sayısı
+F2=Okunan Kesim Sayısı
+F5=Bit Hatası Sayısı
+
+[SmartSeagateBarraCuda] ; Added 8.9.0
+01=UECC Hata Sayısı
+05=Kullanımdan Kaldırılan Kesim Sayısı
+09=Enerjilendirilmiş Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+10=Kullanılabilecek Yedek Blok Sayısı
+11=Kalan Yedek Blok Sayısı
+A8=SATA PHY Hata Sayısı
+AA=Bozuk Blok Sayısı
+AB=Programlama Başarısızlığı Sayısı
+AC=Silme Başarısızlığı Sayısı
+AD=Silme Sayısı
+AE=Beklenmeyen Enerji Kesintisi Sayısı
+B1=Aşınma Aralığı Farkı
+B5=Programlama Başarısızlığı Sayısı
+B6=Silme Başarısızlığı Sayısı
+C0=Beklenmeyen Enerji Kesintisi Sayısı
+C2=Sıcaklık
+C9=Yazılım Hata Oranı
+CC=Yazılım ECC Düzeltme Oranı
+DA=CRC Hatası Sayısı
+E7=Kalan SSD Ömrü
+E8=Okuma Başarısızlığı Blok Sayısı
+E9=NAND Yazılan GiB
+EA=Ömür Boyu Flaş Yazılan
+EB=NAND Yazılan Kesim
+F1=Ömür Boyu Yazılan
+F2=Ömür Boyu Okunan
+FA=NAND Ömür Boyu Okuma Yinelemesi
+
+[SmartYmtc] ; Added 8.10.0
+05=Yeni Bozuk Blok Sayısı
+09=Çalışılan Saat Sayısı
+0C=Enerji Durumu Değişikliği Sayısı
+AA=En Fazla Bozuk Blok Sayısı
+A8=SATA PHY Hata Sayısı
+A9=Bozuk Blok Sayısı
+AB=Programlama Başarısızlığı Sayısı
+AC=Silme Başarısızlığı Sayısı
+AD=Silme Sayısı
+AF=Bozuk Küme Sayısı
+B7=SATA Arabirimi Aşağı Kaydırması
+B8=Uçtan Uca Hata Algılama/Düzeltme Sayısı
+BB=Düzeltilemeyen Hata Sayısı
+BE=Sıcaklık
+C0=Beklenmeyen Enerji Kesintisi Sayısı
+C4=Yeniden Konumlandırma İşlemi Sayısı
+C7=CRC Hatası Sayısı
+CE=En Az Silme Sayısı
+CF=En Fazla Silme Sayısı
+D0=Ortalama Silme Sayısı
+D1=SLC En Az Silme Sayısı
+D2=SLC En Fazla Silme Sayısı
+D3=SLC Ortalama Silme Sayısı
+E7=Kalan SSD Ömrü
+E9=NAND Yazılan Kesim Sayısı
+EA=NAND Okunan Kesim Sayısı
+F1=LBA Yazılan
+F2=LBA Okunan
+F3=NAND Sıcaklığı
+F5=Bit Hatası Sayısı
+
+[SmartScy] ;Added 8.12.8
+01=Raw Read Error Rate
+05=Reallocated Sector Count
+07=Seek Error Rate
+09=Power-On Hours
+0C=Drive Power Cycle Count
+A7=Average Erase Count
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Erase Count
+B1=Read Retry Count
+B4=Spare Block Count Left
+B7=Runtime Bad Block
+BB=Reported UNC Errors
+C0=Unexpected Power Loss Count
+C2=Controlled Temperature
+C3=Cumulative ECC Bit Correction Count
+C4=Reallocated Event Count
+C5=Current Pending Sector
+C7=UDMA CRC Error Count
+E7=SSD Life Left
+F1=Total LBAs Written
+F2=Total LBAs Read
+F5=Total Nand Flash Written
+
+[SmartRecadata] ;Added 8.14.0
+07=Seek Error Rate
+09=Power-On Hours
+0C=Drive Power Cycle Count
+A7=Average erase count
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Erase Count
+B1=Read Retry Count
+B4=Spare Block Count Left
+B7=Runtime Bad Block
+BB=Reported UNC Errors
+C0=Unexpected Power Loss Count
+C2=Controlled temperature
+C3=Cumulative ECC Bit Correction Count
+C4=Reallocated Event Count
+C5=Current Pending Sector
+C7=UDMA CRC Error Count
+E7=SSD Life Left
+F1=Total LBAs written
+F2=Total LBAs read
+F5=Total Nand Flash Written
+
+[SmartSanDiskHp] ;Added 8.17.0
+01=Raw Read Error Rate
+05=Reassigned Block Count
+09=Power On Hours
+0C=Drive Power Cycle Count
+AA=Reserved Block Count
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Wear Leveling Count
+AE=Unexpected Power Loss Count
+B0=Unused Reserved Block Count
+B7=SATA Interface Downshift Count
+B8=End to End Error Detection/Correction Count
+BB=Uncorrectable Error Count
+BC=Command Time Out
+BE=Airflow Temperature
+C2=Temperature
+C4=Reallocated Event Count
+C7=CRC Error Count
+C9=SSD Life Left
+E6=Media Wearout Indicator
+F1=Total LBAs Written
+F2=Total LBAs Read
+F3=Throttle Statistics
+F4=Temperature Throttle Status
+F9=TLC NAND GB Writes
+
+[SmartSanDiskHpVenus] ;Added 8.17.0
+01=Raw Read Error Rate
+05=Reassigned Block Count
+09=Power On Hours
+0C=Drive Power Cycle Count
+AA=Reserved Block Count
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Wear Leveling Count
+AE=Unexpected Power Loss Count
+B0=Unused Reserved Block Count
+B7=SATA Interface Downshift Count
+B8=End to End Error Detection/Correction Count
+BB=Uncorrectable Error Count
+BC=Command Time Out
+BE=Airflow Temperature
+C2=Temperature
+C4=Reallocated Event Count
+C7=CRC Error Count
+C9=SSD Life Left
+E6=Media Wearout Indicator
+F1=Total LBAs Written
+F2=Total LBAs Read
+F3=Total NAND Writes
+F4=Temperature Throttle Status
+F9=TLC NAND GB Writes
+
+[SmartSanDiskDell] ;Added 8.17.0
+05=Reassigned Block Count
+09=Power On Hours
+0C=Drive Power Cycle Count
+AF=Program Fail Count (Worst Case Component)
+B0=Erase Fail Count (Worst Case Component)
+B1=Wear Leveling Count
+B2=Used Reserved Block Count (Worst Case Component)
+B3=Used Reserved Block Count (SSD Total)
+B4=Remaining Reserved Block Count (SSD Total)
+B5=Program Fail Count (SSD Total)
+B6=Erase Fail Count (SSD Total)
+BB=Uncorrectable Error Count
+C2=Temperature
+C3=ECC Rate
+C7=CRC Error Count
+E6=Media Wearout Indicator
+EE=Media Wearout Indicator (Cycles Remaining)
+F1=Total LBAs Written
+F2=Total LBAs Read
+
+[SmartSanDiskLenovo] ;Added 8.17.0
+05=Reassigned Block Count
+09=Power On Hours
+0C=Drive Power Cycle Count
+A6=Minimum P/E Cycles
+A7=Maximum Bad Blocks per Die
+A8=Maximum P/E cycles
+A9=Total Bad Blocks
+AA=Grown Bad Blocks
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Average P/E Cycles Attribute
+AE=Unexpected Power Loss Count
+B2=Used Reserved Block Count
+B4=Remaining Reserved Block Count
+B8=End to End Error Detection/Correction Count
+BB=UECC Count
+BC=Command Time Out
+C2=Temperature
+C7=SATA CRC Errors
+D4=SATA PHY Errors
+E6=Media Wearout Indicator
+E8=Available Reserved Space
+E9=NAND GB Written
+EA=NAND GB Written (SLC)
+F1=Total Host GB Write
+F2=Total GB Read
+F3=Throttle Statistics
+F4=Thermal Throttle Status
+
+[SmartSanDiskLenovoHelenVenus] ;Added 8.17.0
+05=Reassigned Block Count
+09=Power On Hours
+0C=Drive Power Cycle Count
+A6=Minimum P/E Cycles
+A7=Maximum Bad Blocks per Die
+A8=Maximum P/E cycles
+A9=Total Bad Blocks
+AA=Grown Bad Blocks
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Average P/E Cycles Attribute
+AE=Unexpected Power Loss Count
+B2=Used Reserved Block Count
+B4=Remaining Reserved Block Count
+B8=End to End Error Detection/Correction Count
+BB=UECC Count
+BC=Command Time Out
+C2=Temperature
+C7=SATA CRC Errors
+D4=SATA PHY Errors
+E8=Available Reserved Space
+E9=Media Wearout Indicator
+EA=NAND GB Written (SLC)
+F1=Total Host GB Write
+F2=Total GB Read
+F3=Throttle Statistics
+F4=Thermal Throttle Status
+F9=NAND GB Written (TLC)
+
+[SmartMicronMU03] ;Added 8.17.0
+01=Raw Read Error Rate
+05=Reallocated NAND Block Count
+09=Power On Hours Count
+0C=Power Cycle Count
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Average Block Erase Count
+AE=Unexpected Power Loss Count
+B4=Unused Spare NAND Blocks
+B5=Non-4K Aligned Access
+B7=SATA interface Downshift
+B8=Error Correction Count
+BB=Reported Uncorrectable Errors
+C2=Temperature
+C4=Reallocation Event Count
+C5=Current Pending ECC Count
+C6=SMART Offline Scan Uncorrectable Error Count
+C7=UDMA CRC Error Count
+CA=Lifetime Remaining
+CE=Write Error Rate
+D2=Successful RAIN Recovery Count
+F0=Host Program Page Count
+F1=Total LBAs Written
+F2=Total LBAs Read
+F3=Total Program Page Count
+F6=Cumulative Host Sectors Written
+F7=Host Program NAND Pages Count
+F8=FTL Program NAND Pages Count
+
+[SmartSanDiskCloud] ;Added 9.0.0
+05=Retired Block Count
+09=Power On Hours
+0D=Count of Uncorrectable ECC Errors
+20=Write Amplification multiplied by 100
+21=Write Amplification Factor
+AA=Reserve Block Count
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Average Write/Erase Count
+AE=Unexpected Power Loss Count
+B2=SSD Life Left (upto 0.01%)
+BF=Clean Shutdown Count
+C0=Unclean Shutdown Count
+C2=Temperature
+C4=Number of Blocks Reallocated
+E6=Percent of Total Write/Erase Count
+E8=Spare Blocks Remaining
+E9=Total Nand Writes 64GB
+EB=Capacitor Health
+F1=Total Host Writes 64GB
+F2=Total Host Reads 64GB
+F4=Lifetime Thermal Throttle Activations
+F5=Percent Drive Life Remaining
+FD=SPI Tests Remaining
+
+[SmartSiliconMotionCVC] ;Added 9.3.0
+05=Re-Assigned Count
+09=Power-On Hours Count
+0C=Drive Power Cycle Count
+A5=SLC Cache
+AA=Grown Bad Block Count
+AB=Program Fail Count
+AC=Erase Fail Count
+AD=Avg Erase Count
+AE=Unexpected Power Loss Count
+AF=Program Fail Count (Worst case)
+B7=Total SATA Link Speed Downshift
+B8=End-to-End Data Errors corrected
+BB=Uncorrectable Errors
+BD=Max Erase Count
+BE=Temperature
+BF=Min Erase Count
+C3=Read Error Rate
+C6=Off-Line Scan Uncorrectable Sector Count
+C7=SATA CRC Error Count
+CA=SSD Life Left
+E8=Total Spare Counts
+E9=TLC NAND Write
+F1=Host Write
+F2=Host Read
+94=RAID Event Count
+95=RAID Uncorrectable Count
+A7=SSD Protect Mode
+93=Soft Retry Event Count
+EA=SLC NAND Write
+
+[SmartAdataIndustrial] ;Added 9.3.1
+09=Power-On hours Count
+0C=Drive Power Cycle Count
+A7=SSD Protect Mode
+A8=SATA PHY Error Count
+A9=Bad Block Count
+AD=Erase Count
+AF=Bad Cluster Table Count
+B4=Spare block count left
+C0=Unexpected Power Loss Count
+C2=Temperature
+E7=SSD life left
+E9=Flash Write Sector Count
+EA=Flash Read Sector Count
+F1=Write Sector Count
+F2=Read Sector Count

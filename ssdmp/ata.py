@@ -59,6 +59,7 @@ def _miniport_smart_identify(scsi_port: int, scsi_target_id: int, debug: bool = 
         
         srb = SRB_IO_CONTROL.from_buffer(buf)
         srb.HeaderLength = header_size
+        # Try primary signature
         ctypes.memmove(srb.Signature, b"SCSIDISK", 8)
         srb.Timeout = 2
         srb.ControlCode = IOCTL_SCSI_MINIPORT_IDENTIFY
@@ -70,6 +71,11 @@ def _miniport_smart_identify(scsi_port: int, scsi_target_id: int, debug: bool = 
         params.bDriveNumber = scsi_target_id
         
         ok, br = _ioctl(h, IOCTL_SCSI_MINIPORT, buf, total_size, buf, total_size)
+        if not ok:
+            # Try secondary signature "ATAPI   " (8 bytes)
+            ctypes.memmove(srb.Signature, b"ATAPI   ", 8)
+            ok, br = _ioctl(h, IOCTL_SCSI_MINIPORT, buf, total_size, buf, total_size)
+            
         if not ok:
             if debug:
                 err_code, err_msg = _last_win_error()
@@ -325,12 +331,10 @@ def _asmedia_ata_identify_device(h, debug: bool = False) -> Optional[bytes]:
     """
     ASMedia Vendor Specific Command (0xEE) to bypass UASPStor blocks.
     CDB: EE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-    Data buffer starts with 0x01 (identify command).
     """
+    # CDI Method: CDB is all zeros except 0xEE. Data is just 512 bytes IN.
     cdb = (ctypes.c_uint8 * 16)(0xEE, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
     data = ctypes.create_string_buffer(512)
-    # ASMedia protocol: 0x01 in first byte often means IDENTIFY
-    data[0] = 0x01 
     sws = _SPTD_WITH_SENSE()
     sws.sptd.Length = ctypes.sizeof(SCSI_PASS_THROUGH_DIRECT)
     sws.sptd.CdbLength = 16
@@ -474,12 +478,10 @@ def _jmicron_smart_read_data(h, debug: bool = False) -> Optional[bytes]:
 def _asmedia_smart_read_data(h, debug: bool = False) -> Optional[bytes]:
     """
     ASMedia Vendor Specific Command (0xEE) for SMART.
-    Data buffer starts with 0x02 (smart read command).
     """
-    cdb = (ctypes.c_uint8 * 16)(0xEE, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+    # Sub-command 0x02 is often used for SMART in some ASMedia tools
+    cdb = (ctypes.c_uint8 * 16)(0xEE, 0x02, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
     data = ctypes.create_string_buffer(512)
-    # ASMedia protocol: 0x02 often means SMART READ DATA
-    data[0] = 0x02 
     sws = _SPTD_WITH_SENSE()
     sws.sptd.Length = ctypes.sizeof(SCSI_PASS_THROUGH_DIRECT)
     sws.sptd.CdbLength = 16
@@ -493,9 +495,13 @@ def _asmedia_smart_read_data(h, debug: bool = False) -> Optional[bytes]:
     
     ok, br = _ioctl(h, IOCTL_SCSI_PASS_THROUGH_DIRECT, ctypes.byref(sws), ctypes.sizeof(sws), ctypes.byref(sws), ctypes.sizeof(sws))
     if not ok or sws.sptd.ScsiStatus != 0:
-        if debug:
-            _log_scsi_error("ASMedia SMART (0xEE)", ok, sws)
-        return None
+        # Fallback to zero sub-command if 0x02 failed
+        cdb[1] = 0
+        ok, br = _ioctl(h, IOCTL_SCSI_PASS_THROUGH_DIRECT, ctypes.byref(sws), ctypes.sizeof(sws), ctypes.byref(sws), ctypes.sizeof(sws))
+        if not ok or sws.sptd.ScsiStatus != 0:
+            if debug:
+                _log_scsi_error("ASMedia SMART (0xEE)", ok, sws)
+            return None
     return bytes(data[:512])
 
 def _sat_smart_read_data(h, debug: bool = False) -> Optional[bytes]:
