@@ -4,7 +4,8 @@ from .ata import (
     _detect_usb_bridge, _smart_identify, _smart_read_data, _smart_read_thresholds,
     _ata_identify_device, _sat_ata_identify_device, _win_smart_identify,
     _scsi_get_info, _scsi_get_serial_vpd_80,
-    _miniport_smart_identify, _miniport_smart_read_data
+    _miniport_smart_identify, _miniport_smart_read_data,
+    _asmedia_ata_identify_device
 )
 from .wmi import _get_scsi_port_and_target
 from .identify import _decode_identify, _extract_flash_id_from_identify, _decode_string, _decode_string_plain_ascii
@@ -272,6 +273,7 @@ def show_raw_identify(disk_number: int, debug: bool = False):
         data_sat16   = _sat_ata_identify_device(h, debug=debug)
         data_sat12   = _sat12_ata_identify_device(h, debug=debug)
         data_jmicron = _jmicron_ata_identify_device(h, debug=debug) if bridge_type == "jmicron" else None
+        data_asmedia = _asmedia_ata_identify_device(h, debug=debug) if bridge_type == "asmedia" else None
         
         # Miniport test
         scsi_port, scsi_target = _get_scsi_port_and_target(disk_number)
@@ -292,6 +294,8 @@ def show_raw_identify(disk_number: int, debug: bool = False):
         _method_report("_sat12_ata_identify_device (SAT12)", data_sat12)
         if bridge_type == "jmicron":
             _method_report("_jmicron_ata_identify_device (0xDF)", data_jmicron)
+        if bridge_type == "asmedia":
+            _method_report("_asmedia_ata_identify_device (0xEE)", data_asmedia)
         _method_report("_miniport_smart_identify (ScsiPort)", data_miniport)
 
         # Final choice using the smart waterfall logic

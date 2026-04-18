@@ -321,13 +321,59 @@ def _try_vsc_smi_identify(h) -> Optional[bytes]:
     if not ok or sws.sptd.ScsiStatus != 0: return None
     return bytes(data[:512])
 
+def _asmedia_ata_identify_device(h, debug: bool = False) -> Optional[bytes]:
+    """
+    ASMedia Vendor Specific Command (0xEE) to bypass UASPStor blocks.
+    CDB: EE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+    Data buffer starts with 0x01 (identify command).
+    """
+    cdb = (ctypes.c_uint8 * 16)(0xEE, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+    data = ctypes.create_string_buffer(512)
+    # ASMedia protocol: 0x01 in first byte often means IDENTIFY
+    data[0] = 0x01 
+    sws = _SPTD_WITH_SENSE()
+    sws.sptd.Length = ctypes.sizeof(SCSI_PASS_THROUGH_DIRECT)
+    sws.sptd.CdbLength = 16
+    sws.sptd.DataIn = SCSI_DATA_IN
+    sws.sptd.DataTransferLength = 512
+    sws.sptd.TimeOutValue = 2
+    sws.sptd.DataBuffer = ctypes.addressof(data)
+    sws.sptd.SenseInfoOffset = ctypes.sizeof(SCSI_PASS_THROUGH_DIRECT)
+    sws.sptd.SenseInfoLength = 32
+    ctypes.memmove(sws.sptd.Cdb, cdb, 16)
+    
+    ok, br = _ioctl(h, IOCTL_SCSI_PASS_THROUGH_DIRECT, ctypes.byref(sws), ctypes.sizeof(sws), ctypes.byref(sws), ctypes.sizeof(sws))
+    if not ok or sws.sptd.ScsiStatus != 0:
+        if debug:
+            _log_scsi_error("ASMedia IDENTIFY (0xEE)", ok, sws)
+        return None
+    return bytes(data[:512])
+
 def _smart_identify(h, bridge_type: Optional[str] = None, debug: bool = False, disk_number: Optional[int] = None) -> Optional[bytes]:
     if bridge_type == "jmicron":
         data = _jmicron_ata_identify_device(h, debug=debug)
         if data: return data
     
-    if bridge_type and bridge_type != "unknown_usb":
-        # For known USB bridges, try SAT16 then SAT12
+    if bridge_type == "asmedia":
+        # 1. Try Vendor Specific (0xEE) - CDI often uses this
+        data = _asmedia_ata_identify_device(h, debug=debug)
+        if data: return data
+        
+        # 2. Try Miniport
+        if disk_number is not None:
+            scsi_port, scsi_target = _get_scsi_port_and_target(disk_number)
+            if scsi_port is not None and scsi_target is not None:
+                data = _miniport_smart_identify(scsi_port, scsi_target, debug=debug)
+                if data: return data
+                
+        # 3. Fallback to SAT
+        data = _sat_ata_identify_device(h, debug=debug)
+        if data: return data
+        data = _sat12_ata_identify_device(h, debug=debug)
+        if data: return data
+
+    if bridge_type and bridge_type != "unknown_usb" and bridge_type != "asmedia":
+        # For other known USB bridges, try SAT16 then SAT12
         data = _sat_ata_identify_device(h, debug=debug)
         if data: return data
         data = _sat12_ata_identify_device(h, debug=debug)
@@ -425,6 +471,33 @@ def _jmicron_smart_read_data(h, debug: bool = False) -> Optional[bytes]:
         return None
     return bytes(data[:512])
 
+def _asmedia_smart_read_data(h, debug: bool = False) -> Optional[bytes]:
+    """
+    ASMedia Vendor Specific Command (0xEE) for SMART.
+    Data buffer starts with 0x02 (smart read command).
+    """
+    cdb = (ctypes.c_uint8 * 16)(0xEE, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+    data = ctypes.create_string_buffer(512)
+    # ASMedia protocol: 0x02 often means SMART READ DATA
+    data[0] = 0x02 
+    sws = _SPTD_WITH_SENSE()
+    sws.sptd.Length = ctypes.sizeof(SCSI_PASS_THROUGH_DIRECT)
+    sws.sptd.CdbLength = 16
+    sws.sptd.DataIn = SCSI_DATA_IN
+    sws.sptd.DataTransferLength = 512
+    sws.sptd.TimeOutValue = 2
+    sws.sptd.DataBuffer = ctypes.addressof(data)
+    sws.sptd.SenseInfoOffset = ctypes.sizeof(SCSI_PASS_THROUGH_DIRECT)
+    sws.sptd.SenseInfoLength = 32
+    ctypes.memmove(sws.sptd.Cdb, cdb, 16)
+    
+    ok, br = _ioctl(h, IOCTL_SCSI_PASS_THROUGH_DIRECT, ctypes.byref(sws), ctypes.sizeof(sws), ctypes.byref(sws), ctypes.sizeof(sws))
+    if not ok or sws.sptd.ScsiStatus != 0:
+        if debug:
+            _log_scsi_error("ASMedia SMART (0xEE)", ok, sws)
+        return None
+    return bytes(data[:512])
+
 def _sat_smart_read_data(h, debug: bool = False) -> Optional[bytes]:
     cdb = (ctypes.c_uint8 * 16)(0x85, 0x08, 0x0e, SMART_READ_DATA, 0, 0, 0x01, 0, 0, 0, SMART_LBA_MID, SMART_LBA_HI, 0, 0, ATA_SMART_CMD, 0)
     data = ctypes.create_string_buffer(512)
@@ -492,13 +565,23 @@ def _smart_read_data(h, bridge_type: Optional[str] = None, debug: bool = False, 
         data = _jmicron_smart_read_data(h, debug=debug)
         if data: return data
         
-    if bridge_type and bridge_type != "unknown_usb":
+    if bridge_type == "asmedia":
+        # 1. Vendor Specific
+        data = _asmedia_smart_read_data(h, debug=debug)
+        if data: return data
+        # 2. Miniport
+        if disk_number is not None:
+            scsi_port, scsi_target = _get_scsi_port_and_target(disk_number)
+            if scsi_port is not None and scsi_target is not None:
+                data = _miniport_smart_read_data(scsi_port, scsi_target, debug=debug)
+                if data: return data
+        # 3. SAT fallback
         data = _sat_smart_read_data(h, debug=debug)
         if data: return data
         data = _sat12_smart_read_data(h, debug=debug)
         if data: return data
         
-    if bridge_type == "unknown_usb":
+    if bridge_type and bridge_type != "unknown_usb" and bridge_type != "asmedia":
         # MINI-PORT PATH (Bypassing UASPStor) - Try first
         if disk_number is not None:
             scsi_port, scsi_target = _get_scsi_port_and_target(disk_number)
