@@ -23,9 +23,11 @@ def main():
         from dataclasses import dataclass
         from .ata import (
             _open_drive, _close_drive, _read_storage_descriptor, _read_length, 
-            _detect_usb_bridge, _smart_identify, _scsi_get_info, _get_interface_type_from_wmi,
-            _get_pnp_device_id_from_wmi, _scsi_get_serial_vpd_80
+            _detect_usb_bridge, _smart_identify
         )
+        from .reports import _scsi_get_info, _scsi_get_serial_vpd_80
+        from .wmi import _get_interface_type_from_wmi, _get_pnp_device_id_from_wmi, _init_wmi_cache
+        _init_wmi_cache()
         from .identify import _decode_identify
 
         @dataclass

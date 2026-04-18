@@ -7,7 +7,7 @@ from .ata import (
     _miniport_smart_identify, _miniport_smart_read_data,
     _asmedia_ata_identify_device
 )
-from .wmi import _get_scsi_port_and_target
+from .wmi import _get_scsi_port_and_target, _init_wmi_cache
 from .identify import _decode_identify, _extract_flash_id_from_identify, _decode_string, _decode_string_plain_ascii
 from .smart import (
     _parse_smart_attributes, _parse_smart_thresholds,
@@ -17,6 +17,7 @@ from .profiles import _detect_smart_profile
 from .controllers import _get_controller_candidates, _get_nand_info_by_fid
 
 def show_controller_detect(disk_number: int):
+    _init_wmi_cache()
     h = _open_drive(disk_number)
     if not h:
         print(f"ERROR: Cannot open PhysicalDrive{disk_number}")
@@ -80,6 +81,7 @@ def show_controller_detect(disk_number: int):
         _close_drive(h)
 
 def show_smart(disk_number: int, debug: bool = False):
+    _init_wmi_cache()
     h = _open_drive(disk_number)
     if not h:
         print(f"ERROR: Cannot open PhysicalDrive{disk_number}")
@@ -132,6 +134,7 @@ def show_smart(disk_number: int, debug: bool = False):
         _close_drive(h)
 
 def show_full_diag(disk_number: int, debug: bool = False):
+    _init_wmi_cache()
     h = _open_drive(disk_number)
     if not h:
         print(f"ERROR: Cannot open PhysicalDrive{disk_number}")
@@ -250,6 +253,7 @@ def show_full_diag(disk_number: int, debug: bool = False):
         _close_drive(h)
 
 def show_raw_identify(disk_number: int, debug: bool = False):
+    _init_wmi_cache()
     h = _open_drive(disk_number)
     if not h:
         print(f"ERROR: Cannot open PhysicalDrive{disk_number}")

@@ -1,33 +1,58 @@
 import subprocess
-from typing import Optional
+import json
+from typing import Optional, Tuple, Dict
+
+# Global cache for WMI DiskDrive information
+_wmi_disk_cache: Dict[int, dict] = {}
+
+def _init_wmi_cache():
+    """
+    Fetch all Win32_DiskDrive information once via a single PowerShell call.
+    This significantly speeds up disk enumeration.
+    """
+    global _wmi_disk_cache
+    _wmi_disk_cache = {}
+    try:
+        # Get essential properties for all disks in one go
+        cmd = "Get-CimInstance Win32_DiskDrive | Select-Object Index, InterfaceType, PNPDeviceID, SCSIPort, SCSITargetId | ConvertTo-Json"
+        result = subprocess.run(
+            ["powershell", "-NoProfile", "-Command", cmd],
+            capture_output=True, text=True, timeout=10
+        )
+        if not result.stdout.strip():
+            return
+
+        data = json.loads(result.stdout)
+        
+        # PowerShell returns a single dict if only one disk is found, otherwise a list of dicts
+        if isinstance(data, dict):
+            items = [data]
+        elif isinstance(data, list):
+            items = data
+        else:
+            return
+
+        for item in items:
+            idx = item.get("Index")
+            if idx is not None:
+                _wmi_disk_cache[int(idx)] = item
+    except Exception:
+        pass
 
 def _get_interface_type_from_wmi(disk_number: int) -> Optional[str]:
-    try:
-        result = subprocess.run(
-            ["powershell", "-NoProfile", "-Command",
-             f"Get-CimInstance Win32_DiskDrive | Where-Object {{$_.Index -eq {disk_number}}} | Select-Object -ExpandProperty InterfaceType"],
-            capture_output=True, text=True, timeout=5
-        )
-        itype = result.stdout.strip().upper()
-        if not itype: return None
+    item = _wmi_disk_cache.get(disk_number)
+    if item:
+        itype = str(item.get("InterfaceType", "")).upper()
         if "IDE" in itype: return "SATA"
         if "SCSI" in itype: return "SCSI"
         if "USB" in itype: return "USB"
         return itype
-    except Exception:
-        pass
     return None
 
 def _get_pnp_device_id_from_wmi(disk_number: int) -> Optional[str]:
-    try:
-        result = subprocess.run(
-            ["powershell", "-NoProfile", "-Command",
-             f"Get-CimInstance Win32_DiskDrive | Where-Object {{$_.Index -eq {disk_number}}} | Select-Object -ExpandProperty PNPDeviceID"],
-            capture_output=True, text=True, timeout=5
-        )
-        return result.stdout.strip()
-    except Exception:
-        pass
+    item = _wmi_disk_cache.get(disk_number)
+    if item:
+        return item.get("PNPDeviceID")
     return None
 
 def _get_usb_vid_pid_from_wmi(disk_number: int) -> Optional[Tuple[int, int]]:
@@ -36,7 +61,6 @@ def _get_usb_vid_pid_from_wmi(disk_number: int) -> Optional[Tuple[int, int]]:
         return None
     
     try:
-        # Example: USB\VID_0BDA&PID_9210\...
         import re
         m = re.search(r"VID_([0-9A-F]{4})&PID_([0-9A-F]{4})", pnp_id.upper())
         if m:
@@ -48,28 +72,10 @@ def _get_usb_vid_pid_from_wmi(disk_number: int) -> Optional[Tuple[int, int]]:
     return None
 
 def _get_scsi_port_and_target(disk_number: int) -> Tuple[Optional[int], Optional[int]]:
-    try:
-        # Get SCSIPort and SCSITargetId from Win32_DiskDrive
-        cmd = f"Get-CimInstance Win32_DiskDrive | Where-Object {{$_.Index -eq {disk_number}}} | Select-Object SCSIPort, SCSITargetId"
-        result = subprocess.run(
-            ["powershell", "-NoProfile", "-Command", cmd],
-            capture_output=True, text=True, timeout=5
-        )
-        lines = [l.strip() for l in result.stdout.splitlines() if l.strip()]
-        # PowerShell output for Select-Object often has headers or is in list format
-        # More reliable: output as CSV or JSON
-        cmd = f"Get-CimInstance Win32_DiskDrive | Where-Object {{$_.Index -eq {disk_number}}} | Select-Object SCSIPort, SCSITargetId | ConvertTo-Json"
-        result = subprocess.run(
-            ["powershell", "-NoProfile", "-Command", cmd],
-            capture_output=True, text=True, timeout=5
-        )
-        import json
-        data = json.loads(result.stdout)
-        if isinstance(data, dict):
-            port = data.get("SCSIPort")
-            target = data.get("SCSITargetId")
-            return (int(port) if port is not None else None, 
-                    int(target) if target is not None else None)
-    except Exception:
-        pass
+    item = _wmi_disk_cache.get(disk_number)
+    if item:
+        port = item.get("SCSIPort")
+        target = item.get("SCSITargetId")
+        return (int(port) if port is not None else None, 
+                int(target) if target is not None else None)
     return None, None
